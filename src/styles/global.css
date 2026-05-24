@@ -451,3 +451,14 @@ section { padding: 6rem 0; border-bottom: 1px solid var(--line); }
   background: var(--ink);
   border-color: var(--ink);
 }
+.submission-received {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.submission-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
