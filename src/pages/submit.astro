@@ -1,0 +1,96 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const formEndpoint = 'https://formspree.io/f/xdajdvlz';
+---
+
+<BaseLayout title="Bring Us Into Your World" description="Submit essays, notes, links, observations, civic concerns, moral questions, and difficult realities for thoughtful consideration.">
+  <main class="prose reading">
+    <div class="kicker">Submissions</div>
+    <h1>Bring Us Into Your World</h1>
+
+    <p>
+      The internet is loud. Most people are rewarded for certainty, outrage, speed, and performance.
+      We are more interested in thoughtful friction.
+    </p>
+
+    <p>
+      The thing you cannot stop thinking about. The pattern nobody seems to notice. The story unfolding quietly in your town.
+      The question keeping you up. The essay you are not sure anyone will read. The concern you cannot shake.
+    </p>
+
+    <p>
+      We welcome thoughtful submissions, essays, notes, links, observations, civic concerns, moral questions, and difficult realities.
+      You do not need to be polished. You do not need to be famous. You do not need credentials.
+      You only need sincerity, thoughtfulness, and a willingness to think honestly.
+    </p>
+
+    <p>
+      Submission does <strong>not</strong> guarantee publication, response, endorsement, investigation, sharing, or follow-up.
+      Some things may be read quietly. Some may shape future essays. Some may remain private. Some, with permission, may eventually find a public home.
+    </p>
+
+    <p>
+      Either way, thank you for trusting us enough to bring us into your world.
+      We do not take that lightly.
+    </p>
+
+    <form class="submission-form" action={formEndpoint} method="POST">
+      <input type="hidden" name="_subject" value="New BR.com Submission" />
+
+      <label>
+        Name <span>(optional)</span>
+        <input type="text" name="name" />
+      </label>
+
+      <label>
+        Email <span>(optional, but helpful)</span>
+        <input type="email" name="email" />
+      </label>
+
+      <label>
+        What are you sending?
+        <select name="submission_type" required>
+          <option value="">Choose one...</option>
+          <option>Essay</option>
+          <option>Observation</option>
+          <option>Local Issue</option>
+          <option>Civic Concern</option>
+          <option>Link / Resource</option>
+          <option>Story</option>
+          <option>Question</option>
+          <option>Something I Can’t Stop Thinking About</option>
+          <option>Other</option>
+        </select>
+      </label>
+
+      <label>
+        Title / Subject
+        <input type="text" name="title" required />
+      </label>
+
+      <label>
+        Your submission
+        <textarea name="submission" rows="12" required></textarea>
+      </label>
+
+      <label>
+        Links / sources <span>(optional)</span>
+        <textarea name="links" rows="5"></textarea>
+      </label>
+
+      <div class="checks">
+        <label><input type="checkbox" name="may_contact" value="yes" /> You may contact me about this submission.</label>
+        <label><input type="checkbox" name="anonymous_ok" value="yes" /> If referenced publicly, I prefer to remain anonymous.</label>
+        <label><input type="checkbox" name="may_quote_or_reference" value="yes" /> You may quote, reference, or build upon this submission in future work, with editorial discretion.</label>
+      </div>
+
+      <p class="notice">
+        By submitting material, you acknowledge that submission does not create any obligation, partnership,
+        confidentiality, representation, publication rights, or expectation of response. We reserve full editorial discretion.
+      </p>
+
+      <button type="submit">Submit for Consideration</button>
+    </form>
+  </main>
+</BaseLayout>
