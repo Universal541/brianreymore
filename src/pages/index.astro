@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const essays = (await getCollection('essays')).filter((e) => !e.data.draft).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const featured = essays.find((e) => e.data.featured) ?? essays[0];
+const themes = [
+  ['Power & Institutions', 'Who governs, who benefits, and what grows unchecked.'],
+  ['Moral Courage', 'What conscience demands when silence becomes comfortable.'],
+  ['Home & Place', 'Culture, memory, and what is worth protecting.'],
+  ['Spiritual Desertification', 'What happens when societies lose moral depth.'],
+  ['Systems & Consequences', 'The unintended outcomes of ideology and governance.'],
+  ['Witness & Refusal', 'The duty to remain awake in confused times.']
+];
+---
+<BaseLayout>
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="kicker">A public record of refusal</div>
+        <h1>The Line Is Here.</h1>
+        <p>Essays on power, conscience, institutional drift, and the slow desertification of civic and spiritual life.</p>
+        <div class="actions">
+          <a class="button primary" href="/essays">Read the Essays</a>
+          <a class="button" href="/start-here">Start Here</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container creed">
+        <div>
+          <div class="kicker">Working Creed</div>
+          <h2 class="section-title">Measured conviction beats loud certainty.</h2>
+          <p class="lede">This site is for serious thinking during serious times: calm enough to see clearly, forceful enough to refuse surrender.</p>
+        </div>
+        <div class="creed-lines">
+          <div class="creed-line">We question power.</div>
+          <div class="creed-line">We refuse ideological capture.</div>
+          <div class="creed-line">We resist moral amnesia.</div>
+          <div class="creed-line">We protect what deserves to endure.</div>
+          <div class="creed-line">We name what others hesitate to say.</div>
+        </div>
+      </div>
+    </section>
+
+    {featured && (
+      <section>
+        <div class="container">
+          <div class="kicker">Featured Essay</div>
+          <a class="feature-card" href={`/essays/${featured.slug}`}>
+            <div>
+              <div class="meta">{featured.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</div>
+              <h3>{featured.data.title}</h3>
+              {featured.data.subtitle && <p class="excerpt">{featured.data.subtitle}</p>}
+            </div>
+            <div>
+              <p class="excerpt">{featured.data.description}</p>
+              <p class="excerpt"><em>“The greatest danger to democratic systems is rarely the villain who openly seeks power. It is the reformer who believes they can safely wield it.”</em></p>
+            </div>
+          </a>
+        </div>
+      </section>
+    )}
+
+    <section>
+      <div class="container">
+        <div class="kicker">Why This Exists</div>
+        <h2 class="section-title">Serious societies require serious witness.</h2>
+        <p class="lede">Power expands. Institutions drift. Moral language erodes. Public trust fractures. Meanwhile, ordinary people are told to normalize what they can plainly see unraveling.</p>
+        <p class="lede">These essays attempt to name what is happening carefully, honestly, and without surrender to ideology, tribal loyalty, or fashionable fear.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="kicker">Core Themes</div>
+        <h2 class="section-title">A map of the terrain.</h2>
+        <div class="grid">
+          {themes.map(([title, text]) => <div class="tile"><h3>{title}</h3><p>{text}</p></div>)}
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="kicker">Start Here</div>
+        <h2 class="section-title">Not another polite corner of the internet.</h2>
+        <p class="lede">Begin with the essays that define the project: power, conscience, home, refusal, and the cost of pretending the house is not on fire.</p>
+        <div class="actions"><a class="button primary" href="/start-here">Enter the Archive</a></div>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

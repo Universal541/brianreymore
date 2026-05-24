@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const essays = (await getCollection('essays')).filter((e) => !e.data.draft).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<BaseLayout title="Essays" description="Essays by Brian Reymore.">
+  <main class="prose reading">
+    <div class="kicker">Essays</div>
+    <h1>The Archive</h1>
+    <p>Longform writing on power, conscience, institutional drift, home, and moral refusal.</p>
+    <div class="article-list">
+      {essays.map((essay) => (
+        <a class="article-row" href={`/essays/${essay.slug}`}>
+          <div class="meta">{essay.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</div>
+          <div>
+            <h2>{essay.data.title}</h2>
+            <p>{essay.data.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </main>
+</BaseLayout>

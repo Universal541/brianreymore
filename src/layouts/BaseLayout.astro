@@ -1,0 +1,42 @@
+---
+import '../styles/global.css';
+const { title = 'Brian Reymore', description = 'Essays on power, conscience, institutional drift, and the slow desertification of civic and spiritual life.' } = Astro.props;
+const pageTitle = title === 'Brian Reymore' ? title : `${title} | Brian Reymore`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/images/storm-hero.png" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container nav" aria-label="Main navigation">
+        <a class="brand" href="/">Brian Reymore</a>
+        <div class="nav-links">
+          <a href="/essays">Essays</a>
+          <a href="/start-here">Start Here</a>
+          <a href="/principles">Principles</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <slot />
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>BrianReymore.com</strong><br />
+          Witness. Resistance. Refusal.
+        </div>
+        <div>We name what others hesitate to say.</div>
+      </div>
+    </footer>
+  </body>
+</html>
