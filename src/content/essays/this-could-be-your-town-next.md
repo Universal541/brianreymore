@@ -1,7 +1,7 @@
 ---
 title: "This Could Be Your Town Next"
 description: "America's data center boom is reshaping small towns faster than ordinary citizens can respond. A long-form civic essay on responsibility drift, community consent, and Oregon's draft Data Center Accountability & Moratorium Act as a model for communities nationwide."
-pubDate: "2026-05-23"
+pubDate: "2026-05-04"
 featured: false
 draft: false
 ---
