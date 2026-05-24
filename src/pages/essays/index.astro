@@ -10,7 +10,7 @@ const essays = (await getCollection('essays')).filter((e) => !e.data.draft).sort
     <p>Longform writing on power, conscience, institutional drift, home, and moral refusal.</p>
     <div class="article-list">
       {essays.map((essay) => (
-        <a class="article-row" href={`/essays/${essay.slug}`}>
+        <a class="article-row" href={`/essays/${essay.id.replace(/\.md$/, '')}`}>
           <div class="meta">{essay.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</div>
           <div>
             <h2>{essay.data.title}</h2>
