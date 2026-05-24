@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import GiscusComments from "../../components/GiscusComments.astro";
 
 export async function getStaticPaths() {
   const essays = await getCollection("essays");
@@ -29,8 +30,37 @@ const { Content } = await render(essay);
       </header>
 
       <div class="essay-content">
-        <Content />
-      </div>
+  <Content />
+</div>
+
+<section class="essay-cta">
+  <div class="essay-cta-inner">
+    <div class="kicker">Bring Us Into Your World</div>
+
+    <h2>
+      Have a story, concern, observation, difficult question,
+      or essay worth serious consideration?
+    </h2>
+
+    <p>
+      We welcome thoughtful submissions: essays, observations,
+      local concerns, links, difficult realities, unfinished
+      thoughts, and things that feel too important to ignore.
+    </p>
+
+    <p>
+      Submission does not guarantee publication, response,
+      investigation, endorsement, or follow-up. But thoughtful
+      engagement matters here.
+    </p>
+
+    <a class="button primary" href="/submit/">
+      Submit Something Worth Considering
+    </a>
+  </div>
+</section>
+
+<GiscusComments />
     </article>
   </main>
 </BaseLayout>
