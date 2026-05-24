@@ -38,8 +38,8 @@ const formEndpoint = 'https://formspree.io/f/xdajdvlz';
     <form class="submission-form" action={formEndpoint} method="POST">
       <input
         type="hidden"
-        name="_next"
-        value="https://brianreymore.com/submission-received"
+        name="_redirect"
+        value="https://brianreymore.com/submission-received/"
       />
       <input type="hidden" name="_subject" value="New BR.com Submission" />
       <input type="text" name="_gotcha" style="display:none" />
