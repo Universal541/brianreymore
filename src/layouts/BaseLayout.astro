@@ -22,6 +22,7 @@ const pageTitle = title === 'Brian Reymore' ? title : `${title} | Brian Reymore`
         <div class="nav-links">
           <a href="/essays">Essays</a>
           <a href="/start-here">Start Here</a>
+          <a href="/submit">Submit</a>
           <a href="/principles">Principles</a>
           <a href="/about">About</a>
           <a href="/contact">Contact</a>
@@ -29,14 +30,19 @@ const pageTitle = title === 'Brian Reymore' ? title : `${title} | Brian Reymore`
       </nav>
     </header>
     <slot />
-    <footer class="footer">
-      <div class="container footer-inner">
-        <div>
-          <strong>BrianReymore.com</strong><br />
-          Witness. Resistance. Refusal.
+   <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+      <strong>BrianReymore.com</strong><br />
+        Witness. Resistance. Refusal.
         </div>
-        <div>We name what others hesitate to say.</div>
-      </div>
-    </footer>
+
+        <div>
+        We name what others hesitate to say.
+        <br />
+      <a href="/submit">Bring Us Into Your World</a>
+    </div>
+  </div>
+  </footer>
   </body>
 </html>
