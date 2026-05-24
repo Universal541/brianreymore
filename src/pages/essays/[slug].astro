@@ -20,12 +20,17 @@ const { Content } = await render(essay);
 ---
 
 <BaseLayout title={essay.data.title} description={essay.data.description}>
-  <main class="section">
-    <article class="essay-page">
-      <p class="eyebrow">Essay</p>
-      <h1>{essay.data.title}</h1>
-      <p class="lede">{essay.data.description}</p>
-      <Content />
+  <main class="essay-shell">
+    <article class="essay-article">
+      <header class="essay-header">
+        <p class="eyebrow">Essay</p>
+        <h1>{essay.data.title}</h1>
+        <p class="essay-description">{essay.data.description}</p>
+      </header>
+
+      <div class="essay-content">
+        <Content />
+      </div>
     </article>
   </main>
 </BaseLayout>
