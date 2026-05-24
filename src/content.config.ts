@@ -1,17 +1,21 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection, z } from "astro:content";
+import { glob } from "astro/loaders";
 
 const essays = defineCollection({
-  type: 'content',
+  loader: glob({
+    pattern: "**/*.md",
+    base: "./src/content/essays",
+  }),
   schema: z.object({
     title: z.string(),
-    subtitle: z.string().optional(),
     description: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    featured: z.boolean().default(false),
-    draft: z.boolean().default(false),
-    tags: z.array(z.string()).default([])
-  })
+    featured: z.boolean().optional(),
+    draft: z.boolean().optional(),
+  }),
 });
 
-export const collections = { essays };
+export const collections = {
+  essays,
+};
