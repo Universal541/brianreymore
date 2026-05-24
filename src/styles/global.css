@@ -379,9 +379,15 @@ section { padding: 6rem 0; border-bottom: 1px solid var(--line); }
   padding: 0.9rem 1rem;
   border: 1px solid var(--line);
   border-radius: 10px;
-  background: rgba(243, 239, 230, 0.05);
+  background: rgba(243, 239, 230, 0.08);
   color: var(--ink);
   font: inherit;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.submission-form select option {
+  background: #111;
+  color: #f3efe6;
 }
 
 .submission-form input:focus,
