@@ -47,7 +47,7 @@ const themes = [
       <section>
         <div class="container">
           <div class="kicker">Featured Essay</div>
-          <a class="feature-card" href={`/essays/${featured.slug}`}>
+          <a class="feature-card" href={`/essays/${featured.id.replace(/\.md$/, '')}/`}>
             <div>
               <div class="meta">{featured.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</div>
               <h3>{featured.data.title}</h3>
