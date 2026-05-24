@@ -363,46 +363,76 @@ section { padding: 6rem 0; border-bottom: 1px solid var(--line); }
 .submission-form label {
   display: grid;
   gap: 0.4rem;
+  color: var(--ink);
   font-weight: 700;
 }
 
 .submission-form label span {
+  color: var(--muted);
   font-weight: 400;
-  opacity: 0.7;
 }
 
 .submission-form input,
 .submission-form select,
 .submission-form textarea {
   width: 100%;
-  padding: 0.85rem;
-  border: 1px solid rgba(0,0,0,.2);
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--line);
   border-radius: 10px;
+  background: rgba(243, 239, 230, 0.05);
+  color: var(--ink);
   font: inherit;
+}
+
+.submission-form input:focus,
+.submission-form select:focus,
+.submission-form textarea:focus {
+  outline: none;
+  border-color: rgba(176, 141, 87, 0.55);
+  background: rgba(243, 239, 230, 0.08);
+}
+
+.submission-form textarea {
+  resize: vertical;
 }
 
 .checks {
   display: grid;
-  gap: .75rem;
+  gap: 0.75rem;
 }
 
 .checks label {
   display: flex;
   align-items: flex-start;
-  gap: .6rem;
+  gap: 0.6rem;
+  color: var(--muted);
   font-weight: 400;
 }
 
+.checks input {
+  width: auto;
+  margin-top: 0.35rem;
+}
+
 .notice {
-  font-size: .9rem;
-  opacity: .75;
+  color: var(--muted);
+  font-size: 0.9rem;
+  opacity: 0.85;
 }
 
 .submission-form button {
   width: fit-content;
-  padding: .85rem 1.25rem;
-  border: 0;
+  padding: 0.9rem 1.35rem;
+  border: 1px solid var(--accent);
   border-radius: 999px;
+  background: var(--accent);
+  color: var(--bg);
   font-weight: 800;
   cursor: pointer;
+}
+
+.submission-form button:hover {
+  transform: translateY(-1px);
+  background: var(--ink);
+  border-color: var(--ink);
 }
