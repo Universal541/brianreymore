@@ -11,7 +11,7 @@ const formEndpoint = 'https://formspree.io/f/xdajdvlz';
 
     <p>
       The internet is loud. Most people are rewarded for certainty, outrage, speed, and performance.
-      We are more interested in thoughtful friction.
+      We are more interested in thoughtful friction, difficult questions, and the quiet things people cannot stop thinking about.
     </p>
 
     <p>
@@ -37,6 +37,7 @@ const formEndpoint = 'https://formspree.io/f/xdajdvlz';
 
     <form class="submission-form" action={formEndpoint} method="POST">
       <input type="hidden" name="_subject" value="New BR.com Submission" />
+      <input type="text" name="_gotcha" style="display:none" />
 
       <label>
         Name <span>(optional)</span>
@@ -71,7 +72,12 @@ const formEndpoint = 'https://formspree.io/f/xdajdvlz';
 
       <label>
         Your submission
-        <textarea name="submission" rows="12" required></textarea>
+        <textarea
+        name="submission"
+        rows="12"
+        required
+        placeholder="Write or paste your essay, concern, observation, question, local issue, story, or something you cannot stop thinking about..."
+      ></textarea>
       </label>
 
       <label>
