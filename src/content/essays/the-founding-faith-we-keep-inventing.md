@@ -1,7 +1,7 @@
 ---
 title: "The Founding Faith We Keep Inventing"
 description: "On Christian nationalism, historical memory, and the country the founders actually built."
-pubDate: "2026-05-25"
+pubDate: "2026-03-23"
 featured: false
 draft: false
 ---
