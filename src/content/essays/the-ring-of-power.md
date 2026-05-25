@@ -2,7 +2,7 @@
 title: "The Ring of Power"
 subtitle: "How the Modern Left Became What It Once Opposed"
 description: "A Tolkien-framed essay on centralized power, institutional drift, and the danger of believing the right people can wield too much authority safely."
-pubDate: 2026-05-23
+pubDate: 2026-02-02
 featured: true
 tags: ["power", "institutions", "politics", "Tolkien"]
 ---
