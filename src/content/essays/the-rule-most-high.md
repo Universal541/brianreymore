@@ -1,7 +1,7 @@
 ---
 title: "The Rule Most High"
 description: "On spiritual hunger, Christian nationalism, forgotten wisdom, addiction, and the Golden Rule we keep pretending to rediscover."
-pubDate: "2026-05-25"
+pubDate: "2026-03-15"
 featured: false
 draft: false
 ---
