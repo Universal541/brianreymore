@@ -477,3 +477,28 @@ section { padding: 6rem 0; border-bottom: 1px solid var(--line); }
   color: var(--muted);
   margin-bottom: 2rem;
 }
+
+.support-page {
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+}
+
+.support-card {
+  margin: 3rem 0;
+  padding: 2rem;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: linear-gradient(
+    135deg,
+    rgba(243, 239, 230, 0.07),
+    rgba(243, 239, 230, 0.025)
+  );
+}
+
+.support-card h2 {
+  margin-top: 0;
+}
+
+.support-card .button {
+  margin-top: 1rem;
+}
