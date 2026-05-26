@@ -14,37 +14,19 @@ There are few myths more emotionally satisfying to modern American political ide
 
 > America was founded as a Christian nation.
 
-It arrives dressed in certainty.
-
-Sometimes with patriotic music swelling behind it.
-
-Sometimes wrapped in the Constitution like scripture.
-
-Sometimes delivered from pulpits that sound increasingly like campaign rallies.
-
-Sometimes shouted online with enough confidence to make disagreement feel almost sacrilegious.
+It arrives dressed in certainty — sometimes with patriotic music swelling behind it, sometimes wrapped in the Constitution like scripture, sometimes delivered from pulpits that sound increasingly like campaign rallies, and sometimes shouted online with enough confidence to make disagreement feel almost sacrilegious.
 
 And to be fair:
 
 The claim survives because it contains fragments of truth.
 
-Many founders were shaped by Christian moral culture.
-
-Biblical language shaped early American imagination.
-
-Christian ethics influenced large parts of public life.
-
-Churches mattered.
-
-Faith mattered.
-
-Moral language mattered.
+Many founders were shaped by Christian moral culture. Biblical language shaped early American imagination. Christian ethics influenced large parts of public life. Churches mattered. Faith mattered. Moral language mattered.
 
 No serious person should pretend otherwise.
 
 But influence and foundation are not the same thing.
 
-And somewhere between reverence, nostalgia, fear, grievance, political polarization, and the understandable desire for cultural continuity, many Americans have quietly accepted a version of history that becomes increasingly difficult to defend once you open the documents themselves.
+Somewhere between reverence, nostalgia, fear, grievance, political polarization, and the understandable desire for cultural continuity, many Americans have quietly accepted a version of history that becomes increasingly difficult to defend once you open the documents themselves.
 
 Because the uncomfortable reality is this:
 
@@ -62,41 +44,15 @@ Let us begin gently.
 
 Because many sincere Christians did not arrive at Christian nationalism through malice.
 
-They arrived there through concern.
-
-Concern that the country feels morally adrift.
-
-Concern that communities feel weaker.
-
-Concern that institutions feel hollow.
-
-Concern that meaning itself appears increasingly negotiable.
+They arrived there through concern: concern that the country feels morally adrift, that communities feel weaker, that institutions feel hollow, and that meaning itself appears increasingly negotiable.
 
 Frankly:
 
 Much of that concern is understandable.
 
-Modern America often feels spiritually exhausted.
+Modern America often feels spiritually exhausted. Consumerism has replaced community. Politics has replaced moral imagination. Algorithms reward outrage more effectively than compassion. Loneliness is everywhere. Institutions feel distrusted. Meaning itself often feels unstable.
 
-Consumerism has replaced community.
-
-Politics has replaced moral imagination.
-
-Algorithms reward outrage more effectively than compassion.
-
-Loneliness is everywhere.
-
-Institutions feel distrusted.
-
-Meaning feels unstable.
-
-And in unstable times, people reach backward.
-
-Toward certainty.
-
-Toward tradition.
-
-Toward stories large enough to explain the chaos.
+And in unstable times, people reach backward — toward certainty, tradition, and stories large enough to explain the chaos.
 
 That instinct is ancient.
 
@@ -108,7 +64,7 @@ Because eventually someone says:
 
 > We need to return America to its Christian roots.
 
-And nobody pauses to ask:
+And almost nobody pauses to ask:
 
 Which roots?
 
@@ -130,33 +86,19 @@ Protestant pluralism?
 
 The founders themselves often disagreed bitterly on religion.
 
-Some were conventionally Christian.
+Some were conventionally Christian. Some were skeptical. Some were deeply influenced by Enlightenment thought. Some leaned deist. Some distrusted organized religion almost as much as concentrated government power.
 
-Some were skeptical.
+Thomas Jefferson famously removed miracles from his private version of the Gospels. Benjamin Franklin admired religion largely for its civic usefulness. James Madison repeatedly warned against religious entanglement with government. George Washington used careful religious language broad enough to include differing beliefs without establishing sectarian rule.
 
-Some were deeply influenced by Enlightenment thought.
+And John Adams wrote:
 
-Some leaned deist.
-
-Some distrusted organized religion almost as much as concentrated government power.
-
-Thomas Jefferson famously cut miracles from his private version of the Gospels.
-
-Benjamin Franklin admired religion primarily for its civic usefulness.
-
-James Madison warned repeatedly against religious entanglement with government.
-
-George Washington used careful religious language broad enough to include differing beliefs without establishing sectarian rule.
-
-John Adams wrote:
-
-> "The government of the United States is not, in any sense, founded on the Christian religion."[^1]
+> “The government of the United States is not, in any sense, founded on the Christian religion.”[^1]
 
 That line tends to shock people.
 
-Especially because Adams signed the Treaty of Tripoli in 1797 - unanimously ratified by the Senate - containing exactly that language.[^2]
+Especially because Adams signed the Treaty of Tripoli in 1797 — unanimously ratified by the Senate — containing exactly that language.[^2]
 
-Now, critics of this point are quick to argue:
+Critics are quick to respond:
 
 > That was diplomacy.
 
@@ -194,27 +136,7 @@ The corruption that happens when religion and political power become too entangl
 
 To understand the Constitution, you must first understand exhaustion.
 
-Europe had already spent centuries turning religion into political machinery.
-
-State churches.
-
-Forced conformity.
-
-Sectarian violence.
-
-Religious persecution.
-
-Civil wars.
-
-Monarchs ruling by divine mandate.
-
-Catholics versus Protestants.
-
-Protestants versus Catholics.
-
-Dissenters punished.
-
-Minorities suppressed.
+Europe had already spent centuries turning religion into political machinery: state churches, forced conformity, sectarian violence, religious persecution, civil wars, monarchs ruling by divine mandate, Catholics versus Protestants, Protestants versus Catholics, dissenters punished, minorities suppressed.
 
 Faith transformed from spiritual conviction into governmental weapon.
 
@@ -224,7 +146,7 @@ They were saturated in it.
 
 Many had watched what happens when governments decide which theology gets power.
 
-And they did something surprisingly radical:
+And so they did something surprisingly radical:
 
 They intentionally built distance between church authority and state authority.
 
@@ -233,10 +155,6 @@ Not hostility.
 Distance.
 
 Because they feared what power does to belief.
-
-And perhaps even more importantly:
-
-They feared what belief does when given too much political power.
 
 ## The Constitution Says What It Says
 
@@ -250,9 +168,7 @@ Read it.
 
 Carefully.
 
-Not the Constitution as imagined.
-
-Not the Constitution filtered through campaign speeches, Facebook memes, pulpit nationalism, or selective historical nostalgia.
+Not the Constitution as imagined. Not the Constitution filtered through campaign speeches, Facebook memes, pulpit nationalism, or selective historical nostalgia.
 
 The actual Constitution.
 
@@ -260,21 +176,13 @@ Something curious happens.
 
 There is **no mention of Christianity**.
 
-No declaration of Jesus Christ as national authority.
-
-No national church.
-
-No Christian test for citizenship.
-
-No biblical qualification for leadership.
-
-No requirement for Christian belief.
+No declaration of Jesus Christ as national authority. No national church. No Christian test for citizenship. No biblical qualification for leadership. No requirement for Christian belief.
 
 In fact, the document goes conspicuously out of its way to avoid religious establishment.
 
 Article VI states:
 
-> "No religious Test shall ever be required as a Qualification to any Office or public Trust under the United States."[^3]
+> “No religious Test shall ever be required as a Qualification to any Office or public Trust under the United States.”[^3]
 
 Pause for a moment.
 
@@ -304,7 +212,7 @@ Europe had spent centuries killing people over far smaller disagreements.
 
 Then comes the First Amendment:
 
-> "Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof?"[^4]
+> “Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof…”[^4]
 
 Notice the balance.
 
@@ -320,7 +228,7 @@ Not:
 
 > Government endorsement of one religion.
 
-But something subtler.
+But something subtler:
 
 Freedom.
 
@@ -336,27 +244,23 @@ And here is the irony modern Christian nationalism struggles to sit with:
 
 This arrangement protected Christianity extraordinarily well.
 
-Because once government stops choosing winners, faith survives through sincerity rather than coercion.
-
-Conviction rather than mandate.
-
-Persuasion rather than enforcement.
+Because once government stops choosing winners, faith survives through sincerity rather than coercion — conviction rather than mandate, persuasion rather than enforcement.
 
 The founders did not weaken religion.
 
 They arguably protected it from becoming just another arm of government.
 
-## Jefferson's Wall Was Never About Erasing God
+## Jefferson’s Wall Was Never About Erasing God
 
 At this point someone inevitably says:
 
-> Ah yes, separation of church and state - the phrase not in the Constitution!
+> Ah yes, separation of church and state — the phrase not in the Constitution!
 
 True.
 
-The phrase comes from Thomas Jefferson's 1802 letter to the Danbury Baptists describing a:
+The phrase comes from Thomas Jefferson’s 1802 letter to the Danbury Baptists describing a:
 
-> "wall of separation between Church & State."[^5]
+> “wall of separation between Church & State.”[^5]
 
 But here again, nuance matters.
 
@@ -366,23 +270,15 @@ He was responding to Baptists worried about government interference in religion.
 
 Why?
 
-Because Baptists themselves had historically suffered religious persecution.
+Because Baptists themselves had historically suffered religious persecution. They understood firsthand what happens when one religious group gains political dominance.
 
-They understood firsthand what happens when one religious group gains political dominance.
+Jefferson’s wall was never intended to imprison religion.
 
-Jefferson's wall was never intended to imprison religion.
-
-It was intended to prevent political capture.
-
-To stop the state from becoming theologian.
-
-And to stop theology from becoming state weaponry.
+It was intended to prevent political capture — to stop the state from becoming theologian, and to stop theology from becoming state weaponry.
 
 That distinction matters enormously.
 
-Because modern culture war rhetoric often reframes neutrality as persecution.
-
-If government does not explicitly privilege Christianity, some conclude Christianity is somehow under attack.
+Because modern culture-war rhetoric often reframes neutrality as persecution. If government does not explicitly privilege Christianity, some conclude Christianity is somehow under attack.
 
 But religious freedom means exactly this:
 
@@ -400,13 +296,13 @@ But government does not belong to your denomination.
 
 Nor mine.
 
-Nor anyone else's.
+Nor anyone else’s.
 
 That can feel disappointing if one imagines America as covenant nation.
 
 But it becomes liberating if one sees America as a republic designed to protect conscience.
 
-## Christianity Helped Shape America - But So Did Everything Else
+## Christianity Helped Shape America — But So Did Everything Else
 
 Now comes the part that upsets simplistic narratives on both sides.
 
@@ -414,45 +310,13 @@ Because the secular caricature is also wrong.
 
 America was not founded in a vacuum.
 
-Christian moral language undeniably shaped public life.
-
-Many founders absorbed biblical ethics.
-
-Sermons influenced revolutionary thinking.
-
-The abolition movement drew heavily from Christian conviction.
-
-Civil rights movements drew heavily from Christian conviction.
-
-Church communities shaped local culture.
-
-Religious institutions often carried moral life when governments failed.
+Christian moral language undeniably shaped public life. Many founders absorbed biblical ethics. Sermons influenced revolutionary thinking. The abolition movement drew heavily from Christian conviction. Civil rights movements drew heavily from Christian conviction. Churches often carried moral life when governments failed.
 
 Ignoring that would be dishonest.
 
 But Christianity was not alone.
 
-America was also shaped by:
-
-The Enlightenment.
-
-Classical republicanism.
-
-Greco-Roman philosophy.
-
-English common law.
-
-Scottish moral philosophy.
-
-Deism.
-
-Liberal political theory.
-
-Pluralism.
-
-And yes:
-
-A healthy distrust of concentrated power.
+America was also shaped by the Enlightenment, classical republicanism, Greco-Roman philosophy, English common law, Scottish moral philosophy, deism, liberal political theory, pluralism, and — importantly — a healthy distrust of concentrated power.
 
 John Locke influenced political rights.
 
@@ -474,13 +338,9 @@ Often imperfectly.
 
 This is where honesty becomes painful.
 
-Because many founders who spoke eloquently about liberty still participated in slavery.
+Many founders who spoke eloquently about liberty still participated in slavery. Some defended religious liberty while limiting equality elsewhere. Some preached freedom while benefiting from systems built on domination.
 
-Some defended religious liberty while limiting full equality elsewhere.
-
-Some preached freedom while benefiting from systems built on domination.
-
-America's founding was morally mixed.
+America’s founding was morally mixed.
 
 Aspirational.
 
@@ -494,7 +354,7 @@ And the intention becomes clear:
 
 The founders built a country where religious freedom could survive precisely because no single tradition could fully capture the machinery of state.
 
-## Christian Nationalism's Strange Temptation
+## Christian Nationalism’s Strange Temptation
 
 So why does the myth persist?
 
@@ -505,24 +365,16 @@ Christian nationalism offers certainty in uncertain times.
 It says:
 
 > There was once order.
-
+>
 > We knew who we were.
-
+>
 > God favored us.
-
+>
 > We drifted.
-
+>
 > We can return.
 
-That story is psychologically powerful.
-
-Especially during social instability.
-
-Especially when demographic change feels unsettling.
-
-Especially when institutions feel broken.
-
-Especially when rapid cultural change feels exhausting.
+That story is psychologically powerful — especially during instability, demographic change, institutional breakdown, and periods of rapid cultural exhaustion.
 
 Again:
 
@@ -560,7 +412,7 @@ Politics rewards emotional simplification.
 
 Politics rewards outrage.
 
-Christianity - at its best - complicates all of that.
+Christianity — at its best — complicates all of that.
 
 Love your enemies.
 
@@ -630,27 +482,15 @@ And honestly?
 
 Something probably is.
 
-Modern America often feels spiritually untethered.
+Modern America often feels spiritually untethered. Consumerism has replaced ritual. Entertainment has replaced reflection. Algorithms shape identity more effectively than neighborhoods. Politics has become surrogate religion. Everybody performs outrage. Nobody trusts institutions.
 
-Consumerism has replaced ritual.
-
-Entertainment has replaced reflection.
-
-Algorithms shape identity more effectively than neighborhoods.
-
-Politics has become surrogate religion.
-
-Everybody performs outrage.
-
-Nobody trusts institutions.
-
-And increasingly, people feel like strangers inside their own communities.
+Increasingly, people feel like strangers inside their own communities.
 
 That pain deserves dignity.
 
 But pain can still point us in the wrong direction.
 
-And nostalgia - while emotionally powerful - is often a terrible historian.
+And nostalgia — while emotionally powerful — is often a terrible historian.
 
 Because the America many Christian nationalists imagine never quite existed.
 
@@ -684,7 +524,7 @@ When racial segregation remained legal in much of the country?
 
 When domestic abuse often remained hidden behind closed doors?
 
-When alcoholism quietly ravaged families while smiling churchgoers learned the art of pretending?
+When alcoholism quietly ravaged families while smiling churchgoers mastered the art of pretending?
 
 The 1980s?
 
@@ -718,7 +558,7 @@ That does not mean moral decline is imaginary.
 
 It means memory is selective.
 
-And selective memory is one of ideology's favorite tricks.
+And selective memory is one of ideology’s favorite tricks.
 
 We remember virtues.
 
@@ -742,7 +582,7 @@ And terrible theology.
 
 ## Christianity Deserves Better Than Political Weaponization
 
-This is perhaps the deepest irony of Christian nationalism.
+This is perhaps the deepest irony of Christian nationalism:
 
 It often weakens the very thing it claims to protect.
 
@@ -762,7 +602,7 @@ Cruelty becomes strategic.
 
 Moral consistency becomes optional.
 
-The question shifts from:
+The question quietly shifts from:
 
 > Is this Christlike?
 
@@ -780,7 +620,7 @@ Scripture becomes branding.
 
 Church becomes political infrastructure.
 
-And eventually, people begin leaving not because they hate spirituality -
+And eventually, people begin leaving not because they hate spirituality —
 
 but because they can no longer distinguish the sacred from the performance.
 
@@ -822,11 +662,7 @@ And perhaps wiser.
 
 A republic of competing consciences.
 
-A constitutional framework where many beliefs could coexist without governmental theology deciding the winners.
-
-A place where religious people could practice freely.
-
-And irreligious people could also participate.
+A constitutional framework where many beliefs could coexist without governmental theology deciding the winners. A place where religious people could practice freely — and irreligious people could also participate.
 
 A system intentionally resistant to sectarian capture.
 
@@ -878,7 +714,7 @@ Not enforced.
 
 Which is perhaps why the founders built a country where religion could influence society deeply without owning the machinery of government outright.
 
-That distinction may be the republic's quiet genius.
+That distinction may be the republic’s quiet genius.
 
 ## Render Unto Caesar
 
@@ -886,19 +722,7 @@ This may be where the conversation lands.
 
 Because Christianity already contains wisdom for this tension.
 
-Jesus himself seemed curiously uninterested in political conquest.
-
-He repeatedly redirected attention toward conscience.
-
-Character.
-
-Humility.
-
-Mercy.
-
-Care for the vulnerable.
-
-The kingdom within.
+Jesus himself seemed curiously uninterested in political conquest. He repeatedly redirected attention toward conscience, character, humility, mercy, care for the vulnerable, and the kingdom within.
 
 Render unto Caesar what belongs to Caesar.
 
@@ -906,7 +730,7 @@ Render unto God what belongs to God.
 
 The line matters.
 
-Because Caesar always wants more.
+Because Caesar always wants more:
 
 More loyalty.
 
@@ -918,7 +742,7 @@ More fear.
 
 More control.
 
-And every ideology - religious or secular - eventually faces the same temptation:
+And every ideology — religious or secular — eventually faces the same temptation:
 
 To confuse moral confidence with moral authority.
 
@@ -926,17 +750,7 @@ To confuse political victory with spiritual truth.
 
 To confuse domination with righteousness.
 
-But perhaps the republic works best when we resist that temptation.
-
-When Christians remain fully Christian.
-
-Muslims fully Muslim.
-
-Jews fully Jewish.
-
-Atheists fully free to dissent.
-
-And everyone equally protected under law.
+Perhaps the republic works best when we resist that temptation — when Christians remain fully Christian, Muslims fully Muslim, Jews fully Jewish, atheists fully free to dissent, and everyone equally protected under law.
 
 Not because truth does not matter.
 
@@ -1034,7 +848,7 @@ From Caesar.
 
 And perhaps the strangest twist of all is this:
 
-The people most loudly trying to "restore" Christianity through politics may accidentally be threatening the very freedom that allowed Christianity to flourish here in the first place.
+The people most loudly trying to “restore” Christianity through politics may accidentally be threatening the very freedom that allowed Christianity to flourish here in the first place.
 
 Not through malice.
 
@@ -1060,14 +874,9 @@ The republic they built is messier than the story.
 
 But it may also be wiser.
 
-And wisdom - inconvenient, humbling, reality-based wisdom -
+And wisdom — inconvenient, humbling, reality-based wisdom —
 
 is usually a better foundation than nostalgia.
+And perhaps even more importantly:
 
-## References
-
-[^1]: John Adams letter discussing the Treaty of Tripoli context.
-[^2]: Treaty of Tripoli (1797), Article 11.
-[^3]: U.S. Constitution, Article VI.
-[^4]: U.S. Constitution, First Amendment.
-[^5]: Thomas Jefferson, Letter to the Danbury Baptists (1802).
+They feared what belief does when given too much political power.
