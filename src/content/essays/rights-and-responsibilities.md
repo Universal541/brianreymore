@@ -1,7 +1,7 @@
 ---
 title: "Rights & Responsibilities"
 description: "Why a successful culture never gives up on good people - and the cost of endless myopic charity."
-pubDate: "2026-05-25"
+pubDate: "2026-03-30"
 featured: false
 draft: false
 ---
