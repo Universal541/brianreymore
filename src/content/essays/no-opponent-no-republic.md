@@ -1,6 +1,11 @@
-# No Opponent, No Republic
+---
+title: "No Opponent, No Republic"
+description: "Why democracies decay the moment politics becomes extermination by softer means."
+pubDate: 2026-04-13
+featured: false
+draft: false
+---
 
-*Why democracies decay the moment politics becomes extermination by softer means.*
 
 There is a dangerous fantasy quietly infecting modern American politics. It exists on the right. It exists on the left. It thrives in cable news studios, social media feeds, fundraising emails, podcasts, partisan think tanks, and the strange emotional economy of modern outrage. It fattens itself on grievance, humiliation, certainty, fear, and the intoxicating belief that national problems would finally disappear if only the other side could somehow be neutralized.
 
