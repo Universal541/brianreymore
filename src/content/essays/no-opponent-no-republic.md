@@ -75,7 +75,7 @@ That slope becomes slippery faster than civilizations usually expect.
 
 Consider the rhetoric surrounding executive power.
 
-In interviews defending aggressive immigration enforcement, figures like :contentReference[oaicite:0]{index=0} often rely on a recognizable rhetorical move: begin with a legitimate legal principle, extend it toward its most expansive interpretation, and present extraordinary executive authority as obvious constitutional common sense.
+In interviews defending aggressive immigration enforcement, figures like Stephen Miller often rely on a recognizable rhetorical move: begin with a legitimate legal principle, extend it toward its most expansive interpretation, and present extraordinary executive authority as obvious constitutional common sense.
 
 National sovereignty matters.
 
@@ -115,7 +115,7 @@ That habit should make everyone nervous.
 
 If modern American politics feels strangely theatrical, emotionally exhausting, and structurally combative, it did not emerge from nowhere.
 
-Much of the architecture traces back to figures like :contentReference[oaicite:1]{index=1}, whose political style helped normalize a fundamental cultural shift: opposition ceased being rival and increasingly became enemy.
+Much of the architecture traces back to figures like Newt Gingrich, whose political style helped normalize a fundamental cultural shift: opposition ceased being rival and increasingly became enemy.
 
 To be fair, Gingrich did not invent polarization. American politics has always possessed sharp elbows and dramatic moments. But he helped institutionalize something different — permanent political warfare.
 
@@ -165,7 +165,7 @@ Institutional calcification.
 
 One-party systems, even soft ones, eventually risk convincing themselves they are synonymous with moral legitimacy. Opposition gradually transforms from rival, to inconvenience, to obstruction, to embarrassment, to something barely deserving meaningful influence.
 
-Many conservatives in Oregon increasingly feel state politics no longer treats them as serious participants in governance but as obstacles to manage. Under leaders such as :contentReference[oaicite:2]{index=2} and :contentReference[oaicite:3]{index=3}, critics argue progressive priorities increasingly moved from negotiation toward inevitability.
+Many conservatives in Oregon increasingly feel state politics no longer treats them as serious participants in governance but as obstacles to manage. Under leaders such as Kate Brown and Tina Kotek, critics argue progressive priorities increasingly moved from negotiation toward inevitability.
 
 Democrats, understandably, would counter that they are governing according to electoral majorities.
 
