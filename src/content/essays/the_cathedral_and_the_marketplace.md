@@ -1,7 +1,7 @@
 ---
 title: "The Cathedral & The Marketplace"
 description: "On sacred inquiry, corrupted incentives, purchased certainty, and why science must be protected from the people who profit from answers."
-pubDate: 2026-04-18
+pubDate: 2026-04-25
 featured: false
 draft: false
 ---
