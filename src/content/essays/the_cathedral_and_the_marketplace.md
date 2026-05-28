@@ -1,8 +1,7 @@
-```md
 ---
 title: "The Cathedral & The Marketplace"
 description: "On sacred inquiry, corrupted incentives, purchased certainty, and why science must be protected from the people who profit from answers."
-pubDate: "2026-04-18"
+pubDate: 2026-04-18
 featured: false
 draft: false
 ---
@@ -115,7 +114,6 @@ To defend answers too aggressively.
 
 And to quietly forget that curiosity — not authority — was supposed to be the point.
 
-```md id="f2r9lm"
 ## The Cathedral Gets Rich
 
 The corruption of science is real precisely because science matters.
@@ -343,8 +341,7 @@ They notice reversals.
 They notice overconfidence.
 
 And when institutions refuse humility, distrust fills the vacuum.
-```
-```md id="u7n4ps"
+
 ## We Accidentally Taught Children Answers Before Wonder
 
 Perhaps nowhere has the corruption of scientific trust become more painful than in education.
@@ -540,8 +537,7 @@ Perhaps curiosity itself deserves constitutional seriousness.
 Because the future increasingly belongs to societies willing to understand reality honestly.
 
 And honesty requires resources.
-```
-```md id="w9x4tj"
+
 ## Myth, Legend, and Forgotten Ways of Knowing
 
 Now comes the section guaranteed to irritate both militant skeptics and mystical absolutists.
@@ -785,249 +781,3 @@ And perhaps civilization survives only if we never stop asking them.
 [^9]: Richard J. Davidson & Antoine Lutz, research on meditation and neuroscience.
 
 [^10]: Fabrizio Benedetti, placebo and nocebo research in neuroscience and medicine.
-```
-```md id="w9x4tj"
-## Myth, Legend, and Forgotten Ways of Knowing
-
-Now comes the section guaranteed to irritate both militant skeptics and mystical absolutists.
-
-Good.
-
-Everybody deserves a little discomfort now and then.
-
-Modern culture increasingly behaves as though science and ancient knowledge systems are natural enemies.
-
-They are not.
-
-They are different languages attempting to describe overlapping experiences of reality.
-
-That distinction matters.
-
-To be clear:
-
-Shamanism is not chemistry.
-
-Wicca is not molecular biology.
-
-Spell-casting is not physics.
-
-Parapsychology has not yet produced the kind of consistent, replicable evidence required to support stronger scientific conclusions.
-
-And pretending otherwise weakens credibility.
-
-But dismissing ancient systems outright may be one of modernity’s most intellectually arrogant habits.
-
-Because many traditional systems preserved forms of observational intelligence long before laboratories existed.
-
-Indigenous ecological knowledge repeatedly demonstrated extraordinary understanding of seasonal cycles, biodiversity, migration patterns, watershed behavior, medicinal plants, ecosystem resilience, and sustainable harvesting practices.
-
-Many communities understood fire management before modern forestry.
-
-Many healers understood plants before chemistry learned how to isolate compounds.
-
-Many oral traditions preserved ecological memory through story rather than spreadsheets.
-
-Ethnobotany repeatedly reveals something quietly humbling:
-
-Human beings often understood more than modern arrogance comfortably admits.
-
-The Amazon alone contains countless examples of traditional medicinal knowledge later validated through pharmacological investigation. Aspirin traces roots to willow bark. Artemisinin, one of the most important anti-malaria compounds, emerged from traditional Chinese medicine.[^8]
-
-Meditation practices once dismissed as mystical eccentricity increasingly demonstrate measurable neurological and physiological effects.[^9]
-
-Placebo and nocebo research reveal something profoundly inconvenient for rigid materialism:
-
-Belief itself appears capable of influencing biological outcomes more significantly than many reductionist models once assumed.[^10]
-
-This should not frighten science.
-
-It should fascinate science.
-
-Because science at its best remains curious.
-
-Not defensive.
-
-The mistake modern institutions often make is assuming ancient frameworks must either be completely validated or completely dismissed.
-
-Reality is rarely so convenient.
-
-Some ancient systems were astonishingly insightful.
-
-Some were plainly wrong.
-
-Some spiritual traditions contain profound psychological wisdom wrapped in symbolic language.
-
-Others drift into fantasy.
-
-The same, frankly, can be said for modern institutions.
-
-The healthier posture asks a harder question:
-
-What if different systems occasionally preserve different fragments of truth?
-
-What if myth itself functions less as primitive ignorance and more as psychological mapping?
-
-What if legends preserve ecological memory, survival lessons, moral complexity, and social intelligence in ways raw data sometimes struggles to transmit?
-
-What if ritual evolved not because humans were irrational, but because ritual solved problems language alone could not?
-
-Human beings appear wired for symbolism.
-
-Meaning.
-
-Story.
-
-Ceremony.
-
-Community.
-
-Pattern.
-
-Ignoring those realities because they feel inconvenient to mechanistic models may reveal less about truth than about modern discomfort with mystery.
-
-At the same time, romanticizing ancient systems without scrutiny creates its own form of intellectual laziness.
-
-Not every folk remedy works.
-
-Not every mystical claim survives testing.
-
-Not every spiritual experience translates cleanly into measurable evidence.
-
-Curiosity still requires rigor.
-
-Wonder still requires discipline.
-
-Humility cuts both directions.
-
-Science should remain open-minded enough to investigate uncomfortable possibilities while remaining rigorous enough to reject weak claims.
-
-Mysticism should remain humble enough to welcome scrutiny without collapsing into defensiveness.
-
-Neither certainty nor cynicism serves discovery particularly well.
-
-And perhaps civilization desperately needs more people comfortable standing between those worlds.
-
-Not gullible.
-
-Not rigid.
-
-Curious.
-
-Because curiosity should never fear mystery.
-
-It should simply refuse laziness.
-
-## The Cathedral & The Marketplace
-
-Science was never meant to replace wonder.
-
-It was born from wonder.
-
-And perhaps that is the deepest tragedy of our moment:
-
-We accidentally turned inquiry into authority.
-
-Curiosity into hierarchy.
-
-Discovery into industry.
-
-Questions into credentials.
-
-Uncertainty into branding.
-
-And certainty into profit.
-
-But the scientific method itself remains beautiful.
-
-Still sacred.
-
-Still worth defending.
-
-Not because scientists are flawless.
-
-Not because institutions are pure.
-
-But because humanity desperately needs a process humble enough to admit error.
-
-The answer to corrupted science is not anti-science.
-
-It is better science.
-
-More transparent science.
-
-More independent science.
-
-More publicly accountable science.
-
-Better funded curiosity.
-
-More open inquiry.
-
-More humility.
-
-More wonder.
-
-Perhaps science was never meant to become a cathedral guarded by experts, nor a marketplace purchased by power.
-
-Perhaps it was always supposed to remain what it began as:
-
-A campfire.
-
-A question.
-
-A child kneeling beside a stream.
-
-A grandmother watching clouds.
-
-A researcher staring into a microscope.
-
-A mystic sitting quietly beneath trees.
-
-A farmer testing the soil.
-
-A civilization humble enough to admit:
-
-> *We do not fully understand this place yet.*
-
-And maybe that humility — more than certainty — is what keeps curiosity alive.
-
-Because the opposite of ignorance was never knowledge.
-
-It was wonder disciplined by courage.
-
-The scientific method was never the end of mystery.
-
-It was humanity finally learning how to kneel before mystery without surrendering curiosity.
-
-And perhaps the oldest human questions still matter most:
-
-> What?
-
-> Why?
-
-> How?
-
-And perhaps civilization survives only if we never stop asking them.
-
-## References
-
-[^1]: Robert N. Proctor, *Golden Holocaust: Origins of the Cigarette Catastrophe and the Case for Abolition*.
-
-[^2]: Cristin E. Kearns et al., “Sugar Industry and Coronary Heart Disease Research,” *JAMA Internal Medicine* (2016).
-
-[^3]: Naomi Oreskes & Erik M. Conway, *Merchants of Doubt*; investigative reporting on fossil-fuel industry internal climate documents.
-
-[^4]: Marcia Angell, *The Truth About the Drug Companies*; scholarship and reporting on pharmaceutical ghostwriting and publication bias.
-
-[^5]: Dwight D. Eisenhower, Farewell Address (1961); literature on military-funded scientific research and defense R&D.
-
-[^6]: Open Science Collaboration, “Estimating the Reproducibility of Psychological Science,” *Science* (2015).
-
-[^7]: Research literature on replication crises in psychology, medicine, and social sciences.
-
-[^8]: Mark Plotkin, *Tales of a Shaman’s Apprentice*; ethnobotanical literature and pharmacological histories.
-
-[^9]: Richard J. Davidson & Antoine Lutz, research on meditation and neuroscience.
-
-[^10]: Fabrizio Benedetti, placebo and nocebo research in neuroscience and medicine.
-```
