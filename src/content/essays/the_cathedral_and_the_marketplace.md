@@ -12,9 +12,11 @@ draft: false
 
 Before science became an institution, it was wonder.
 
-Before grants.
+Before modern peer review.
 
-Before peer review.
+Before journals.
+
+Before grant committees.
 
 Before pharmaceutical funding, military contracts, prestige economics, corporate sponsorship, televised experts, journal paywalls, and endless public arguments over who gets to define reality.
 
