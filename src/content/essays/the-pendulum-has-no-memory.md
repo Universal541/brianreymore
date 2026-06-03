@@ -1,7 +1,7 @@
 ---
 title: "The Pendulum Has No Memory"
 description: "On ideology, forgotten wisdom, rights and responsibilities, and why the middle sees every mistake twice."
-pubDate: "2026-04-20"
+pubDate: "2026-04-30"
 featured: false
 draft: false
 ---
