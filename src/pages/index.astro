@@ -104,5 +104,38 @@ const themes = [
         <div class="actions"><a class="button primary" href="/start-here">Enter the Archive</a></div>
       </div>
     </section>
+
+    <section class="newsletter-section">
+      <div class="newsletter-inner">
+        <p class="eyebrow">Stay In Correspondence</p>
+        <h2>Receive New Essays</h2>
+        <p>
+          Occasional essays and reflections on power, conscience, moral courage,
+          spiritual desertification, and what deserves to endure.
+        </p>
+
+        <form
+          action="https://buttondown.com/api/emails/embed-subscribe/reymore"
+          method="post"
+          target="popupwindow"
+          onsubmit="window.open('https://buttondown.com/reymore', 'popupwindow')"
+          class="newsletter-form"
+        >
+          <input
+            type="email"
+            name="email"
+            id="bd-email"
+            placeholder="you@example.com"
+            required
+          />
+
+          <input type="hidden" value="1" name="embed" />
+
+          <button type="submit">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </section>
   </main>
 </BaseLayout>
