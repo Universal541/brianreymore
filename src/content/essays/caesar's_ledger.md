@@ -6,9 +6,6 @@ featured: false
 draft: false
 ---
 
-# Caesar's Ledger
-
-*On war, profit, power, memory, and the moral cost of pretending empire is peace.*
 
 War almost always arrives dressed in noble language.
 
