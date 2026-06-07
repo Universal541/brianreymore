@@ -6,9 +6,6 @@ featured: false
 draft: false
 ---
 
-# The Rule Most High
-
-*On spiritual hunger, Christian nationalism, forgotten wisdom, addiction, and the Golden Rule we keep pretending to rediscover.*
 
 Something strange is happening in America.
 
