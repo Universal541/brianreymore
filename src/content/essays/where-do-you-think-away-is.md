@@ -6,9 +6,6 @@ featured: false
 draft: false
 ---
 
-# Where Do You Think “Away” Is?
-
-*On NIMBYism, waste, recycling myths, quiet arrogance, and the strange psychology of pretending consequences live somewhere else.*
 
 Modern civilization may have accidentally invented a religion.
 
