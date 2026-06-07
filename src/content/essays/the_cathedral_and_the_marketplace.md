@@ -6,9 +6,6 @@ featured: false
 draft: false
 ---
 
-# The Cathedral & The Marketplace
-
-*On sacred inquiry, corrupted incentives, purchased certainty, and why science must be protected from the people who profit from answers.*
 
 Before science became an institution, it was wonder.
 
