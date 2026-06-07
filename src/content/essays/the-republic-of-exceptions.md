@@ -7,9 +7,6 @@ featured: false
 draft: false
 ------------
 
-# The Republic of Exceptions
-
-### *How Civilizations Abandon Accountability and Teach Corruption to Thrive*
 
 Every republic begins with a promise.
 
