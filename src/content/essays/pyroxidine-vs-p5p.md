@@ -14,13 +14,6 @@ draft: false
 author: "Brian Reymore"
 ---
 
-# Vitamin B6: Pyridoxine vs. P5P
-
-## A Comprehensive Review of Biochemistry, Safety, Toxicity, and Supplementation
-
-*Last updated: 2026*
-
----
 
 ## Abstract
 
