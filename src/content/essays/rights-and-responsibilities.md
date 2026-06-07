@@ -6,9 +6,6 @@ featured: false
 draft: false
 ---
 
-# Rights & Responsibilities
-
-*Why a successful culture never gives up on good people - and the cost of endless myopic charity.*
 
 There are few topics in modern America more emotionally radioactive than homelessness.
 
