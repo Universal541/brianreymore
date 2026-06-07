@@ -2,7 +2,7 @@
 
 title: "The Republic of Exceptions"
 description: "How civilizations abandon accountability and teach corruption to thrive."
-pubDate: "2026-04-21"
+pubDate: "2026-06-01"
 featured: false
 draft: false
 ------------
