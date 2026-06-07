@@ -7,6 +7,7 @@ draft: false
 ---
 
 
+
 There is a dangerous fantasy quietly infecting modern American politics. It exists on the right. It exists on the left. It thrives in cable news studios, social media feeds, fundraising emails, podcasts, partisan think tanks, and the strange emotional economy of modern outrage. It fattens itself on grievance, humiliation, certainty, fear, and the intoxicating belief that national problems would finally disappear if only the other side could somehow be neutralized.
 
 The fantasy is deceptively simple:
