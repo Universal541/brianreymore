@@ -6,9 +6,6 @@ featured: false
 draft: false
 ---
 
-# The Founding Faith We Keep Inventing
-
-*On Christian nationalism, historical memory, and the country the founders actually built.*
 
 There are few myths more emotionally satisfying to modern American political identity than this one:
 
