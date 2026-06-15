@@ -93,9 +93,7 @@ The Constitution was never intended to function as an instruction manual for cle
 
 It was designed for citizens.
 
-And there is a difference.
-
-A profound one.
+And the difference is a profound one.
 
 One that may explain far more about our current moment than any election, political party, news network, social media platform, or public figure ever could.
 
@@ -111,9 +109,9 @@ It is the slow erosion of the unwritten agreements that make self-government pos
 
 The founders worried about this constantly.
 
-Not because they distrusted government.
+Their concern ran deeper than government itself.
 
-Because they distrusted human nature.
+They distrusted human nature.
 
 They understood something we have spent the last century trying desperately to forget:
 
@@ -125,7 +123,7 @@ Every republic eventually depends upon citizens willing to place something large
 
 History offers countless examples of what happens when that willingness disappears.
 
-The question facing us now is whether America is becoming one of them.
+The question facing us now is whether America is drifting toward the same fate.
 
 And if so, whether we still possess the courage to change course.
 
@@ -231,13 +229,7 @@ We hear "virtue" and imagine moralizing sermons or religious lectures.
 
 That is not what they meant.
 
-They meant character.
-
-Duty.
-
-Stewardship.
-
-Self-restraint.
+They meant character, duty, stewardship and self-restraint.
 
 The capacity to choose what is right even when what is profitable sits temptingly nearby.
 
@@ -247,9 +239,7 @@ The capacity to place the republic above personal ambition.
 
 They feared corruption for the same reason engineers fear structural cracks.
 
-Not because every crack causes collapse.
-
-Because enough cracks eventually do.
+Not that a few cracks cause collapse, but enough cracks eventually do.
 
 And from the very beginning, the cracks were there.
 
@@ -277,15 +267,15 @@ The story we often tell ourselves is that America became great because it was un
 
 The truth is both more complicated and more inspiring.
 
-America became great because generation after generation fought to drag it closer to its own ideals.
+America became great because each generation fought to drag it closer to its own ideals.
 
-Not because perfection was achieved.
+Perfection wasn't achieved.
 
-Because the argument continued.
+But the argument continued.
 
-Because citizens continued showing up.
+Citizens continued showing up.
 
-Because enough people believed the promise was worth defending, even when the reality fell painfully short of it.
+Enough people believed the promise was worth defending, even when the reality fell painfully short of it.
 
 That belief built railroads.
 
@@ -309,9 +299,9 @@ The place where history's ceiling could become your floor.
 
 For generations, that promise drew people across oceans.
 
-Not because America was perfect.
+America was never perfect.
 
-Because America was possible.
+What made it remarkable was that it remained possible.
 
 And that distinction may be the most important one in the entire story.
 
@@ -425,7 +415,7 @@ Progress did not happen because powerful people suddenly developed a conscience.
 
 Progress happened because citizens became impossible to ignore.
 
-That distinction matters.
+There's a difference that matters here.
 
 Because it reminds us that America's greatest achievements rarely emerged from comfort.
 
@@ -482,6 +472,34 @@ One television network.
 One algorithm.
 
 One quarterly earnings report at a time.
+
+The changes rarely arrived with marching bands or emergency broadcasts.
+
+Most appeared technical.
+
+A regulatory adjustment here.
+
+A tax provision there.
+
+A court decision that seemed obscure at the time.
+
+The repeal of Glass-Steagall helped dismantle barriers that had separated commercial and investment banking for decades. Citizens United accelerated the influence of money in politics by dramatically expanding the role of independent political spending. Waves of media consolidation placed increasing portions of the national conversation into fewer and fewer corporate hands. Lobbyists and regulators moved through the same revolving doors, often serving both public and private interests during the course of a single career.
+
+None of these developments individually transformed America.
+
+Together, they altered incentives.
+
+And incentives, far more than speeches, shape behavior.
+
+The executive who prioritizes quarterly earnings over long-term stability is responding to incentives.
+
+The politician who spends more time fundraising than governing is responding to incentives.
+
+The media company that discovers outrage outperforms nuance is responding to incentives.
+
+The technology platform that learns anger generates engagement is responding to incentives.
+
+The tragedy is that incentives are often invisible until their consequences become impossible to ignore.
 
 The republic did not wake up one morning transformed.
 
@@ -611,6 +629,22 @@ Homes became assets.
 
 Citizens became consumers.
 
+The language shifted almost imperceptibly.
+
+Students became customers.
+
+Patients became revenue streams.
+
+Workers became labor costs.
+
+Homes became investment vehicles.
+
+Citizens became market segments.
+
+The terminology sounded efficient.
+
+The consequences felt increasingly human.
+
 And consumers, unlike citizens, are not expected to think about the common good.
 
 They are expected to buy things.
@@ -628,6 +662,45 @@ Deaths of despair increased.
 Communities weakened.
 
 Trust declined.
+
+None of these concerns are new.
+
+In fact, some were being voiced generations ago.
+
+When President Dwight Eisenhower left office in 1961, he issued one of the most remarkable warnings ever delivered by an American president. A five-star general who had commanded Allied forces in Europe during World War II, Eisenhower was hardly a pacifist. He understood military power as well as any leader in modern history.
+
+Yet in his farewell address, he warned Americans about what he called the "military-industrial complex."
+
+His warning remains striking today:
+"We must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex."
+
+His concern was not merely military spending.
+
+It was influence.
+
+The possibility that powerful institutions, acting in their own interests, might acquire enough economic and political leverage to shape public policy in ways increasingly detached from the public good.
+
+More than sixty years later, the warning feels less like a historical curiosity and more like a recurring American challenge.
+
+Defense contractors.
+
+Pharmaceutical companies.
+
+Technology giants.
+
+Financial institutions.
+
+Media conglomerates.
+
+The industry changes.
+
+The underlying tension remains remarkably familiar.
+
+How much power can any institution accumulate before stewardship gives way to self-preservation?
+
+Every generation of Americans eventually confronts that question.
+
+Every generation answers it differently.
 
 And while all of this was occurring, another revolution arrived.
 
@@ -881,9 +954,9 @@ That sentence may explain more about modern America than an entire shelf of poli
 
 Because the greatest trick ever played on the American public was convincing us that the most important battle was between left and right.
 
-Not because those differences are unimportant.
+Those differences aren't unimportant.
 
-Because they distract from another divide growing quietly in the background.
+They just distract from another divide growing quietly in the background.
 
 The divide between stewardship and extraction.
 
@@ -921,7 +994,7 @@ Because what is stolen must be recovered.
 
 What is neglected can be rebuilt.
 
-The question is whether enough Americans still remember how.
+.....if enough Americans still remember how.
 
 ## The Spirit of the Contract
 
@@ -965,9 +1038,9 @@ A promise meant something.
 
 A reputation meant something.
 
-Not because people were morally superior.
+That certainly wasn't because people were morally superior.
 
-Because trust was valuable.
+It was because trust was valuable.
 
 Communities were smaller.
 
@@ -979,7 +1052,7 @@ The written rules were never intended to carry the entire burden of civilization
 
 They were supposed to support a culture that already possessed a basic commitment to good faith.
 
-Somewhere along the way, we began losing sight of that distinction.
+Somewhere along the way, we began losing sight of that last critical fact.
 
 Not all at once.
 
@@ -1137,17 +1210,7 @@ Because a republic ultimately depends upon citizens who know how to belong to so
 
 And when belonging disappears, other things rush in to fill the vacuum.
 
-Brands.
-
-Parties.
-
-Influencers.
-
-Algorithms.
-
-Tribes.
-
-Spectacles.
+Brands, parties, influencers, algorithms, tribes and spectacles.
 
 The substitutes provide identity.
 
@@ -1169,7 +1232,7 @@ That is the contract.
 
 Always has been.
 
-The question is whether enough of us still remember signing it.
+Here's the question: Do enough of us still remember signing it?
 
 ### The Republic in Miniature
 
@@ -1209,11 +1272,7 @@ Everything needed work.
 
 So a handful of people stepped forward.
 
-Not because there was money in it.
-
-Not because there was recognition in it.
-
-Not because anybody promised them a reward.
+Not for money. Not for recognition. Not because anybody promised them a reward.
 
 Because somebody had to.
 
@@ -1255,9 +1314,9 @@ The people benefiting from the effort had become accustomed to watching.
 
 Eventually the stewards ran out of energy.
 
-The charter came back.
+The paperwork had been restored.
 
-The organization died anyway.
+The participation had not.
 
 I think about that story often because it feels less like the story of a lodge and more like the story of modern citizenship.
 
@@ -1369,7 +1428,7 @@ America's greatest reformers rarely argued against the promise.
 
 They argued that the nation was failing to honor it.
 
-That distinction changed history.
+That argument changed history.
 
 The promise became a measuring stick.
 
@@ -1383,9 +1442,9 @@ And for a long time, despite all our flaws, many Americans believed the gap betw
 
 Today, that confidence appears increasingly fragile.
 
-Not because Americans have become weaker.
+Americans haven't become weaker.
 
-Because too many institutions have become detached from the people they were supposed to serve.
+Too many institutions have become detached from the people they were supposed to serve.
 
 The worker sees productivity rise while wages stagnate.
 
@@ -1401,9 +1460,7 @@ The citizen looks at the political system and sees influence increasingly concen
 
 Then comes the most dangerous moment.
 
-Not anger.
-
-Not outrage.
+Not anger or outrage. No.
 
 Resignation.
 
@@ -1515,19 +1572,13 @@ Not whether greed exists.
 
 Greed arrived with the first human beings and shows no signs of leaving.
 
-The question is simpler.
+The question is simpler:
 
 Do we still possess the will to correct ourselves?
 
 Because self-correction has always been America's true superpower.
 
-Not wealth.
-
-Not military strength.
-
-Not geography.
-
-Not resources.
+Not wealth, military strength, geography, or resources.
 
 The ability to look directly at our failures and choose something better.
 
@@ -1663,7 +1714,7 @@ The argument is not over.
 
 The experiment continues.
 
-The question is whether enough of us are willing to resume our role within it.
+Are enough of us willing to resume our role within it?
 
 ## America at 250
 
