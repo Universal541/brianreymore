@@ -7,154 +7,227 @@ draft: false
 ---
 
 
+---
+
+title: "The Birthday Party"
+description: "America Turns 250. Trump Turns 80. Hooray?"
+pubDate: "2026-06-14"
+featured: true
+draft: false
+------------
+
 America turned 250 years old.
 
-That should have been the easiest celebration in the world to get right.
+Donald Trump turned 80.
 
-A quarter of a millennium is no small achievement. The United States has endured revolutions, civil war, economic collapse, world wars, political scandals, social upheaval, technological revolutions, and enough internal contradictions to keep historians employed indefinitely. It remains one of the most ambitious experiments in self-government ever attempted.
+The nation received a birthday party that somehow managed to celebrate both while properly honoring neither.
 
-A birthday like that deserves reflection.
+The easiest explanation is that Donald Trump hijacked America's milestone for his own purposes.
 
-Instead, we got a spectacle.
+The more troubling explanation is that he didn't have to.
 
-That isn't necessarily a criticism. Human beings have always celebrated through spectacle. We build monuments. We throw parades. We launch fireworks. We gather in public squares and remind ourselves that we belong to something larger than our individual lives.
+The stage had already been built.
 
-The problem is not that America celebrated.
+The cameras were already in place.
 
-The problem is what the celebration seemed to reveal.
+The donors were already waiting.
 
-Spectacles have a peculiar habit of exposing the values of the people who create them. Every stage becomes a statement. Every visual choice becomes a symbol. Every oversized gesture accidentally tells the truth.
+The media was already addicted.
 
-And the truth revealed by much of the America 250 celebration was oddly small.
+The algorithms were already hungry.
 
-Officially, the event celebrated the nation.
+The political parties were already performing.
 
-Yet much of its visual language seemed focused elsewhere. The cameras lingered where modern cameras always linger. The branding felt familiar. The staging felt familiar. The carefully managed imagery felt familiar. The celebration often appeared less interested in the difficult, magnificent story of the republic than in the personalities standing closest to the spotlight.
+The audience was already conditioned.
 
-Donald Trump did not invent this tendency. He simply understands it exceptionally well.
+Trump did not create the spectacle.
 
-For decades, he has operated according to a simple principle: attention is power. Long before he entered politics, he understood that visibility itself had become a form of influence. The modern media environment rewards spectacle, and few public figures have demonstrated a greater instinct for occupying the center of it.
+He became its highest expression.
 
-The America 250 celebration frequently felt shaped by that instinct.
+Which is why the most uncomfortable truth about America's 250th birthday is that the celebration revealed far more about us than it did about him.
 
-Which is unfortunate, because the American story is far more interesting than any individual politician.
+For nearly a decade, Donald Trump has occupied the center of American political gravity. Supporters admire him. Critics despise him. Journalists dissect him. Pundits monetize him. Social media feeds revolve around him. Entire careers have been built both defending and attacking him.
 
-It is the story of Washington surrendering power when he could have kept it. It is the story of Lincoln holding a fractured nation together. It is the story of Frederick Douglass demanding that America honor its own promises. It is the story of immigrants arriving with little more than hope and stubbornness. It is the story of inventors, teachers, laborers, nurses, soldiers, volunteers, reformers, entrepreneurs, and ordinary citizens carrying the republic forward generation after generation.
+The remarkable thing is not that Trump enjoys attention.
 
-That story contains enough drama, heroism, tragedy, failure, redemption, and absurdity to fill libraries.
+The remarkable thing is that an entire nation keeps feeding it to him.
 
-Yet somehow we reduced much of it to stagecraft.
+The America 250 celebration felt like the logical conclusion of that relationship.
 
-That may be what troubled me most.
+Officially, it was a celebration of the republic.
 
-Not the celebration itself.
+In practice, it often felt like the republic had been cast in a supporting role.
 
-The imagination behind it.
+The symbols remained American.
 
-Imagine asking a room filled with historians, teachers, veterans, civic leaders, community organizers, scientists, and ordinary citizens how they would commemorate America's 250th birthday. How many would begin with branding strategies, VIP sections, merchandise, donor receptions, media optics, and personality-driven messaging?
+The spotlight felt personal.
 
-Most would likely begin somewhere else.
+That distinction is worth examining.
 
-They would begin with service.
+The United States possesses one of the most extraordinary civic stories in human history. A collection of colonies declared independence from the most powerful empire on Earth and somehow survived. A fragile experiment in self-government weathered civil war, economic collapse, global conflict, social upheaval, and generations of internal contradiction. Millions of citizens expanded, challenged, improved, defended, and redefined the promise contained within that experiment.
 
-With history.
+It is a story so vast that no single person can reasonably stand at its center.
 
-With education.
+Yet modern America increasingly demands central characters.
 
-With citizenship.
+We want heroes.
 
-With community.
+We want villains.
 
-With responsibility.
+We want celebrities.
 
-With the often unglamorous work that keeps a republic functioning long after the fireworks have faded.
+We want brands.
 
-Instead, the celebration often reflected a broader cultural confusion. We increasingly mistake visibility for importance. We confuse attention with achievement. We assume that scale automatically creates meaning.
+We want personalities large enough to simplify a complicated reality.
 
-The larger the crowd, the greater the significance.
+Trump did not invent that appetite.
 
-The larger the budget, the greater the accomplishment.
+He discovered it.
 
-The larger the screen, the more valuable the message.
+Then mastered it.
 
-By that logic, every casino on the Las Vegas Strip qualifies as a civic monument.
+Long before politics, he understood that visibility itself had become a form of power. The cameras point somewhere, and eventually public attention follows. In the age of television, social media, and twenty-four-hour outrage cycles, attention became its own currency.
 
-I remain unconvinced.
+American politics adapted.
 
-What fascinates me is the contrast between the values that created the republic and the values increasingly used to market it.
+The media adapted.
 
-America's founders were deeply suspicious of concentrated power. They built systems designed to limit it, divide it, challenge it, and hold it accountable. Modern politics often seems engaged in a different competition entirely: a race to accumulate the largest concentration of attention.
+Corporate America adapted.
 
-The founders feared kings.
+The donor class adapted.
 
-Modern America fears irrelevance.
+The tech industry adapted.
 
-Those fears produce very different institutions.
+And eventually citizenship adapted.
 
-One produces constitutions.
+Somewhere along the way, politics stopped being something we participated in and became something we consumed.
 
-The other produces spectacles.
+That transformation may be one of the most important stories of the last half century.
 
-One strengthens citizenship.
+Citizens became audiences.
 
-The other encourages fandom.
+Campaigns became entertainment.
 
-And fandom has become one of the dominant languages of contemporary politics.
+News became content.
 
-Fans cheer.
+Outrage became engagement.
 
-Fans boo.
+Engagement became profit.
 
-Fans purchase merchandise.
+Profit became influence.
 
-Fans defend their side.
+Influence became power.
 
-Fans attack rival teams.
+Then everyone acted surprised when spectacle began replacing substance.
 
-Citizens are asked to do something more difficult. Citizens ask questions. Citizens examine evidence. Citizens hold leaders accountable. Citizens occasionally disappoint their own allies. Citizens understand that loyalty to principles matters more than loyalty to personalities.
+Of course it did.
 
-That difference explains much of our current exhaustion.
+The incentives practically demanded it.
 
-Too many leaders seek followers.
+That is why the America 250 celebration bothered me.
 
-Too few seek citizens.
+Not because it was uniquely offensive.
 
-Too many institutions seek engagement.
+Because it felt familiar.
 
-Too few seek understanding.
+Painfully familiar.
 
-Too many public events seek applause.
+The VIP sections.
 
-Too few seek reflection.
+The donor culture.
 
-Which brings us back to the birthday party.
+The branding.
 
-Because every birthday eventually ends.
+The endless media analysis.
 
-The banners come down. The cameras leave. The consultants move on to the next project. The donors return home. The merchandise ends up discounted, forgotten, or thrown away.
+The partisan cheering.
 
-The republic remains.
+The partisan outrage.
 
-Waiting patiently for citizens to resume the work that no spectacle can perform.
+The social media arguments.
 
-America did not become remarkable because previous generations mastered self-promotion. It became remarkable because enough ordinary people accepted responsibilities that nobody could monetize, televise, sponsor, or brand. They built communities. Raised families. Started businesses. Taught children. Served neighbors. Improved institutions. Defended principles. Carried burdens that history rarely records.
+The merchandise.
 
-Then they handed the republic forward.
+The personalities.
 
-That is the American story.
+The carefully managed imagery.
 
-Not the stage.
+The entire event felt less like a celebration of the republic than a celebration of the machinery that increasingly defines modern American politics.
 
-Not the branding.
+MAGA did not build that machinery alone.
 
-Not the cameras.
+The political left helped build it.
 
-Not the birthday party.
+The political right helped build it.
 
-The work.
+Cable news helped build it.
 
-It has always been the work.
+Social media helped build it.
 
-The fireworks will fade.
+Corporate sponsors helped build it.
 
-The work will remain.
+Political consultants helped build it.
+
+Tech platforms helped build it.
+
+And the rest of us rewarded it with our attention.
+
+Trump became the face of the machine because he was uniquely suited for the role.
+
+But the machine was already there.
+
+Waiting.
+
+Hungry.
+
+Profitable.
+
+America's birthday simply gave it another stage.
+
+That may be the most disappointing part of all.
+
+A quarter of a millennium deserved something better than another performance.
+
+It deserved reflection.
+
+It deserved humility.
+
+It deserved gratitude.
+
+It deserved a serious conversation about what we inherited and what we intend to leave behind.
+
+Instead, we got another show.
+
+The crowd cheered.
+
+The crowd booed.
+
+The cameras rolled.
+
+The pundits opined.
+
+The feeds filled.
+
+The machine fed itself.
+
+And somewhere beneath all of it sat the actual miracle worth celebrating:
+
+A flawed republic, two hundred and fifty years old, still waiting for its citizens to remember that they are citizens.
+
+Not consumers.
+
+Not followers.
+
+Not fans.
+
+Citizens.
+
+The birthday party will be forgotten.
+
+The republic, if we're fortunate, will endure.
+
+Whether it thrives depends on whether we continue confusing the spotlight for the stage itself.
+
+Because America was never supposed to be the audience.
+
+America was supposed to be the author.
