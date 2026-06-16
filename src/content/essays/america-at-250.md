@@ -1,11 +1,13 @@
 ---
 title: "America at 250"
 description: "A Love Letter, A Warning, and A Reckoning"
-pubDate: "2026-06-15"
+pubDate: "2026-07-04"
 featured: false
-draft: false
+draft: true
 ---
 
+
+###The *Real* 250th
 
 There is a particular kind of heartbreak reserved for things you love.
 
