@@ -1,13 +1,11 @@
 ---
-title: The Birthday Party
-description: --Trump-- America Turns --80-- 250. Hooray?
+title: "The Birthday Party"
+description: "Trump Turns 80. Er, I mean America Turns 250. Hooray?"
 pubDate: "2026-06-14"
 featured: true
 draft: false
--------
+---
 
-
-# The Birthday Party
 
 America turned 250 years old.
 
