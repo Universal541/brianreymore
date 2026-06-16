@@ -7,15 +7,6 @@ draft: false
 ---
 
 
----
-
-title: "The Birthday Party"
-description: "America Turns 250. Trump Turns 80. Hooray?"
-pubDate: "2026-06-14"
-featured: true
-draft: false
-------------
-
 America turned 250 years old.
 
 Donald Trump turned 80.
