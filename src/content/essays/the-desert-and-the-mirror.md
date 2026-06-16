@@ -1,16 +1,11 @@
 ---
-
 title: "The Desert and the Mirror"
 description: "On open-mindedness, memory, mindfulness, and the courage to become nobody in particular."
 pubDate: "2026-06-08"
 featured: false
 draft: false
-------------
+---
 
-
-# The Desert and the Mirror
-
-## On Open-Mindedness, Memory, Mindfulness, and the Courage to Become Nobody in Particular
 
 There is a phrase often used as a warning against open-mindedness.
 
