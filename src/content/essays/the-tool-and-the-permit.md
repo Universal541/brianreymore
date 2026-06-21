@@ -1,7 +1,7 @@
 ---
 title: "The Tool and the Permit"
 description: "Capability, regulation, and the quiet war over who gets to build the future."
-pubDate: "2026-06-15"
+pubDate: "2026-06-21"
 featured: false
 draft: false
 ---
