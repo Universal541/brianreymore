@@ -1,11 +1,10 @@
 ---
-
 title: "The Tool and the Permit"
 description: "Capability, regulation, and the quiet war over who gets to build the future."
 pubDate: "2026-06-15"
 featured: false
 draft: true
------------
+---
 
 
 There is a peculiar habit shared by governments, corporations, institutions, advocacy groups, and occasionally that one neighbor who files complaints about dandelions. None of them believe they are building a cage. Every one of them believes they are solving a problem. That distinction matters because most cages are not built all at once. They emerge gradually, assembled from reasonable requests, practical concerns, administrative necessities, and well-intentioned attempts to address specific issues. Viewed individually, most of these efforts seem harmless. Sometimes they are. Occasionally they are even necessary. Yet history suggests that freedom is rarely lost in dramatic moments. More often it becomes surrounded by good intentions until people wake up one day and discover that activities once considered ordinary have become surprisingly complicated.
