@@ -60,7 +60,7 @@ The distinction is important.
 
 Words matter.
 
-They are not nothing.
+they're not nothing.
 
 Language shapes culture, communicates values, and influences behavior. But words are also one of the easiest aspects of human conduct to fake. Character is considerably harder.
 
@@ -104,9 +104,9 @@ Sometimes those questions matter.
 
 Often they do.
 
-But they are not the same questions.
+But they're not the same questions.
 
-A person can be impeccably mannered and profoundly destructive. History offers no shortage of examples. Entire careers have been built upon sounding virtuous while behaving terribly. The polished executive who exploits employees, the charming politician who lies with practiced ease, the religious leader who preaches humility while pursuing power, and the public figure who speaks endlessly about compassion while treating actual human beings as disposable obstacles all belong to a very old tradition.
+A person can be impeccably mannered and profoundly destructive. History offers no shortage of examples. Entire careers have been built upon sounding angelic while behaving badly. The polished executive who exploits employees, the charming politician who lies with practiced ease, the religious leader who preaches humility while pursuing power, and the public figure who speaks endlessly about compassion while treating actual human beings as disposable obstacles all belong to a very old tradition.
 
 Their language is rarely the problem.
 
@@ -120,11 +120,11 @@ The irony is difficult to miss. We frequently devote enormous energy to policing
 
 Which brings us to a pair of people most of us have encountered at one point or another.
 
-The first never swears.
+The first never utters profanities.
 
-The second might make a sailor blush.
+The second might make you think, "Settle down. There are mechanics in the room."
 
-And if life has taught me anything, it is that those facts alone tell us almost nothing worth knowing about either one of them.
+Seriously though, if life has taught me anything, it is that those facts alone tell us almost nothing worth knowing about either one of them.
 
 ## The Man Who Never Swore
 
@@ -132,7 +132,7 @@ Most people have met him.
 
 Perhaps not literally, but certainly in spirit.
 
-He is the man who always knows the correct thing to say. His language is impeccable. His manners are polished. His public image has been carefully maintained for so long that even he may no longer know where the performance ends and the person begins.
+He is the man who always knows the correct thing to say. His language is beyond reproach. His manners are polished. His public image has been carefully maintained for so long that even he may no longer know where the performance ends and the person begins.
 
 He would never use an offensive word in mixed company.
 
@@ -160,9 +160,9 @@ Yet human beings repeatedly treat surface indicators as though they reveal somet
 
 History repeatedly demonstrates otherwise.
 
-Some of the most destructive individuals ever to occupy positions of authority were remarkably articulate. They understood etiquette. They dressed appropriately. They spoke carefully. They knew how to reassure audiences, calm concerns, and project confidence.
+Some of the most destructive individuals ever to occupy positions of authority were remarkably articulate & Puritanical in speech. They understood etiquette. They dressed appropriately. They spoke carefully. They knew how to reassure audiences, calm concerns, and project confidence.
 
-Many never uttered a profanity worth mentioning.
+Many never uttered a obscenity worth mentioning.
 
 The damage they caused had nothing to do with vocabulary.
 
@@ -186,7 +186,7 @@ Interestingly, modern research has complicated some of our assumptions about pro
 
 Reality, as usual, proves more complicated.
 
-People swear for many reasons. Sometimes they are angry. Sometimes they are frightened. Sometimes they are emphasizing a point. Sometimes they are bonding socially. Sometimes they are responding to pain. Occasionally they are simply being creative.
+People swear for many reasons. Sometimes they're angry. Sometimes they're frightened. Sometimes they're emphasizing a point. Sometimes they're bonding socially. Sometimes they're responding to pain. Occasionally they're simply being creative.
 
 Language serves many functions beyond politeness.
 
@@ -238,9 +238,9 @@ Yet when life decides to come apart at the seams, these are often the people eve
 
 They are the people who show up.
 
-Not because they are saints.
+Not because they're saints.
 
-Not because they are perfect.
+Not because they're perfect.
 
 Because they understand responsibility.
 
@@ -576,7 +576,7 @@ It never has been.
 
 The temptation will always exist to reduce morality to a checklist because checklists are easier than wisdom. Etiquette is easier than character. Compliance is easier than conscience.
 
-Yet every meaningful virtue ultimately exists beyond the reach of enforcement. Rules can influence behavior, sometimes dramatically, but they cannot create the inner qualities that make moral behavior meaningful in the first place. A government can prohibit certain actions. An institution can establish expectations. A community can encourage particular norms. What none of them can do is manufacture integrity, compassion, courage, or kindness. Those qualities only become real when they are chosen freely rather than performed under compulsion.
+Yet every meaningful virtue ultimately exists beyond the reach of enforcement. Rules can influence behavior, sometimes dramatically, but they cannot create the inner qualities that make moral behavior meaningful in the first place. A government can prohibit certain actions. An institution can establish expectations. A community can encourage particular norms. What none of them can do is manufacture integrity, compassion, courage, or kindness. Those qualities only become real when they're chosen freely rather than performed under compulsion.
 
 Which brings me back to Jesus.
 
@@ -616,7 +616,7 @@ The goal is not to become less civil.
 
 The goal is to become more honest about what civility can and cannot accomplish.
 
-Because morality and etiquette make an interesting Venn diagram precisely because they are not the same thing.
+Because morality and etiquette make an interesting Venn diagram precisely because they're not the same thing.
 
 One teaches us how to behave in polite company.
 
