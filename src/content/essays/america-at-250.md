@@ -1828,4 +1828,8 @@ And thank God for that.
 
 Because as long as the work remains, so does the possibility.
 
+# Happy 250th, America. Happy Independence Day, Americans. Here's to another 250.
+
+# Cheers.
+
 And the possibility, more than anything else, is what America was always meant to be.
