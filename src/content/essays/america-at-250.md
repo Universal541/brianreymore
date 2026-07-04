@@ -2,8 +2,8 @@
 title: "America at 250"
 description: "A Love Letter, A Warning, and A Reckoning"
 pubDate: "2026-07-04"
-featured: false
-draft: true
+featured: true
+draft: false
 ---
 
 
