@@ -4,7 +4,7 @@ title: "The Man Who Never Swore and the Bastard Who Saved Your Life"
 description: "Why words are easier to police than character."
 pubDate: "2026-08-04"
 featured: false
-draft: true
+draft: false
 ---
 
 ## The Carpenter and the Hammer
