@@ -20,12 +20,12 @@
 .gateway-card:hover { transform:translateY(-3px); border-color:var(--accent); }
 .gateway-card h3 { font-size:clamp(2rem,4vw,3rem); margin:.3rem 0; }
 .gateway-card p { color:#ded7cb; max-width:34ch; margin:.3rem 0; }
-.gateway-card--essays { background-image:url('/images/essays-hero.webp'); }
-.gateway-card--music { background-image:url('/images/music-hero.webp'); }
-.gateway-card--notes { background-image:url('/images/notes-hero.webp'); }
-.gateway-card--principles { background-image:url('/images/principles-hero.webp'); }
-.gateway-card--about { background-image:url('/images/about-hero.webp'); }
-.gateway-card--contact { background-image:url('/images/correspondence-hero.webp'); }
+.gateway-card--essays { background-image:url('/images/essays-card.webp'); }
+.gateway-card--music { background-image:url('/images/music-card.webp'); }
+.gateway-card--notes { background-image:url('/images/notes-card.webp'); }
+.gateway-card--principles { background-image:url('/images/principles-card.webp'); }
+.gateway-card--about { background-image:url('/images/about-card.webp'); }
+.gateway-card--contact { background-image:url('/images/correspondence-card.webp'); }
 @media (max-width:820px) {
   .nav-toggle { display:block; position:relative; z-index:22; }
   .nav-links { display:none; position:absolute; top:72px; left:0; right:0; max-height:calc(100dvh - 72px); overflow-y:auto; background:rgba(8,11,15,.98); border-bottom:1px solid var(--line); padding:1rem 20px 1.5rem; flex-direction:column; align-items:stretch; gap:0; box-shadow:0 18px 35px rgba(0,0,0,.5); }
