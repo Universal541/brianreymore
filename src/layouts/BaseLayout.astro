@@ -12,6 +12,14 @@ const links = [['Essays','/essays'],['Music','/music'],['Notes','/notes'],['Star
 <meta name="description" content={description} /><meta property="og:title" content={pageTitle} /><meta property="og:description" content={description} /><meta property="og:type" content="website" />
 <meta property="og:image" content="https://brianreymore.com/images/storm-hero.png" />
 <title>{pageTitle}</title>
+<style is:global>
+.share-tools{max-width:1120px;margin:3rem auto 2rem;padding:1.25rem 1.5rem;border-top:1px solid rgba(185,145,90,.35);border-bottom:1px solid rgba(185,145,90,.25)}
+.share-tools__heading{font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;color:#c29a62;margin:0 0 .85rem}
+.share-tools__actions{display:flex;flex-wrap:wrap;gap:.65rem}
+.share-tools__actions button,.share-tools__actions a{font:inherit;font-size:.88rem;color:#f1ece3;background:transparent;border:1px solid rgba(185,145,90,.4);border-radius:3px;padding:.5rem .85rem;text-decoration:none;cursor:pointer}
+.share-tools__actions button:hover,.share-tools__actions a:hover,.share-tools__actions button:focus-visible,.share-tools__actions a:focus-visible{border-color:#c29a62;background:rgba(185,145,90,.12)}
+.share-tools__feedback{font-size:.8rem;color:#c29a62;min-height:1.4em;margin:.65rem 0 0}
+</style>
 </head>
 <body>
 <header class="site-header"><nav class="container nav" aria-label="Main navigation">
@@ -20,6 +28,16 @@ const links = [['Essays','/essays'],['Music','/music'],['Notes','/notes'],['Star
 <button class="nav-toggle" type="button" aria-label="Open navigation" aria-controls="site-navigation" aria-expanded="false"><span></span><span></span><span></span></button>
 </nav></header>
 <slot />
+<aside class="share-tools" aria-label="Share this page">
+<p class="share-tools__heading">Pass it along</p>
+<div class="share-tools__actions">
+<button type="button" id="share-native" hidden>Share…</button>
+<a id="share-email" href="mailto:">Email</a>
+<a id="share-sms" href="sms:">Text</a>
+<button type="button" id="share-copy">Copy link</button>
+</div>
+<p class="share-tools__feedback" id="share-feedback" role="status" aria-live="polite"></p>
+</aside>
 <footer class="footer"><div class="container footer-inner"><div><strong>BrianReymore.com</strong><br />Witness. Resistance. Refusal.</div><div>We name what others hesitate to say.<br /><a href="/submit">Bring Us Into Your World</a><br /><a href="/support">Support This Work</a></div></div></footer>
 <script is:inline>
 (() => {
@@ -32,6 +50,41 @@ nav.querySelectorAll('a').forEach(link => link.addEventListener('click',close));
 document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
 document.addEventListener('click', e => { if (!nav.contains(e.target) && !button.contains(e.target)) close(); });
 window.matchMedia('(min-width: 821px)').addEventListener('change',close);
+})();
+</script>
+<script is:inline>
+(() => {
+ const url = location.href.split('#')[0];
+ const title = document.title;
+ const native = document.querySelector('#share-native');
+ const email = document.querySelector('#share-email');
+ const sms = document.querySelector('#share-sms');
+ const copy = document.querySelector('#share-copy');
+ const feedback = document.querySelector('#share-feedback');
+ if (!native || !email || !sms || !copy || !feedback) return;
+ const message = title + '\n' + url;
+ email.href = 'mailto:?subject=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(message);
+ sms.href = 'sms:?body=' + encodeURIComponent(message);
+ if (navigator.share) {
+  native.hidden = false;
+  native.addEventListener('click', async () => {
+   try { await navigator.share({title,text:title,url}); }
+   catch (error) { if (error.name !== 'AbortError') feedback.textContent = 'Sharing is unavailable here. Try Email, Text, or Copy link.'; }
+  });
+ }
+ copy.addEventListener('click', async () => {
+  try {
+   if (navigator.clipboard?.writeText) await navigator.clipboard.writeText(url);
+   else {
+    const field = document.createElement('textarea');
+    field.value = url; field.style.position='fixed'; field.style.opacity='0';
+    document.body.appendChild(field); field.select();
+    if (!document.execCommand('copy')) throw new Error('Copy failed');
+    field.remove();
+   }
+   feedback.textContent = 'Link copied.';
+  } catch { feedback.textContent = 'Unable to copy automatically. Copy the address from your browser.'; }
+ });
 })();
 </script>
 </body></html>
