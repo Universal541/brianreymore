@@ -66,6 +66,28 @@ const themes = [
         </div>
       </section>
     )}
+```astro
+<section>
+  <div class="container">
+    <div class="kicker">Explore the Work</div>
+    <h2 class="section-title">Different forms. One conversation.</h2>
+    <div class="gateway-grid">
+      {[
+        ['Essays','/essays','essays','Longer arguments on power, conscience, and what deserves to endure.'],
+        ['Music','/music','music','Original lyrics and recordings from Bugsy McRae.'],
+        ['Notes','/notes','notes','Short observations and questions along the way.'],
+        ['Principles','/principles','principles','The commitments that guide this work.'],
+        ['About','/about','about','The person, the purpose, and the road here.'],
+        ['Correspondence','/contact','contact','Thoughtful questions and honest disagreement are welcome.']
+      ].map(([title,href,slug,description]) => (
+        <a class={`gateway-card gateway-card--${slug}`} href={href}>
+          <div class="kicker">Explore</div><h3>{title}</h3><p>{description}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+```
 
     <section>
       <div class="container">
