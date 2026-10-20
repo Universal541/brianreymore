@@ -1,9 +1,140 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+const tracks = [
+  {
+    "title": "Minutes of Love",
+    "src": "/audio/01-minutes-of-love.mp3",
+    "duration": 404,
+    "number": 1
+  },
+  {
+    "title": "One Foot Home",
+    "src": "/audio/02-one-foot-home.mp3",
+    "duration": 433,
+    "number": 2
+  },
+  {
+    "title": "The Broadacres Rag (Traumatic Character Limit Mix)",
+    "src": "/audio/03-the-broadacres-rag-traumatic-character-limit-mix.mp3",
+    "duration": 335,
+    "number": 3
+  },
+  {
+    "title": "The Fire Never Died",
+    "src": "/audio/04-the-fire-never-died.mp3",
+    "duration": 328,
+    "number": 4
+  },
+  {
+    "title": "Never Been This Old",
+    "src": "/audio/05-never-been-this-old.mp3",
+    "duration": 314,
+    "number": 5
+  },
+  {
+    "title": "Flight of the Queen Bee",
+    "src": "/audio/06-flight-of-the-queen-bee.mp3",
+    "duration": 322,
+    "number": 6
+  },
+  {
+    "title": "Prison Break",
+    "src": "/audio/07-prison-break.mp3",
+    "duration": 432,
+    "number": 7
+  },
+  {
+    "title": "Swiped Right",
+    "src": "/audio/08-swiped-right.mp3",
+    "duration": 312,
+    "number": 8
+  },
+  {
+    "title": "Minutes of Love (feat. Grubby)",
+    "src": "/audio/09-minutes-of-love-feat-grubby.mp3",
+    "duration": 389,
+    "number": 9
+  },
+  {
+    "title": "The Last Ride",
+    "src": "/audio/10-the-last-ride.mp3",
+    "duration": 314,
+    "number": 10
+  },
+  {
+    "title": "The Broadacres Rag",
+    "src": "/audio/11-the-broadacres-rag.mp3",
+    "duration": 365,
+    "number": 11
+  },
+  {
+    "title": "What Truth Requires",
+    "src": "/audio/12-what-truth-requires.mp3",
+    "duration": 360,
+    "number": 12
+  }
+];
+const formatDuration = (seconds) => `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`;
 ---
-<BaseLayout title="Music" description="Original music and lyrics by Bugsy McRae, also known as Brian ‘Bugsy’ McRae.">
-  <main>
-    <header class="editorial-hero editorial-hero--music"><div class="kicker">Bugsy McRae</div><h1>Music</h1><p>Some things are better sung than explained.</p></header>
-    <section class="container reading"><div class="kicker">The songs are coming</div><h2 class="section-title">Words that found a voice.</h2><p class="lede">Original lyrics and music by Brian “Bugsy” McRae. A listening room is on its way. Soon you'll be able to play the recordings here, explore the lyrics, and share the songs.</p><p class="lede">Until then, stay in correspondence.</p><div class="actions"><a class="button primary" href="/contact">Get in Touch</a><a class="button" href="/">Return Home</a></div></section>
-  </main>
+<BaseLayout title="Music" description="Listen to twelve original songs by Brian “Bugsy” McRae.">
+<main>
+<header class="editorial-hero editorial-hero--music"><div class="kicker">Brian “Bugsy” McRae</div><h1>Music</h1><p>Some things are better sung than explained.</p></header>
+<section class="container music-room" aria-label="Bugsy McRae listening room">
+<div class="music-room-heading"><div><div class="kicker">The listening room</div><h2>Bugsy McRae</h2><p>Twelve songs. One road, a thousand stories.</p></div><div class="music-count">12 TRACKS · ORIGINAL RECORDINGS</div></div>
+<div class="music-player" data-music-player>
+<div class="music-now"><div class="music-art" aria-hidden="true">BM</div><div class="music-current"><div class="kicker">Now playing</div><h3 id="now-title">Minutes of Love</h3><p>Bugsy McRae</p></div></div>
+<audio id="music-audio" preload="metadata"></audio>
+<div class="music-controls"><button type="button" id="music-prev" aria-label="Previous track">⏮</button><button type="button" id="music-toggle" aria-label="Play" class="music-play">▶</button><button type="button" id="music-next" aria-label="Next track">⏭</button><div class="music-timeline"><span id="music-elapsed">0:00</span><input id="music-seek" type="range" min="0" max="1000" value="0" aria-label="Seek through track"/><span id="music-total">6:44</span></div><label class="music-volume">Volume <input id="music-volume" type="range" min="0" max="100" value="85" aria-label="Volume"/></label></div>
+<p class="music-status" id="music-status" role="status" aria-live="polite"></p>
+</div>
+<ol class="music-tracklist" aria-label="Track list">{tracks.map((track,index) => <li><button type="button" class:list={['music-track',{'is-active':index===0}]} data-track-index={index} aria-label={`Play ${track.title}`}><span class="music-track-number">{String(track.number).padStart(2,'0')}</span><span class="music-track-title">{track.title}</span><span class="music-track-duration">{formatDuration(track.duration)}</span><span class="music-track-action" aria-hidden="true">▶</span></button></li>)}</ol>
+<p class="music-credit">All tracks presented in the artist's chosen sequence, independent of embedded MP3 track metadata. Artist: Brian “Bugsy” McRae.</p>
+</section>
+</main>
+<script is:inline>
+(() => {
+const tracks = [{"title":"Minutes of Love","src":"/audio/01-minutes-of-love.mp3","duration":404},{"title":"One Foot Home","src":"/audio/02-one-foot-home.mp3","duration":433},{"title":"The Broadacres Rag (Traumatic Character Limit Mix)","src":"/audio/03-the-broadacres-rag-traumatic-character-limit-mix.mp3","duration":335},{"title":"The Fire Never Died","src":"/audio/04-the-fire-never-died.mp3","duration":328},{"title":"Never Been This Old","src":"/audio/05-never-been-this-old.mp3","duration":314},{"title":"Flight of the Queen Bee","src":"/audio/06-flight-of-the-queen-bee.mp3","duration":322},{"title":"Prison Break","src":"/audio/07-prison-break.mp3","duration":432},{"title":"Swiped Right","src":"/audio/08-swiped-right.mp3","duration":312},{"title":"Minutes of Love (feat. Grubby)","src":"/audio/09-minutes-of-love-feat-grubby.mp3","duration":389},{"title":"The Last Ride","src":"/audio/10-the-last-ride.mp3","duration":314},{"title":"The Broadacres Rag","src":"/audio/11-the-broadacres-rag.mp3","duration":365},{"title":"What Truth Requires","src":"/audio/12-what-truth-requires.mp3","duration":360}];
+const audio = document.getElementById('music-audio');
+const title = document.getElementById('now-title');
+const toggle = document.getElementById('music-toggle');
+const prev = document.getElementById('music-prev');
+const next = document.getElementById('music-next');
+const seek = document.getElementById('music-seek');
+const elapsed = document.getElementById('music-elapsed');
+const total = document.getElementById('music-total');
+const volume = document.getElementById('music-volume');
+const status = document.getElementById('music-status');
+const buttons = [...document.querySelectorAll('[data-track-index]')];
+let index = 0;
+const clock = seconds => Number.isFinite(seconds) ? `${Math.floor(seconds/60)}:${String(Math.floor(seconds%60)).padStart(2,'0')}` : '0:00';
+function select(i, autoplay = true) {
+ index = (i + tracks.length) % tracks.length;
+ const track = tracks[index];
+ audio.src = track.src;
+ title.textContent = track.title;
+ elapsed.textContent = '0:00';
+ total.textContent = clock(track.duration);
+ seek.value = '0';
+ buttons.forEach((button,j) => {button.classList.toggle('is-active',j===index);button.setAttribute('aria-current',j===index?'true':'false');});
+ status.textContent = '';
+ if (autoplay) play();
+ else toggle.textContent = '▶';
+}
+async function play(){try{await audio.play();toggle.textContent='Ⅱ';toggle.setAttribute('aria-label','Pause');status.textContent='';}catch{status.textContent='Unable to play this track. Check that its audio file has been uploaded.';toggle.textContent='▶';}}
+toggle.addEventListener('click',()=>{if(audio.paused)play();else audio.pause();});
+audio.addEventListener('pause',()=>{toggle.textContent='▶';toggle.setAttribute('aria-label','Play');});
+audio.addEventListener('play',()=>{toggle.textContent='Ⅱ';toggle.setAttribute('aria-label','Pause');});
+audio.addEventListener('timeupdate',()=>{elapsed.textContent=clock(audio.currentTime);if(audio.duration)seek.value=String(Math.round(audio.currentTime/audio.duration*1000));});
+audio.addEventListener('loadedmetadata',()=>{total.textContent=clock(audio.duration);});
+audio.addEventListener('ended',()=>select(index+1));
+audio.addEventListener('error',()=>{status.textContent='Audio unavailable for this track. The recording may not be uploaded yet.';});
+seek.addEventListener('input',()=>{if(audio.duration)audio.currentTime=Number(seek.value)/1000*audio.duration;});
+volume.addEventListener('input',()=>audio.volume=Number(volume.value)/100);
+prev.addEventListener('click',()=>select(index-1));
+next.addEventListener('click',()=>select(index+1));
+buttons.forEach((button,i)=>button.addEventListener('click',()=>select(i)));
+audio.volume=.85;
+select(0,false);
+})();
+</script>
 </BaseLayout>
