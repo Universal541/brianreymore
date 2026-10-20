@@ -1,6 +1,6 @@
 ---
 title: "The Stones We Carry"
-desc: "How Other People’s Shit Becomes the Architecture of Our Own Prisons"
+description: "How Other People’s Shit Becomes the Architecture of Our Own Prisons"
 pubDate: "2026-08-11"
 featured: false
 draft: true
