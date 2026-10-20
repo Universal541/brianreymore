@@ -7,9 +7,6 @@ const essays = (await getCollection('essays')).filter((e) => !e.data.draft).sort
 <header class="editorial-hero editorial-hero--essays"><div class="kicker">essays</div><h1>The Archive</h1><p>Longform writing on power, conscience, institutional drift, home, and moral refusal.</p></header>
 
   <main class="prose reading">
-    <div class="kicker">Essays</div>
-    <h1>The Archive</h1>
-    <p>Longform writing on power, conscience, institutional drift, home, and moral refusal.</p>
     <div class="article-list">
       {essays.map((essay) => (
         <a class="article-row" href={`/essays/${essay.id.replace(/\.md$/, '')}`}>
