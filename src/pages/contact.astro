@@ -32,7 +32,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </p>
       </div>
 
-      <section id="submissions" aria-labelledby="submissions-heading"><h2 id="submissions-heading">Submissions and contributions</h2><p>Have an essay, idea, or contribution for consideration? Use the form below and describe what you would like to share. Thoughtful correspondence, including disagreement, is welcome.</p></section>
+      
       <form
         action="https://formspree.io/f/mdajdjnv"
         method="POST"
@@ -82,5 +82,32 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </button>
       </form>
     </section>
+<section id="submissions" aria-labelledby="submissions-heading" class="prose reading" style="margin:3rem auto">
+<h2 id="submissions-heading">Bring Us Into Your World</h2>
+<p>We welcome thoughtful essays, observations, links, civic concerns, moral questions, and stories worth examining. You do not need credentials; sincerity and care matter more.</p>
+<p>Submissions do not guarantee publication, response, investigation, or follow-up. Material may be read privately; permission is required before public attribution.</p>
+<form class="submission-form" action="https://formspree.io/f/xdajdvlz" method="POST">
+<input type="hidden" name="_redirect" value="https://brianreymore.com/submission-received/" />
+<input type="hidden" name="_subject" value="New BR.com Submission" />
+<input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true" />
+<label>Name <span>(optional)</span><input type="text" name="name" /></label>
+<label>Email <span>(optional)</span><input type="email" name="email" /></label>
+<label>What are you sending?
+<select name="submission_type" required>
+<option value="">Choose one...</option>
+<option>Essay</option><option>Observation</option><option>Local Issue</option><option>Civic Concern</option><option>Link / Resource</option><option>Story</option><option>Question</option><option>Something I Can’t Stop Thinking About</option><option>Other</option>
+</select></label>
+<label>Title / Subject<input type="text" name="title" required /></label>
+<label>Your submission<textarea name="submission" rows="12" required placeholder="Write or paste your essay, concern, observation, question, or story..."></textarea></label>
+<label>Links / sources <span>(optional)</span><textarea name="links" rows="5"></textarea></label>
+<div class="checks">
+<label><input type="checkbox" name="may_contact" value="yes" /> You may contact me about this submission.</label>
+<label><input type="checkbox" name="anonymous_ok" value="yes" /> If referenced publicly, I prefer to remain anonymous.</label>
+<label><input type="checkbox" name="may_quote_or_reference" value="yes" /> You may quote, reference, or build upon this submission in future work, with editorial discretion.</label>
+</div>
+<p class="notice">Submission does not create an obligation, partnership, confidentiality, representation, publication rights, or expectation of response. Editorial discretion is reserved.</p>
+<button type="submit">Submit for Consideration</button>
+</form>
+</section>
   </main>
 </BaseLayout>
