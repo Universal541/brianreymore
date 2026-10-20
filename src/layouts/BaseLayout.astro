@@ -3,59 +3,35 @@ import '../styles/global.css';
 import '../styles/editorial-redesign.css';
 const { title = 'Brian Reymore', description = 'Essays on power, conscience, institutional drift, and the slow desertification of civic and spiritual life.' } = Astro.props;
 const pageTitle = title === 'Brian Reymore' ? title : `${title} | Brian Reymore`;
-const links = [
-  ['Essays','/essays'], ['Music','/music'], ['Notes','/notes'], ['Start Here','/start-here'],
-  ['Submit','/submit'], ['Support','/support'], ['Principles','/principles'], ['About','/about'], ['Contact','/contact']
-];
+const links = [['Essays','/essays'],['Music','/music'],['Notes','/notes'],['Start Here','/start-here'],['Submit','/submit'],['Support','/support'],['Principles','/principles'],['About','/about'],['Contact','/contact']];
 ---
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content={description} />
-  <meta property="og:title" content={pageTitle} />
-  <meta property="og:description" content={description} />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://brianreymore.com/images/storm-hero.png" />
-  <title>{pageTitle}</title>
+<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content={description} /><meta property="og:title" content={pageTitle} /><meta property="og:description" content={description} /><meta property="og:type" content="website" />
+<meta property="og:image" content="https://brianreymore.com/images/storm-hero.png" />
+<title>{pageTitle}</title>
 </head>
 <body>
-  <header class="site-header">
-    <nav class="container nav" aria-label="Main navigation">
-      <a class="brand" href="/">Brian Reymore</a>
-      <div class="nav-links" id="site-navigation">
-        {links.map(([label, href]) => <a href={href}>{label}</a>)}
-      </div>
-      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-controls="site-navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </nav>
-  </header>
-  <slot />
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div><strong>BrianReymore.com</strong><br />Witness. Resistance. Refusal.</div>
-      <div>We name what others hesitate to say.<br /><a href="/submit">Bring Us Into Your World</a><br /><a href="/support">Support This Work</a></div>
-    </div>
-  </footer>
-  <script is:inline>
-    (() => {
-      const button = document.querySelector('.nav-toggle');
-      const nav = document.querySelector('#site-navigation');
-      if (!button || !nav) return;
-      const close = () => { button.setAttribute('aria-expanded', 'false'); button.setAttribute('aria-label','Open navigation'); nav.classList.remove('is-open'); };
-      button.addEventListener('click', () => {
-        const open = button.getAttribute('aria-expanded') !== 'true';
-        button.setAttribute('aria-expanded', String(open));
-        button.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
-        nav.classList.toggle('is-open', open);
-      });
-      nav.querySelectorAll('a').forEach(link => link.addEventListener('click', close));
-      document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
-      document.addEventListener('click', e => { if (!nav.contains(e.target) && !button.contains(e.target)) close(); });
-      window.matchMedia('(min-width: 821px)').addEventListener('change', close);
-    })();
-  </script>
-</body>
-</html>
+<header class="site-header"><nav class="container nav" aria-label="Main navigation">
+<a class="brand" href="/">Brian Reymore</a>
+<div class="nav-links" id="site-navigation">{links.map(([label,href]) => <a href={href}>{label}</a>)}</div>
+<button class="nav-toggle" type="button" aria-label="Open navigation" aria-controls="site-navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav></header>
+<slot />
+<footer class="footer"><div class="container footer-inner"><div><strong>BrianReymore.com</strong><br />Witness. Resistance. Refusal.</div><div>We name what others hesitate to say.<br /><a href="/submit">Bring Us Into Your World</a><br /><a href="/support">Support This Work</a></div></div></footer>
+<script is:inline>
+(() => {
+const button = document.querySelector('.nav-toggle');
+const nav = document.querySelector('#site-navigation');
+if (!button || !nav) return;
+const close = () => { button.setAttribute('aria-expanded','false'); button.setAttribute('aria-label','Open navigation'); nav.classList.remove('is-open'); };
+button.addEventListener('click', () => { const open = button.getAttribute('aria-expanded') !== 'true'; button.setAttribute('aria-expanded',String(open)); button.setAttribute('aria-label',open ? 'Close navigation' : 'Open navigation'); nav.classList.toggle('is-open',open); });
+nav.querySelectorAll('a').forEach(link => link.addEventListener('click',close));
+document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+document.addEventListener('click', e => { if (!nav.contains(e.target) && !button.contains(e.target)) close(); });
+window.matchMedia('(min-width: 821px)').addEventListener('change',close);
+})();
+</script>
+</body></html>
