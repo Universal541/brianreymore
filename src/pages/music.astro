@@ -9,7 +9,7 @@ const tracks = [
   },
   {
     "title": "One Foot Home",
-    "src": "/audio/02-one-foot-home.mp3",
+    "src": "/audio/02-one-foot-home.mp3?v=20261020-fix1",
     "duration": 433,
     "number": 2
   },
@@ -93,7 +93,7 @@ const formatDuration = (seconds) => `${Math.floor(seconds / 60)}:${String(second
 </main>
 <script is:inline>
 (() => {
-const tracks = [{"title":"Minutes of Love","src":"/audio/01-minutes-of-love.mp3","duration":404},{"title":"One Foot Home","src":"/audio/02-one-foot-home.mp3","duration":433},{"title":"The Broadacres Rag (Traumatic Character Limit Mix)","src":"/audio/03-the-broadacres-rag-traumatic-character-limit-mix.mp3","duration":335},{"title":"The Fire Never Died","src":"/audio/04-the-fire-never-died.mp3","duration":328},{"title":"Never Been This Old","src":"/audio/05-never-been-this-old.mp3","duration":314},{"title":"Flight of the Queen Bee","src":"/audio/06-flight-of-the-queen-bee.mp3","duration":322},{"title":"Prison Break","src":"/audio/07-prison-break.mp3","duration":432},{"title":"Swiped Right","src":"/audio/08-swiped-right.mp3","duration":312},{"title":"Minutes of Love (feat. Grubby)","src":"/audio/09-minutes-of-love-feat-grubby.mp3","duration":389},{"title":"The Last Ride","src":"/audio/10-the-last-ride.mp3","duration":314},{"title":"The Broadacres Rag","src":"/audio/11-the-broadacres-rag.mp3","duration":365},{"title":"What Truth Requires","src":"/audio/12-what-truth-requires.mp3","duration":360}];
+const tracks = [{"title":"Minutes of Love","src":"/audio/01-minutes-of-love.mp3","duration":404},{"title":"One Foot Home","src":"/audio/02-one-foot-home.mp3?v=20261020-fix1","duration":433},{"title":"The Broadacres Rag (Traumatic Character Limit Mix)","src":"/audio/03-the-broadacres-rag-traumatic-character-limit-mix.mp3","duration":335},{"title":"The Fire Never Died","src":"/audio/04-the-fire-never-died.mp3","duration":328},{"title":"Never Been This Old","src":"/audio/05-never-been-this-old.mp3","duration":314},{"title":"Flight of the Queen Bee","src":"/audio/06-flight-of-the-queen-bee.mp3","duration":322},{"title":"Prison Break","src":"/audio/07-prison-break.mp3","duration":432},{"title":"Swiped Right","src":"/audio/08-swiped-right.mp3","duration":312},{"title":"Minutes of Love (feat. Grubby)","src":"/audio/09-minutes-of-love-feat-grubby.mp3","duration":389},{"title":"The Last Ride","src":"/audio/10-the-last-ride.mp3","duration":314},{"title":"The Broadacres Rag","src":"/audio/11-the-broadacres-rag.mp3","duration":365},{"title":"What Truth Requires","src":"/audio/12-what-truth-requires.mp3","duration":360}];
 const audio = document.getElementById('music-audio');
 const title = document.getElementById('now-title');
 const toggle = document.getElementById('music-toggle');
@@ -106,10 +106,16 @@ const volume = document.getElementById('music-volume');
 const status = document.getElementById('music-status');
 const buttons = [...document.querySelectorAll('[data-track-index]')];
 let index = 0;
+let activeBlobUrl = null;
+let playbackRequest = 0;
+let fallbackAttempted = false;
 const clock = seconds => Number.isFinite(seconds) ? `${Math.floor(seconds/60)}:${String(Math.floor(seconds%60)).padStart(2,'0')}` : '0:00';
 function select(i, autoplay = true) {
  index = (i + tracks.length) % tracks.length;
  const track = tracks[index];
+ playbackRequest++;
+ fallbackAttempted = false;
+ if (activeBlobUrl) { URL.revokeObjectURL(activeBlobUrl); activeBlobUrl = null; }
  audio.src = track.src;
  title.textContent = track.title;
  elapsed.textContent = '0:00';
@@ -120,14 +126,47 @@ function select(i, autoplay = true) {
  if (autoplay) play();
  else toggle.textContent = '▶';
 }
-async function play(){try{await audio.play();toggle.textContent='Ⅱ';toggle.setAttribute('aria-label','Pause');status.textContent='';}catch{status.textContent='Unable to play this track. Check that its audio file has been uploaded.';toggle.textContent='▶';}}
+async function tryDirectDownloadFallback() {
+ if (index !== 1 || fallbackAttempted) return false;
+ fallbackAttempted = true;
+ const request = playbackRequest;
+ status.textContent = 'Trying an alternate audio loading method…';
+ try {
+  // Fetch without an audio element's Range header; reject HTML fallbacks.
+  const response = await fetch('/audio/02-one-foot-home.mp3?download=1&v=20261020-fix1', {cache:'no-store'});
+  if (!response.ok) throw new Error('HTTP ' + response.status);
+  const type = response.headers.get('content-type') || '';
+  if (type.includes('text/html')) throw new Error('Server returned HTML instead of audio');
+  const blob = await response.blob();
+  if (request !== playbackRequest || index !== 1) return true;
+  if (blob.size < 100000 || (blob.type && blob.type.includes('text/html'))) throw new Error('Invalid audio response');
+  activeBlobUrl = URL.createObjectURL(new Blob([blob], {type:'audio/mpeg'}));
+  audio.src = activeBlobUrl;
+  await audio.play();
+  status.textContent = '';
+  return true;
+ } catch (error) {
+  if (request === playbackRequest && index === 1) status.textContent = 'One Foot Home could not load: ' + error.message;
+  return false;
+ }
+}
+async function play(){
+ const request = playbackRequest;
+ try { await audio.play(); if(request !== playbackRequest)return; toggle.textContent='Ⅱ';toggle.setAttribute('aria-label','Pause');status.textContent=''; }
+ catch(error){
+  if(request !== playbackRequest)return;
+  if (await tryDirectDownloadFallback()) return;
+  if (!status.textContent || !status.textContent.startsWith('One Foot Home')) status.textContent='Playback failed: ' + (error?.message || 'Unknown browser error');
+  toggle.textContent='▶';
+ }
+}
 toggle.addEventListener('click',()=>{if(audio.paused)play();else audio.pause();});
 audio.addEventListener('pause',()=>{toggle.textContent='▶';toggle.setAttribute('aria-label','Play');});
 audio.addEventListener('play',()=>{toggle.textContent='Ⅱ';toggle.setAttribute('aria-label','Pause');});
 audio.addEventListener('timeupdate',()=>{elapsed.textContent=clock(audio.currentTime);if(audio.duration)seek.value=String(Math.round(audio.currentTime/audio.duration*1000));});
 audio.addEventListener('loadedmetadata',()=>{total.textContent=clock(audio.duration);});
 audio.addEventListener('ended',()=>select(index+1));
-audio.addEventListener('error',()=>{status.textContent='Audio unavailable for this track. The recording may not be uploaded yet.';});
+audio.addEventListener('error',()=>{if (index !== 1 || fallbackAttempted) status.textContent='Audio could not be decoded or delivered. Try again.';});
 seek.addEventListener('input',()=>{if(audio.duration)audio.currentTime=Number(seek.value)/1000*audio.duration;});
 volume.addEventListener('input',()=>audio.volume=Number(volume.value)/100);
 prev.addEventListener('click',()=>select(index-1));
