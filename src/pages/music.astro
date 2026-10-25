@@ -86,6 +86,10 @@ const formatDuration = (seconds) => `${Math.floor(seconds / 60)}:${String(second
 <audio id="music-audio" preload="metadata"></audio>
 <div class="music-controls"><button type="button" id="music-prev" aria-label="Previous track">⏮</button><button type="button" id="music-toggle" aria-label="Play" class="music-play">▶</button><button type="button" id="music-next" aria-label="Next track">⏭</button><div class="music-timeline"><span id="music-elapsed">0:00</span><input id="music-seek" type="range" min="0" max="1000" value="0" aria-label="Seek through track"/><span id="music-total">6:44</span></div><label class="music-volume">Volume <input id="music-volume" type="range" min="0" max="100" value="85" aria-label="Volume"/></label></div>
 <p class="music-status" id="music-status" role="status" aria-live="polite"></p>
+<section class="lyrics" aria-label="Song lyrics">
+<div class="lyrics-head"><div><div class="kicker">Words behind the music</div><h4>Lyrics</h4></div><button type="button" id="lyrics-toggle" aria-controls="lyrics-panel" aria-expanded="false">Show lyrics</button></div>
+<div id="lyrics-panel" hidden><div class="lyrics-tools"><span id="lyrics-title"></span><div><button id="lyrics-auto" type="button" disabled aria-pressed="false">Auto-scroll</button><button id="lyrics-minus" type="button" aria-label="Decrease lyrics size">A−</button><button id="lyrics-plus" type="button" aria-label="Increase lyrics size">A+</button></div></div>
+<div id="lyrics-scroll" tabindex="0" role="region" aria-label="Scrollable lyrics"><div id="lyrics-content">Lyrics are being prepared for this track.</div></div><p class="lyrics-note" id="lyrics-note">Full lyrics and synchronization will be added track by track.</p></div></section>
 </div>
 <ol class="music-tracklist" aria-label="Track list">{tracks.map((track,index) => <li><button type="button" class:list={['music-track',{'is-active':index===0}]} data-track-index={index} aria-label={`Play ${track.title}`}><span class="music-track-number">{String(track.number).padStart(2,'0')}</span><span class="music-track-title">{track.title}</span><span class="music-track-duration">{formatDuration(track.duration)}</span><span class="music-track-action" aria-hidden="true">▶</span></button></li>)}</ol>
 <p class="music-credit">All tracks presented in the artist's chosen sequence, independent of embedded MP3 track metadata. Artist: Brian “Bugsy” McRae.</p>
@@ -106,6 +110,32 @@ const volume = document.getElementById('music-volume');
 const status = document.getElementById('music-status');
 const buttons = [...document.querySelectorAll('[data-track-index]')];
 let index = 0;
+const lyricToggle=document.getElementById('lyrics-toggle'),lyricPanel=document.getElementById('lyrics-panel'),lyricContent=document.getElementById('lyrics-content'),lyricScroll=document.getElementById('lyrics-scroll'),lyricTitle=document.getElementById('lyrics-title'),lyricAuto=document.getElementById('lyrics-auto'),lyricNote=document.getElementById('lyrics-note');
+const lyricNames=['minutes-of-love','one-foot-home','the-broadacres-rag-traumatic-character-limit-mix','the-fire-never-died','never-been-this-old','flight-of-the-queen-bee','prison-break','swiped-right','minutes-of-love-feat-grubby','the-last-ride','the-broadacres-rag','what-truth-requires'];
+let lyricCues=[],lyricSync=false,lyricRequest=0,lyricFont=1.15;
+lyricToggle.addEventListener('click',()=>{lyricPanel.hidden=!lyricPanel.hidden;lyricToggle.textContent=lyricPanel.hidden?'Show lyrics':'Hide lyrics';lyricToggle.setAttribute('aria-expanded',String(!lyricPanel.hidden));});
+lyricAuto.addEventListener('click',()=>{lyricSync=!lyricSync;lyricAuto.setAttribute('aria-pressed',String(lyricSync));syncLyrics();});
+lyricScroll.addEventListener('wheel',()=>{lyricSync=false;lyricAuto.setAttribute('aria-pressed','false');},{passive:true});
+for(const [name,step] of [['lyrics-minus',-.1],['lyrics-plus',.1]])document.getElementById(name).addEventListener('click',()=>{lyricFont=Math.max(.9,Math.min(1.8,lyricFont+step));lyricScroll.style.fontSize=lyricFont+'rem';});
+async function loadLyrics(i){
+ const req=++lyricRequest;lyricCues=[];lyricSync=false;lyricAuto.disabled=true;lyricAuto.setAttribute('aria-pressed','false');
+ lyricTitle.textContent=tracks[i].title;lyricContent.textContent='Lyrics are being prepared for this track.';lyricNote.textContent='Full lyrics and synchronization will be added track by track.';lyricScroll.scrollTop=0;
+ try{
+  const response=await fetch('/lyrics/'+lyricNames[i]+'.json');if(!response.ok)return;
+  const data=await response.json();if(req!==lyricRequest||!Array.isArray(data.lines))return;
+  const cues=data.lines.map(x=>typeof x==='string'?{text:x}:x).filter(x=>x&&typeof x.text==='string');if(!cues.length)return;
+  lyricCues=cues;lyricContent.replaceChildren();
+  cues.forEach(cue=>{const p=document.createElement('p');p.className='lyrics-line';p.textContent=cue.text;lyricContent.appendChild(p);});
+  const timed=cues.every(x=>typeof x.time==='number'&&Number.isFinite(x.time));lyricAuto.disabled=!timed;
+  lyricNote.textContent=timed?'Enable Auto-scroll for timed highlighting, or read at your own pace.':'Scroll manually; timed highlighting will follow when available.';
+ }catch(e){/* A missing lyrics file is an expected state. */}
+}
+function syncLyrics(){
+ if(!lyricSync||lyricPanel.hidden||lyricAuto.disabled)return;
+ let current=-1;lyricCues.forEach((cue,i)=>{if(audio.currentTime>=cue.time)current=i;});
+ [...lyricContent.children].forEach((line,i)=>line.classList.toggle('is-current',i===current));
+ if(current>=0){const line=lyricContent.children[current];lyricScroll.scrollTop=line.offsetTop-lyricScroll.offsetTop-lyricScroll.clientHeight/2+line.clientHeight/2;}
+}
 let activeBlobUrl = null;
 let playbackRequest = 0;
 let fallbackAttempted = false;
@@ -118,6 +148,7 @@ function select(i, autoplay = true) {
  if (activeBlobUrl) { URL.revokeObjectURL(activeBlobUrl); activeBlobUrl = null; }
  audio.src = track.src;
  title.textContent = track.title;
+ loadLyrics(index);
  elapsed.textContent = '0:00';
  total.textContent = clock(track.duration);
  seek.value = '0';
@@ -163,7 +194,7 @@ async function play(){
 toggle.addEventListener('click',()=>{if(audio.paused)play();else audio.pause();});
 audio.addEventListener('pause',()=>{toggle.textContent='▶';toggle.setAttribute('aria-label','Play');});
 audio.addEventListener('play',()=>{toggle.textContent='Ⅱ';toggle.setAttribute('aria-label','Pause');});
-audio.addEventListener('timeupdate',()=>{elapsed.textContent=clock(audio.currentTime);if(audio.duration)seek.value=String(Math.round(audio.currentTime/audio.duration*1000));});
+audio.addEventListener('timeupdate',()=>{elapsed.textContent=clock(audio.currentTime);if(audio.duration)seek.value=String(Math.round(audio.currentTime/audio.duration*1000));syncLyrics();});
 audio.addEventListener('loadedmetadata',()=>{total.textContent=clock(audio.duration);});
 audio.addEventListener('ended',()=>select(index+1));
 audio.addEventListener('error',()=>{if (index !== 1 || fallbackAttempted) status.textContent='Audio could not be decoded or delivered. Try again.';});
