@@ -1,0 +1,14 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const projects=[
+{name:'Backdraft Upcraft',type:'An evolving creative project',description:'A project with its own voice, direction, and future home. Selected work and previews will find their way here as it develops.',status:'In development',style:'forge'},
+{name:'Common Authority',type:'Civic responsibility',description:'An exploration of responsible citizenship, accountable institutions, and meaningful self-government.',status:'In development',style:'civic'},
+{name:'Feed the Puppet',type:'Spiritual exploration & sacred satire',description:'Meditation, conscious living, irreverent storytelling, and a growing realm of characters whose relationship with conventional wisdom is strained.',status:'The realm is growing',style:'puppet'}
+];
+---
+<BaseLayout title="Other Projects" description="Other worlds and creative projects from Brian Reymore's workshop.">
+<main><header class="editorial-hero editorial-hero--projects"><div class="kicker">From the workshop</div><h1>Other Projects</h1><p>Other worlds. Same curious bastard.</p></header>
+<section class="container projects-room"><div class="projects-intro"><div class="kicker">Ideas that refused to stay put</div><h2>More than one way to make something matter.</h2><p>Some ideas become essays. Others become songs. And some insist on becoming entire projects of their own. Here's what's growing in the workshop.</p></div>
+<div class="projects-grid">{projects.map(project=><article class:list={['project-card', 'project-card--'+project.style]}><div class="project-card__visual" aria-hidden="true"></div><div class="project-card__body"><div class="kicker">{project.type}</div><h3>{project.name}</h3><p>{project.description}</p><span class="project-card__status">{project.status}</span></div></article>)}</div>
+<p class="projects-outro">A living collection. As these projects develop, this page will grow into previews, selected work, and links to their own homes.</p></section></main>
+</BaseLayout>
