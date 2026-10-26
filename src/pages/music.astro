@@ -38,49 +38,55 @@ const tracks = [
     "number": 6
   },
   {
-    "title": "Prison Break",
-    "src": "/audio/07-prison-break.mp3",
-    "duration": 432,
+    "title": "You Radiate Love",
+    "src": "/audio/07-you-radiate-love.mp3",
+    "duration": 408,
     "number": 7
   },
   {
-    "title": "Swiped Right",
-    "src": "/audio/08-swiped-right.mp3",
-    "duration": 312,
+    "title": "Prison Break",
+    "src": "/audio/08-prison-break.mp3",
+    "duration": 432,
     "number": 8
   },
   {
-    "title": "Minutes of Love (feat. Grubby)",
-    "src": "/audio/09-minutes-of-love-feat-grubby.mp3",
-    "duration": 389,
+    "title": "Swiped Right",
+    "src": "/audio/09-swiped-right.mp3",
+    "duration": 312,
     "number": 9
   },
   {
-    "title": "The Last Ride",
-    "src": "/audio/10-the-last-ride.mp3",
-    "duration": 314,
+    "title": "Minutes of Love (feat. Grubby)",
+    "src": "/audio/10-minutes-of-love-feat-grubby.mp3",
+    "duration": 389,
     "number": 10
   },
   {
-    "title": "The Broadacres Rag",
-    "src": "/audio/11-the-broadacres-rag.mp3",
-    "duration": 365,
+    "title": "The Last Ride",
+    "src": "/audio/11-the-last-ride.mp3",
+    "duration": 314,
     "number": 11
   },
   {
-    "title": "What Truth Requires",
-    "src": "/audio/12-what-truth-requires.mp3",
-    "duration": 360,
+    "title": "The Broadacres Rag",
+    "src": "/audio/12-the-broadacres-rag.mp3",
+    "duration": 365,
     "number": 12
+  },
+  {
+    "title": "What Truth Requires",
+    "src": "/audio/13-what-truth-requires.mp3",
+    "duration": 360,
+    "number": 13
   }
 ];
 const formatDuration = (seconds) => `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`;
 ---
-<BaseLayout title="Music" description="Listen to twelve original songs by Brian “Bugsy” McRae.">
+<BaseLayout title="Music" description="Listen to thirteen original songs by Brian “Bugsy” McRae.">
 <main>
 <header class="editorial-hero editorial-hero--music"><div class="kicker">Brian “Bugsy” McRae</div><h1>Music</h1><p>Some things are better sung than explained.</p></header>
 <section class="container music-room" aria-label="Bugsy McRae listening room">
-<div class="music-room-heading"><div><div class="kicker">The listening room</div><h2>Bugsy McRae</h2><p>Twelve songs. One road, a thousand stories.</p></div><div class="music-count">12 TRACKS · ORIGINAL RECORDINGS</div></div>
+<div class="music-room-heading"><div><div class="kicker">The listening room</div><h2>Bugsy McRae</h2><p>Thirteen songs. One road, a thousand stories.</p></div><div class="music-count">13 TRACKS · ORIGINAL RECORDINGS</div></div>
 <div class="music-player" data-music-player>
 <div class="music-now"><div class="music-art" aria-hidden="true">BM</div><div class="music-current"><div class="kicker">Now playing</div><h3 id="now-title">Minutes of Love</h3><p>Bugsy McRae</p></div></div>
 <audio id="music-audio" preload="metadata"></audio>
@@ -97,7 +103,7 @@ const formatDuration = (seconds) => `${Math.floor(seconds / 60)}:${String(second
 </main>
 <script is:inline>
 (() => {
-const tracks = [{"title":"Minutes of Love","src":"/audio/01-minutes-of-love.mp3","duration":404},{"title":"One Foot Home","src":"/audio/02-one-foot-home.mp3?v=20261020-fix1","duration":433},{"title":"The Broadacres Rag (Traumatic Character Limit Mix)","src":"/audio/03-the-broadacres-rag-traumatic-character-limit-mix.mp3","duration":335},{"title":"The Fire Never Died","src":"/audio/04-the-fire-never-died.mp3","duration":328},{"title":"Never Been This Old","src":"/audio/05-never-been-this-old.mp3","duration":314},{"title":"Flight of the Queen Bee","src":"/audio/06-flight-of-the-queen-bee.mp3","duration":322},{"title":"Prison Break","src":"/audio/07-prison-break.mp3","duration":432},{"title":"Swiped Right","src":"/audio/08-swiped-right.mp3","duration":312},{"title":"Minutes of Love (feat. Grubby)","src":"/audio/09-minutes-of-love-feat-grubby.mp3","duration":389},{"title":"The Last Ride","src":"/audio/10-the-last-ride.mp3","duration":314},{"title":"The Broadacres Rag","src":"/audio/11-the-broadacres-rag.mp3","duration":365},{"title":"What Truth Requires","src":"/audio/12-what-truth-requires.mp3","duration":360}];
+const tracks = [{"title":"Minutes of Love","src":"/audio/01-minutes-of-love.mp3","duration":404},{"title":"One Foot Home","src":"/audio/02-one-foot-home.mp3?v=20261020-fix1","duration":433},{"title":"The Broadacres Rag (Traumatic Character Limit Mix)","src":"/audio/03-the-broadacres-rag-traumatic-character-limit-mix.mp3","duration":335},{"title":"The Fire Never Died","src":"/audio/04-the-fire-never-died.mp3","duration":328},{"title":"Never Been This Old","src":"/audio/05-never-been-this-old.mp3","duration":314},{"title":"Flight of the Queen Bee","src":"/audio/06-flight-of-the-queen-bee.mp3","duration":322},{"title":"You Radiate Love","src":"/audio/07-you-radiate-love.mp3","duration":408},{"title":"Prison Break","src":"/audio/08-prison-break.mp3","duration":432},{"title":"Swiped Right","src":"/audio/09-swiped-right.mp3","duration":312},{"title":"Minutes of Love (feat. Grubby)","src":"/audio/10-minutes-of-love-feat-grubby.mp3","duration":389},{"title":"The Last Ride","src":"/audio/11-the-last-ride.mp3","duration":314},{"title":"The Broadacres Rag","src":"/audio/12-the-broadacres-rag.mp3","duration":365},{"title":"What Truth Requires","src":"/audio/13-what-truth-requires.mp3","duration":360}];
 const audio = document.getElementById('music-audio');
 const title = document.getElementById('now-title');
 const toggle = document.getElementById('music-toggle');
