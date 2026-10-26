@@ -117,7 +117,7 @@ const status = document.getElementById('music-status');
 const buttons = [...document.querySelectorAll('[data-track-index]')];
 let index = 0;
 const lyricToggle=document.getElementById('lyrics-toggle'),lyricPanel=document.getElementById('lyrics-panel'),lyricContent=document.getElementById('lyrics-content'),lyricScroll=document.getElementById('lyrics-scroll'),lyricTitle=document.getElementById('lyrics-title'),lyricAuto=document.getElementById('lyrics-auto'),lyricNote=document.getElementById('lyrics-note');
-const lyricNames=['minutes-of-love','one-foot-home','the-broadacres-rag-traumatic-character-limit-mix','the-fire-never-died','never-been-this-old','flight-of-the-queen-bee','prison-break','swiped-right','minutes-of-love-feat-grubby','the-last-ride','the-broadacres-rag','what-truth-requires'];
+const lyricNames=['minutes-of-love','one-foot-home','the-broadacres-rag-traumatic-character-limit-mix','the-fire-never-died','never-been-this-old','flight-of-the-queen-bee','you-radiate-love','prison-break','swiped-right','minutes-of-love-feat-grubby','the-last-ride','the-broadacres-rag','what-truth-requires'];
 let lyricCues=[],lyricSync=false,lyricRequest=0,lyricFont=1.15;
 lyricToggle.addEventListener('click',()=>{lyricPanel.hidden=!lyricPanel.hidden;lyricToggle.textContent=lyricPanel.hidden?'Show lyrics':'Hide lyrics';lyricToggle.setAttribute('aria-expanded',String(!lyricPanel.hidden));});
 lyricAuto.addEventListener('click',()=>{lyricSync=!lyricSync;lyricAuto.setAttribute('aria-pressed',String(lyricSync));syncLyrics();});
