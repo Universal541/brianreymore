@@ -1,103 +1,386 @@
 {
+  "title": "Flight of the Queen Bee",
   "lines": [
-    "[Instrumental Intro — teasing fiddle begins a frantic chromatic bumblebee run; harmonica answers; banjo and dobro interrupt; escalating four-way chase; hard stop]",
-    "[Verse 1 — stomping acoustic groove, dry amused baritone]",
-    "She don’t ask—she announces",
-    "What the rest of us will do",
-    "Drops a royal little “You should”",
-    "Like the thought belonged to you",
-    "And if the kingdom doesn’t answer",
-    "On the first obedient ring",
-    "She can fill a room with winter",
-    "Without saying anything",
-    "[Pre-Chorus — instruments begin buzzing underneath]",
-    "I was raised beneath that weather",
-    "I could read it by degrees",
-    "Knew exactly when to surrender",
-    "To preserve Her Majesty’s peace",
-    "[Chorus — full band, swaggering]",
-    "Here comes the flight of the queen bee",
-    "Crown cutting into the wind",
-    "One little sigh and the old damn hive",
-    "Goes marching out again",
-    "But I don’t run on royal time now",
-    "I don’t kneel and I don’t flee",
-    "She can circle till the sun goes down—",
-    "Her kingdom ends where I begin",
-    "[Instrumental Chase — fiddle states the frantic classical figure; banjo challenges; harmonica mocks; dobro answers low; all four collide]",
-    "[Verse 2 — groove returns heavier]",
-    "She can make a favor sound like",
-    "Something you already owe",
-    "Turn “I need” into a summons",
-    "Then act wounded when you don’t",
-    "Every kindness has a memory",
-    "Every sacrifice, a frame",
-    "She’ll hang herself above the mantel",
-    "Then let you supply the nails",
-    "But I know that little pageant",
-    "I’ve played every part before",
-    "The villain, fool and rescue crew",
-    "All entering through one door",
-    "Now I leave the crown to glitter",
-    "And the curtain where it falls",
-    "I’ve got better things to carry",
-    "Than the weight of it all",
-    "[Chorus — harder, instrumental stings between lines]",
-    "Here comes the flight of the queen bee",
-    "Crown cutting into the wind",
-    "One little sigh and the old damn hive",
-    "Goes marching out again",
-    "But I don’t run on royal time now",
-    "I don’t kneel and I don’t flee",
-    "She can circle till the sun goes down—",
-    "Her kingdom ends where I begin",
-    "[Verse 3 — confident, no self-pity]",
-    "I’ll still lift what she can’t carry",
-    "Still show up when we agree",
-    "I can give without surrender",
-    "I can love and still be free",
-    "She may never call it asking",
-    "I may never hear her say",
-    "“I know your time belongs to you, son”—",
-    "Hell, we all need dreams someday",
-    "I spent years mistaking tension",
-    "For the price of being good",
-    "Thought a man proved that he loved you",
-    "By abandoning what he should",
-    "Now her sorrow is her weather",
-    "And my answer can be no",
-    "I don’t have to curse the thunder",
-    "I just don’t have to go",
-    "[Breakdown — nearly bare; boot stomp, dobro, close baritone]",
-    "Let the phone ring.",
-    "Let the sad face glow.",
-    "Let the silence put on sackcloth",
-    "For the tragedy of “no.”",
-    "No trial.",
-    "No defense.",
-    "No closing argument from me.",
-    "I’ve got work beneath my own two hands.",
-    "I’ve got somewhere else to be.",
-    "[Instrumental Build — banjo and dobro duel; fiddle and harmonica pile in; drums rise]",
-    "[Final Chorus — explosive but rootsy]",
-    "There goes the flight of the queen bee",
-    "Crown shaking in the wind",
-    "One little sigh—but this old worker",
-    "Ain’t marching out again",
-    "I don’t run on royal time now",
-    "I don’t kneel and I don’t flee",
-    "She can circle till the sun goes down—",
-    "Her kingdom ends where I begin",
-    "[Four-instrument swarm — furious fiddle, harmonica, banjo and dobro; sudden half-time stop]",
-    "I thought the flight belonged to her—",
-    "All that buzzing majesty",
-    "[Dead stop]",
-    "Turns out the one who found his wings",
-    "Was me",
-    "[Outro — warm, grounded; sparse acoustic and dobro]",
-    "I can love her.",
-    "Let her be.",
-    "And own the life that belongs to me.",
-    "[Final instrumental sting — one impossibly fast shared run; hard stop]"
+    {
+      "text": "[Instrumental Intro — teasing fiddle begins a frantic chromatic bumblebee run; harmonica answers; banjo and dobro interrupt; escalating four-way chase; hard stop]"
+    },
+    {
+      "text": "[Verse 1 — stomping acoustic groove, dry amused baritone]"
+    },
+    {
+      "text": "She don’t ask—she announces",
+      "time": 31.7
+    },
+    {
+      "text": "What the rest of us will do",
+      "time": 34.44
+    },
+    {
+      "text": "Drops a royal little “You should”",
+      "time": 37.53
+    },
+    {
+      "text": "Like the thought belonged to you",
+      "time": 40.59
+    },
+    {
+      "text": "And if the kingdom doesn’t answer",
+      "time": 43.64
+    },
+    {
+      "text": "On the first obedient ring",
+      "time": 46.67
+    },
+    {
+      "text": "She can fill a room with winter",
+      "time": 49.74
+    },
+    {
+      "text": "Without saying anything",
+      "time": 52.41
+    },
+    {
+      "text": "[Pre-Chorus — instruments begin buzzing underneath]"
+    },
+    {
+      "text": "I was raised beneath that weather",
+      "time": 55.7
+    },
+    {
+      "text": "I could read it by degrees",
+      "time": 59.03
+    },
+    {
+      "text": "Knew exactly when to surrender",
+      "time": 62.15
+    },
+    {
+      "text": "To preserve Her Majesty’s peace",
+      "time": 65.22
+    },
+    {
+      "text": "[Chorus — full band, swaggering]"
+    },
+    {
+      "text": "Here comes the flight of the queen bee",
+      "time": 67.98
+    },
+    {
+      "text": "Crown cutting into the wind",
+      "time": 71.16
+    },
+    {
+      "text": "One little sigh and the old damn hive",
+      "time": 74.14
+    },
+    {
+      "text": "Goes marching out again",
+      "time": 76.92
+    },
+    {
+      "text": "But I don’t run on royal time now",
+      "time": 80.14
+    },
+    {
+      "text": "I don’t kneel and I don’t flee",
+      "time": 83.52
+    },
+    {
+      "text": "She can circle till the sun goes down—",
+      "time": 86.59
+    },
+    {
+      "text": "Her kingdom ends where I begin",
+      "time": 90.52
+    },
+    {
+      "text": "[Instrumental Chase — fiddle states the frantic classical figure; banjo challenges; harmonica mocks; dobro answers low; all four collide]"
+    },
+    {
+      "text": "[Verse 2 — groove returns heavier]"
+    },
+    {
+      "text": "She can make a favor sound like",
+      "time": 119.42
+    },
+    {
+      "text": "Something you already owe",
+      "time": 121.22
+    },
+    {
+      "text": "Turn “I need” into a summons",
+      "time": 122.67
+    },
+    {
+      "text": "Then act wounded when you don’t",
+      "time": 124.21
+    },
+    {
+      "text": "Every kindness has a memory",
+      "time": 125.72
+    },
+    {
+      "text": "Every sacrifice, a frame",
+      "time": 127.18
+    },
+    {
+      "text": "She’ll hang herself above the mantel",
+      "time": 128.8
+    },
+    {
+      "text": "Then let you supply the nails",
+      "time": 130.61
+    },
+    {
+      "text": "But I know that little pageant",
+      "time": 131.92
+    },
+    {
+      "text": "I’ve played every part before",
+      "time": 133.58
+    },
+    {
+      "text": "The villain, fool and rescue crew",
+      "time": 135.06
+    },
+    {
+      "text": "All entering through one door",
+      "time": 136.59
+    },
+    {
+      "text": "Now I leave the crown to glitter",
+      "time": 138.31
+    },
+    {
+      "text": "And the curtain where it falls",
+      "time": 139.89
+    },
+    {
+      "text": "I’ve got better things to carry",
+      "time": 141.52
+    },
+    {
+      "text": "Than the weight of it all",
+      "time": 143.31
+    },
+    {
+      "text": "[Chorus — harder, instrumental stings between lines]"
+    },
+    {
+      "text": "Here comes the flight of the queen bee",
+      "time": 146.02
+    },
+    {
+      "text": "Crown cutting into the wind",
+      "time": 149.17
+    },
+    {
+      "text": "One little sigh and the old damn hive",
+      "time": 152.26
+    },
+    {
+      "text": "Goes marching out again",
+      "time": 155.08
+    },
+    {
+      "text": "But I don’t run on royal time now",
+      "time": 157.9
+    },
+    {
+      "text": "I don’t kneel and I don’t flee",
+      "time": 161.68
+    },
+    {
+      "text": "She can circle till the sun goes down—",
+      "time": 164.88
+    },
+    {
+      "text": "Her kingdom ends where I begin",
+      "time": 168.87
+    },
+    {
+      "text": "[Verse 3 — confident, no self-pity]"
+    },
+    {
+      "text": "I’ll still lift what she can’t carry",
+      "time": 173.01
+    },
+    {
+      "text": "Still show up when we agree",
+      "time": 175.91
+    },
+    {
+      "text": "I can give without surrender",
+      "time": 179.02
+    },
+    {
+      "text": "I can love and still be free",
+      "time": 182.41
+    },
+    {
+      "text": "She may never call it asking",
+      "time": 185.52
+    },
+    {
+      "text": "I may never hear her say",
+      "time": 188.75
+    },
+    {
+      "text": "“I know your time belongs to you, son”—",
+      "time": 191.92
+    },
+    {
+      "text": "Hell, we all need dreams someday",
+      "time": 194.62
+    },
+    {
+      "text": "I spent years mistaking tension",
+      "time": 198.67
+    },
+    {
+      "text": "For the price of being good",
+      "time": 200.23
+    },
+    {
+      "text": "Thought a man proved that he loved you",
+      "time": 201.8
+    },
+    {
+      "text": "By abandoning what he should",
+      "time": 203.57
+    },
+    {
+      "text": "Now her sorrow is her weather",
+      "time": 205.12
+    },
+    {
+      "text": "And my answer can be no",
+      "time": 206.62
+    },
+    {
+      "text": "I don’t have to curse the thunder",
+      "time": 208.16
+    },
+    {
+      "text": "I just don’t have to go",
+      "time": 209.95
+    },
+    {
+      "text": "[Breakdown — nearly bare; boot stomp, dobro, close baritone]"
+    },
+    {
+      "text": "Let the phone ring.",
+      "time": 211.49
+    },
+    {
+      "text": "Let the sad face glow.",
+      "time": 213.2
+    },
+    {
+      "text": "Let the silence put on sackcloth",
+      "time": 214.79
+    },
+    {
+      "text": "For the tragedy of “no.”",
+      "time": 216.57
+    },
+    {
+      "text": "No trial.",
+      "time": 217.95
+    },
+    {
+      "text": "No defense.",
+      "time": 218.76
+    },
+    {
+      "text": "No closing argument from me.",
+      "time": 219.51
+    },
+    {
+      "text": "I’ve got work beneath my own two hands.",
+      "time": 221.15
+    },
+    {
+      "text": "I’ve got somewhere else to be.",
+      "time": 224.18
+    },
+    {
+      "text": "[Instrumental Build — banjo and dobro duel; fiddle and harmonica pile in; drums rise]"
+    },
+    {
+      "text": "[Final Chorus — explosive but rootsy]"
+    },
+    {
+      "text": "There goes the flight of the queen bee",
+      "time": 236.9
+    },
+    {
+      "text": "Crown shaking in the wind",
+      "time": 241.14
+    },
+    {
+      "text": "One little sigh—but this old worker",
+      "time": 244.09
+    },
+    {
+      "text": "Ain’t marching out again",
+      "time": 247.17
+    },
+    {
+      "text": "I don’t run on royal time now",
+      "time": 249.99
+    },
+    {
+      "text": "I don’t kneel and I don’t flee",
+      "time": 253.6
+    },
+    {
+      "text": "She can circle till the sun goes down—",
+      "time": 256.64
+    },
+    {
+      "text": "Her kingdom ends where I begin",
+      "time": 262.9
+    },
+    {
+      "text": "[Four-instrument swarm — furious fiddle, harmonica, banjo and dobro; sudden half-time stop]"
+    },
+    {
+      "text": "I thought the flight belonged to her—",
+      "time": 266.86
+    },
+    {
+      "text": "All that buzzing majesty",
+      "time": 269.92
+    },
+    {
+      "text": "[Dead stop]"
+    },
+    {
+      "text": "Turns out the one who found his wings",
+      "time": 272.79
+    },
+    {
+      "text": "Was me",
+      "time": 276.68
+    },
+    {
+      "text": "[Outro — warm, grounded; sparse acoustic and dobro]"
+    },
+    {
+      "text": "I can love her.",
+      "time": 279.75
+    },
+    {
+      "text": "Let her be.",
+      "time": 281.27
+    },
+    {
+      "text": "And own the life that belongs to me.",
+      "time": 284.53
+    },
+    {
+      "text": "[Final instrumental sting — one impossibly fast shared run; hard stop]"
+    }
   ]
 }

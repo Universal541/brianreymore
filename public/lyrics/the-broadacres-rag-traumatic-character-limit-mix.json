@@ -1,135 +1,516 @@
 {
+  "title": "The Broadacres Rag (Traumatic Character Limit Mix)",
   "lines": [
-    "[Intro — Ragtime Guitar, Upright Bass, Brushes]",
-    "Well, Momma’s hollerin’, “Get your ass outta bed!”",
-    "Rooster’s been up since half-past dead",
-    "[Verse 1]",
-    "Down on Broadacres Road where the farmland lay flat",
-    "Horses in the pasture and a half-wild cat",
-    "Eleven acres, brick house built in nineteen-oh",
-    "Concrete basement said twenty-nine down below",
-    "Barn out back and a corrugated shop",
-    "Walnuts by the bushel and apples by the crop",
-    "Cherry trees, plum trees, firs out front",
-    "And Dad had broken cars parked wherever he’d want",
-    "Two old Citroëns and a Dasher gone wrong",
-    "Scott rolled that bastard before too long",
-    "Slalomed yellow lines at eighty for fun",
-    "Which is how farm boys learn what should not be done",
-    "[Chorus]",
-    "It was the Broadacres Rag",
-    "Mud on your boots and hay in the bag",
-    "Smelled like manure when summer came",
-    "Then hops rolled in and changed the game",
-    "We had chores at dawn and hell by noon",
-    "BB guns underneath the moon",
-    "We didn’t know paradise looked like that",
-    "We were too damn busy with the Broadacres Rag",
-    "[Verse 2]",
-    "Gregorys next door were cowboy stock",
-    "Rusty and Lynn and the whole damn flock",
-    "Shawn, Justin, David, rope and ride",
-    "Could wrestle a bull and come out upright",
-    "Grampa Chuck and Margaret too",
-    "Like family even when blood wasn’t true",
-    "Across the road the Kotnikov clan",
-    "Nice folks mostly till the mothers began",
-    "Calling the cops over boys being boys",
-    "Pushing and shoving and making noise",
-    "Half the time nobody knew who swung first",
-    "But everybody knew whose mother was worse",
-    "[Verse 3]",
-    "Then there were the Meuslings, machine-shop crew",
-    "Jehovah’s Witnesses and drift boats too",
-    "Paul talked different but he thought real fast",
-    "Bright as hell and built to last",
-    "The Wolfes had Billy, Buddy and Missy in tow",
-    "If trouble had children, you already know",
-    "Buddy stole my XR80 and tack from the barn",
-    "Which put a little dent in neighborhood charm",
-    "Will ran with Buddy and partied too young",
-    "A little too much before life had begun",
-    "But mostly we never locked truck or door",
-    "Left keys in the tractor like nobody stole anymore",
-    "[Chorus]",
-    "It was the Broadacres Rag",
-    "Mud on your boots and hay in the bag",
-    "Smelled like manure when summer came",
-    "Then hops rolled in and changed the game",
-    "We had chores at dawn and hell by noon",
-    "BB guns underneath the moon",
-    "We didn’t know paradise looked like that",
-    "We were too damn busy with the Broadacres Rag",
-    "[Verse 4]",
-    "Jess Owre owned half the ground in sight",
-    "Dennis helped keep the whole thing tight",
-    "Big fields stretching nearly forever",
-    "Farm crews working through any weather",
-    "Local boys and crews from Mexico way",
-    "Oaxaca voices in the heat of day",
-    "Different homes, same dust in the lung",
-    "Same sun overhead when the harvest was young",
-    "Nacho Palacios was my first best friend",
-    "Ignacio, I learned, when we got older again",
-    "Funny how a name can grow with the years",
-    "Same kid, same grin, just different ears",
-    "[Instrumental Turn — Ragtime Guitar and Harmonica]",
-    "[Verse 5]",
-    "We had a treehouse hid behind Douglas fir",
-    "Where good ideas went to die in a blur",
-    "We threw brown pinecones at cars passing by",
-    "Then Billy grabbed green ones and let ’em fly",
-    "THUMP on a Ford and the brakes locked down",
-    "Backup lights shining like judgment had found",
-    "Some redneck climbed out with murder in mind",
-    "And six farm boys disappeared behind",
-    "Invisible rifles became plywood guns",
-    "Army all afternoon under Oregon sun",
-    "Touch football, tag, hide-and-seek",
-    "Broken basketball hoop at the Wolfes every week",
-    "Possums got hunted, mailboxes learned fear",
-    "Horse apples flew when somebody got near",
-    "We TP’d yards and hayed ’em for flair",
-    "And somehow survived the shit we did there",
-    "[Chorus — Bigger]",
-    "It was the Broadacres Rag",
-    "Mud on your boots and hay in the bag",
-    "Smelled like manure when summer came",
-    "Then hops rolled in and changed the game",
-    "We had chores at dawn and hell by noon",
-    "BB guns underneath the moon",
-    "We didn’t know paradise looked like that",
-    "We were too damn busy with the Broadacres Rag",
-    "[Verse 6]",
-    "Scott and me rode pigs, or gave it a try",
-    "Went wallowing with ’em till clean skin said goodbye",
-    "Mom hosed us down by the back porch rail",
-    "Like two muddy convicts fresh outta jail",
-    "Goats and chickens and horses and dogs",
-    "Rabbit pellets, nettles and half-rotten logs",
-    "Poison oak taught lessons nobody forgot",
-    "And every strange turd got inspected on the spot",
-    "Fretsee the cat would vanish for days",
-    "Then weeks, then months in mysterious ways",
-    "Till one day she wandered off out of sight",
-    "And never came home from whatever cat night",
-    "[Bridge — Pull Back, Softer]",
-    "Summer tasted like lemonade",
-    "Sun tea sweating in the shade",
-    "Apple pie when Grandma came",
-    "Strawberry rhubarb did the same",
-    "Grandpa Norby watched the game",
-    "Hamm’s or Rainier, always the same",
-    "Chesterfield Kings and walnuts cracked",
-    "One by one with the seasons stacked",
-    "The tavern stood where the old road bent",
-    "Store, fuel pump, local government",
-    "They said upstairs had girls for hire",
-    "Before a hundred years and one good fire",
-    "[Verse 7 — Reflective]",
-    "There were Bible camps and family days",
-    "Holidays glowing in ordinary ways",
-    "Not much snow, but somehow bright",
-    "Like childhood made its ow"
+    {
+      "text": "[Intro — Ragtime Guitar, Upright Bass, Brushes]"
+    },
+    {
+      "text": "Well, Momma’s hollerin’, “Get your ass outta bed!”",
+      "time": 3.18
+    },
+    {
+      "text": "Rooster’s been up since half-past dead",
+      "time": 7.61
+    },
+    {
+      "text": "[Verse 1]"
+    },
+    {
+      "text": "Down on Broadacres Road where the farmland lay flat",
+      "time": 22.17
+    },
+    {
+      "text": "Horses in the pasture and a half-wild cat",
+      "time": 24.72
+    },
+    {
+      "text": "Eleven acres, brick house built in nineteen-oh",
+      "time": 27.04
+    },
+    {
+      "text": "Concrete basement said twenty-nine down below",
+      "time": 29.31
+    },
+    {
+      "text": "Barn out back and a corrugated shop",
+      "time": 31.82
+    },
+    {
+      "text": "Walnuts by the bushel and apples by the crop",
+      "time": 34.2
+    },
+    {
+      "text": "Cherry trees, plum trees, firs out front",
+      "time": 36.67
+    },
+    {
+      "text": "And Dad had broken cars parked wherever he’d want",
+      "time": 39.09
+    },
+    {
+      "text": "Two old Citroëns and a Dasher gone wrong",
+      "time": 41.7
+    },
+    {
+      "text": "Scott rolled that bastard before too long",
+      "time": 43.59
+    },
+    {
+      "text": "Slalomed yellow lines at eighty for fun",
+      "time": 46.31
+    },
+    {
+      "text": "Which is how farm boys learn what should not be done",
+      "time": 48.28
+    },
+    {
+      "text": "[Chorus]"
+    },
+    {
+      "text": "It was the Broadacres Rag",
+      "time": 50.76
+    },
+    {
+      "text": "Mud on your boots and hay in the bag",
+      "time": 52.55
+    },
+    {
+      "text": "Smelled like manure when summer came",
+      "time": 55.21
+    },
+    {
+      "text": "Then hops rolled in and changed the game",
+      "time": 57.45
+    },
+    {
+      "text": "We had chores at dawn and hell by noon",
+      "time": 59.62
+    },
+    {
+      "text": "BB guns underneath the moon",
+      "time": 62.26
+    },
+    {
+      "text": "We didn’t know paradise looked like that",
+      "time": 64.53
+    },
+    {
+      "text": "We were too damn busy with the Broadacres Rag",
+      "time": 66.97
+    },
+    {
+      "text": "[Verse 2]"
+    },
+    {
+      "text": "Gregorys next door were cowboy stock",
+      "time": 72.51
+    },
+    {
+      "text": "Rusty and Lynn and the whole damn flock",
+      "time": 74.92
+    },
+    {
+      "text": "Shawn, Justin, David, rope and ride",
+      "time": 77.29
+    },
+    {
+      "text": "Could wrestle a bull and come out upright",
+      "time": 79.31
+    },
+    {
+      "text": "Grampa Chuck and Margaret too",
+      "time": 81.96
+    },
+    {
+      "text": "Like family even when blood wasn’t true",
+      "time": 84.29
+    },
+    {
+      "text": "Across the road the Kotnikov clan",
+      "time": 86.81
+    },
+    {
+      "text": "Nice folks mostly till the mothers began",
+      "time": 89.07
+    },
+    {
+      "text": "Calling the cops over boys being boys",
+      "time": 91.37
+    },
+    {
+      "text": "Pushing and shoving and making noise",
+      "time": 94.02
+    },
+    {
+      "text": "Half the time nobody knew who swung first",
+      "time": 96.37
+    },
+    {
+      "text": "But everybody knew whose mother was worse",
+      "time": 98.5
+    },
+    {
+      "text": "[Verse 3]"
+    },
+    {
+      "text": "Then there were the Meuslings, machine-shop crew",
+      "time": 101.33
+    },
+    {
+      "text": "Jehovah’s Witnesses and drift boats too",
+      "time": 103.49
+    },
+    {
+      "text": "Paul talked different but he thought real fast",
+      "time": 105.9
+    },
+    {
+      "text": "Bright as hell and built to last",
+      "time": 108.32
+    },
+    {
+      "text": "The Wolfes had Billy, Buddy and Missy in tow",
+      "time": 110.4
+    },
+    {
+      "text": "If trouble had children, you already know",
+      "time": 112.68
+    },
+    {
+      "text": "Buddy stole my XR80 and tack from the barn",
+      "time": 115.22
+    },
+    {
+      "text": "Which put a little dent in neighborhood charm",
+      "time": 117.62
+    },
+    {
+      "text": "Will ran with Buddy and partied too young",
+      "time": 119.99
+    },
+    {
+      "text": "A little too much before life had begun",
+      "time": 122.35
+    },
+    {
+      "text": "But mostly we never locked truck or door",
+      "time": 124.86
+    },
+    {
+      "text": "Left keys in the tractor like nobody stole anymore",
+      "time": 127.29
+    },
+    {
+      "text": "[Chorus]"
+    },
+    {
+      "text": "It was the Broadacres Rag",
+      "time": 130.91
+    },
+    {
+      "text": "Mud on your boots and hay in the bag",
+      "time": 132.77
+    },
+    {
+      "text": "Smelled like manure when summer came",
+      "time": 135.1
+    },
+    {
+      "text": "Then hops rolled in and changed the game",
+      "time": 137.4
+    },
+    {
+      "text": "We had chores at dawn and hell by noon",
+      "time": 139.66
+    },
+    {
+      "text": "BB guns underneath the moon",
+      "time": 142.28
+    },
+    {
+      "text": "We didn’t know paradise looked like that",
+      "time": 144.58
+    },
+    {
+      "text": "We were too damn busy with the Broadacres Rag",
+      "time": 147.03
+    },
+    {
+      "text": "[Verse 4]"
+    },
+    {
+      "text": "Jess Owre owned half the ground in sight",
+      "time": 151.93
+    },
+    {
+      "text": "Dennis helped keep the whole thing tight",
+      "time": 154.97
+    },
+    {
+      "text": "Big fields stretching nearly forever",
+      "time": 157.48
+    },
+    {
+      "text": "Farm crews working through any weather",
+      "time": 159.77
+    },
+    {
+      "text": "Local boys and crews from Mexico way",
+      "time": 161.89
+    },
+    {
+      "text": "Oaxaca voices in the heat of day",
+      "time": 164.4
+    },
+    {
+      "text": "Different homes, same dust in the lung",
+      "time": 166.69
+    },
+    {
+      "text": "Same sun overhead when the harvest was young",
+      "time": 169
+    },
+    {
+      "text": "Nacho Palacios was my first best friend",
+      "time": 171.4
+    },
+    {
+      "text": "Ignacio, I learned, when we got older again",
+      "time": 173.8
+    },
+    {
+      "text": "Funny how a name can grow with the years",
+      "time": 176.17
+    },
+    {
+      "text": "Same kid, same grin, just different ears",
+      "time": 178.68
+    },
+    {
+      "text": "[Instrumental Turn — Ragtime Guitar and Harmonica]"
+    },
+    {
+      "text": "[Verse 5]"
+    },
+    {
+      "text": "We had a treehouse hid behind Douglas fir",
+      "time": 190.64
+    },
+    {
+      "text": "Where good ideas went to die in a blur",
+      "time": 193.13
+    },
+    {
+      "text": "We threw brown pinecones at cars passing by",
+      "time": 195.54
+    },
+    {
+      "text": "Then Billy grabbed green ones and let ’em fly",
+      "time": 197.93
+    },
+    {
+      "text": "THUMP on a Ford and the brakes locked down",
+      "time": 200.57
+    },
+    {
+      "text": "Backup lights shining like judgment had found",
+      "time": 202.95
+    },
+    {
+      "text": "Some redneck climbed out with murder in mind",
+      "time": 205.19
+    },
+    {
+      "text": "And six farm boys disappeared behind",
+      "time": 207.59
+    },
+    {
+      "text": "Invisible rifles became plywood guns",
+      "time": 210.13
+    },
+    {
+      "text": "Army all afternoon under Oregon sun",
+      "time": 212.52
+    },
+    {
+      "text": "Touch football, tag, hide-and-seek",
+      "time": 214.89
+    },
+    {
+      "text": "Broken basketball hoop at the Wolfes every week",
+      "time": 217.29
+    },
+    {
+      "text": "Possums got hunted, mailboxes learned fear",
+      "time": 219.73
+    },
+    {
+      "text": "Horse apples flew when somebody got near",
+      "time": 222.13
+    },
+    {
+      "text": "We TP’d yards and hayed ’em for flair",
+      "time": 224.57
+    },
+    {
+      "text": "And somehow survived the shit we did there",
+      "time": 226.83
+    },
+    {
+      "text": "[Chorus — Bigger]"
+    },
+    {
+      "text": "It was the Broadacres Rag",
+      "time": 230.6
+    },
+    {
+      "text": "Mud on your boots and hay in the bag",
+      "time": 232.48
+    },
+    {
+      "text": "Smelled like manure when summer came",
+      "time": 234.84
+    },
+    {
+      "text": "Then hops rolled in and changed the game",
+      "time": 237.25
+    },
+    {
+      "text": "We had chores at dawn and hell by noon",
+      "time": 239.44
+    },
+    {
+      "text": "BB guns underneath the moon",
+      "time": 242.07
+    },
+    {
+      "text": "We didn’t know paradise looked like that",
+      "time": 244.54
+    },
+    {
+      "text": "We were too damn busy with the Broadacres Rag",
+      "time": 246.84
+    },
+    {
+      "text": "[Verse 6]"
+    },
+    {
+      "text": "Scott and me rode pigs, or gave it a try",
+      "time": 251.78
+    },
+    {
+      "text": "Went wallowing with ’em till clean skin said goodbye",
+      "time": 254.58
+    },
+    {
+      "text": "Mom hosed us down by the back porch rail",
+      "time": 257.13
+    },
+    {
+      "text": "Like two muddy convicts fresh outta jail",
+      "time": 259.61
+    },
+    {
+      "text": "Goats and chickens and horses and dogs",
+      "time": 261.93
+    },
+    {
+      "text": "Rabbit pellets, nettles and half-rotten logs",
+      "time": 264.39
+    },
+    {
+      "text": "Poison oak taught lessons nobody forgot",
+      "time": 266.84
+    },
+    {
+      "text": "And every strange turd got inspected on the spot",
+      "time": 269.17
+    },
+    {
+      "text": "Fretsee the cat would vanish for days",
+      "time": 271.7
+    },
+    {
+      "text": "Then weeks, then months in mysterious ways",
+      "time": 274.04
+    },
+    {
+      "text": "Till one day she wandered off out of sight",
+      "time": 276.39
+    },
+    {
+      "text": "And never came home from whatever cat night",
+      "time": 278.82
+    },
+    {
+      "text": "[Bridge — Pull Back, Softer]"
+    },
+    {
+      "text": "Summer tasted like lemonade",
+      "time": 283.06
+    },
+    {
+      "text": "Sun tea sweating in the shade",
+      "time": 285.56
+    },
+    {
+      "text": "Apple pie when Grandma came",
+      "time": 287.99
+    },
+    {
+      "text": "Strawberry rhubarb did the same",
+      "time": 290.34
+    },
+    {
+      "text": "Grandpa Norby watched the game",
+      "time": 292.71
+    },
+    {
+      "text": "Hamm’s or Rainier, always the same",
+      "time": 295.26
+    },
+    {
+      "text": "Chesterfield Kings and walnuts cracked",
+      "time": 297.58
+    },
+    {
+      "text": "One by one with the seasons stacked",
+      "time": 300.08
+    },
+    {
+      "text": "The tavern stood where the old road bent",
+      "time": 303.1
+    },
+    {
+      "text": "Store, fuel pump, local government",
+      "time": 305.62
+    },
+    {
+      "text": "They said upstairs had girls for hire",
+      "time": 308
+    },
+    {
+      "text": "Before a hundred years and one good fire",
+      "time": 310.3
+    },
+    {
+      "text": "[Verse 7 — Reflective]"
+    },
+    {
+      "text": "There were Bible camps and family days",
+      "time": 315.18
+    },
+    {
+      "text": "Holidays glowing in ordinary ways",
+      "time": 317.64
+    },
+    {
+      "text": "Not much snow, but somehow bright",
+      "time": 320.19
+    },
+    {
+      "text": "Like childhood made its ow",
+      "time": 324.07
+    }
   ]
 }

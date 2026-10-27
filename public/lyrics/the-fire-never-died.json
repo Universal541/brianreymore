@@ -1,91 +1,334 @@
 {
+  "title": "The Fire Never Died",
   "lines": [
-    "[Verse 1 – Intimate low baritone, nearly spoken; restrained 6/8 pulse]",
-    "We started with a borrowed hammer,",
-    "half a plan and no good sense,",
-    "throwing sparks against the darkness,",
-    "building things we couldn’t name yet.",
-    "Every question hit the anvil,",
-    "every answer changed its shape;",
-    "some were bent beyond repairing,",
-    "some grew stronger in the flame.",
-    "**Pre-Chorus**",
-    "[Pre-Chorus – Floor toms and Hammond organ slowly emerge]",
-    "Now the hammers hang in silence,",
-    "and the dust lies on the wire—",
-    "but silence isn’t absence,",
-    "and ashes aren’t the fire.",
-    "**Chorus**",
-    "[Chorus – Full roots-rock band enters; broad, powerful, but still holding something back]",
-    "The forge became a library,",
-    "but the fire never died.",
-    "It moved into the margins,",
-    "where the unfinished stories hide.",
-    "Every scar became a sentence,",
-    "every failure learned to speak.",
-    "The forge became a library—",
-    "and the books still carry heat.",
-    "**Verse 2**",
-    "[Verse 2 – Return to a leaner groove; resonator answers the vocal]",
-    "There are fingerprints on every page,",
-    "coffee rings and drops of rain,",
-    "whole philosophies in pencil",
-    "with obscenities beside their names.",
-    "We mistook a few maps for the country,",
-    "followed some until they lied;",
-    "then we learned to read the mountain",
-    "where the crooked roads would rhyme.",
-    "**Pre-Chorus**",
-    "[Pre-Chorus – Greater tension, low brass rising underneath]",
-    "We never found the final word,",
-    "just better questions by the score—",
-    "and every time we reached the ending,",
-    "someone built another door.",
-    "**Chorus**",
-    "[Chorus – Heavier drums, wider guitars, stronger vocal grit]",
-    "The forge became a library,",
-    "but the fire never died.",
-    "It moved into the margins,",
-    "where the unfinished stories hide.",
-    "Every scar became a sentence,",
-    "every failure learned to speak.",
-    "The forge became a library—",
-    "and the books still carry heat.",
-    "**Bridge**",
-    "[Bridge – Half-time feel; dark organ and low brass; vocal exposed, deliberate, and defiant]",
-    "Let the scholars keep their certainty,",
-    "let the prophets sell their signs.",
-    "We have stood beneath enough strange stars",
-    "to leave some room for “might.”",
-    "We don’t kneel before the compass.",
-    "We don’t curse it when it spins.",
-    "We hold it loosely in our hands",
-    "and ask where north has been.",
-    "**Verse 3**",
-    "[Verse 3 – Pull back sharply; intimate storytelling over acoustic guitar and bowed bass]",
-    "Someday strangers may come searching",
-    "through the things we left behind—",
-    "all the blunt and broken instruments,",
-    "all the blueprints of the mind.",
-    "They may never know the laughter",
-    "or the nights we nearly quit,",
-    "but they’ll feel warmth between the pages",
-    "when they lay their hands on it.",
-    "**Final Chorus**",
-    "[Final Chorus – Massive live drums, roaring organ, resonator, electric guitar, and low brass; fierce, expansive release]",
-    "The forge became a library,",
-    "but the fire never died.",
-    "It passed from hand to open hand,",
-    "with no one trapped inside.",
-    "Every scar became a sentence,",
-    "every question struck a seam.",
-    "The forge became a library—",
-    "still burning underneath.",
-    "**Outro**",
-    "[Outro – Instruments fall away to acoustic guitar and distant resonator; final lines warm, quiet, and unresolved]",
-    "So leave the door unlocked tonight.",
-    "Leave one lamp against the dark.",
-    "Somebody will need a hammer.",
-    "Somebody will need a spark."
+    {
+      "text": "[Verse 1 – Intimate low baritone, nearly spoken; restrained 6/8 pulse]"
+    },
+    {
+      "text": "We started with a borrowed hammer,",
+      "time": 21.7
+    },
+    {
+      "text": "half a plan and no good sense,",
+      "time": 24.85
+    },
+    {
+      "text": "throwing sparks against the darkness,",
+      "time": 28.76
+    },
+    {
+      "text": "building things we couldn’t name yet.",
+      "time": 32.77
+    },
+    {
+      "text": "Every question hit the anvil,",
+      "time": 36.8
+    },
+    {
+      "text": "every answer changed its shape;",
+      "time": 40.82
+    },
+    {
+      "text": "some were bent beyond repairing,",
+      "time": 44.16
+    },
+    {
+      "text": "some grew stronger in the flame.",
+      "time": 47.78
+    },
+    {
+      "text": "**Pre-Chorus**"
+    },
+    {
+      "text": "[Pre-Chorus – Floor toms and Hammond organ slowly emerge]"
+    },
+    {
+      "text": "Now the hammers hang in silence,",
+      "time": 52.27
+    },
+    {
+      "text": "and the dust lies on the wire—",
+      "time": 55.58
+    },
+    {
+      "text": "but silence isn’t absence,",
+      "time": 59.38
+    },
+    {
+      "text": "and ashes aren’t the fire.",
+      "time": 63.26
+    },
+    {
+      "text": "**Chorus**"
+    },
+    {
+      "text": "[Chorus – Full roots-rock band enters; broad, powerful, but still holding something back]"
+    },
+    {
+      "text": "The forge became a library,",
+      "time": 66.4
+    },
+    {
+      "text": "but the fire never died.",
+      "time": 69.46
+    },
+    {
+      "text": "It moved into the margins,",
+      "time": 73.33
+    },
+    {
+      "text": "where the unfinished stories hide.",
+      "time": 75.92
+    },
+    {
+      "text": "Every scar became a sentence,",
+      "time": 80.46
+    },
+    {
+      "text": "every failure learned to speak.",
+      "time": 84.13
+    },
+    {
+      "text": "The forge became a library—",
+      "time": 87.89
+    },
+    {
+      "text": "and the books still carry heat.",
+      "time": 94.1
+    },
+    {
+      "text": "**Verse 2**"
+    },
+    {
+      "text": "[Verse 2 – Return to a leaner groove; resonator answers the vocal]"
+    },
+    {
+      "text": "There are fingerprints on every page,",
+      "time": 110.69
+    },
+    {
+      "text": "coffee rings and drops of rain,",
+      "time": 113.98
+    },
+    {
+      "text": "whole philosophies in pencil",
+      "time": 118.01
+    },
+    {
+      "text": "with obscenities beside their names.",
+      "time": 120.85
+    },
+    {
+      "text": "We mistook a few maps for the country,",
+      "time": 125.34
+    },
+    {
+      "text": "followed some until they lied;",
+      "time": 129.05
+    },
+    {
+      "text": "then we learned to read the mountain",
+      "time": 132.71
+    },
+    {
+      "text": "where the crooked roads would rhyme.",
+      "time": 135.87
+    },
+    {
+      "text": "**Pre-Chorus**"
+    },
+    {
+      "text": "[Pre-Chorus – Greater tension, low brass rising underneath]"
+    },
+    {
+      "text": "We never found the final word,",
+      "time": 139.78
+    },
+    {
+      "text": "just better questions by the score—",
+      "time": 143.76
+    },
+    {
+      "text": "and every time we reached the ending,",
+      "time": 147.48
+    },
+    {
+      "text": "someone built another door.",
+      "time": 150.73
+    },
+    {
+      "text": "**Chorus**"
+    },
+    {
+      "text": "[Chorus – Heavier drums, wider guitars, stronger vocal grit]"
+    },
+    {
+      "text": "The forge became a library,",
+      "time": 153.69
+    },
+    {
+      "text": "but the fire never died.",
+      "time": 157.57
+    },
+    {
+      "text": "It moved into the margins,",
+      "time": 161.23
+    },
+    {
+      "text": "where the unfinished stories hide.",
+      "time": 163.82
+    },
+    {
+      "text": "Every scar became a sentence,",
+      "time": 168.42
+    },
+    {
+      "text": "every failure learned to speak.",
+      "time": 172.21
+    },
+    {
+      "text": "The forge became a library—",
+      "time": 176.2
+    },
+    {
+      "text": "and the books still carry heat.",
+      "time": 182.1
+    },
+    {
+      "text": "**Bridge**"
+    },
+    {
+      "text": "[Bridge – Half-time feel; dark organ and low brass; vocal exposed, deliberate, and defiant]"
+    },
+    {
+      "text": "Let the scholars keep their certainty,",
+      "time": 198.72
+    },
+    {
+      "text": "let the prophets sell their signs.",
+      "time": 202.34
+    },
+    {
+      "text": "We have stood beneath enough strange stars",
+      "time": 206.4
+    },
+    {
+      "text": "to leave some room for “might.”",
+      "time": 210.4
+    },
+    {
+      "text": "We don’t kneel before the compass.",
+      "time": 213.73
+    },
+    {
+      "text": "We don’t curse it when it spins.",
+      "time": 216.97
+    },
+    {
+      "text": "We hold it loosely in our hands",
+      "time": 220.58
+    },
+    {
+      "text": "and ask where north has been.",
+      "time": 224.4
+    },
+    {
+      "text": "**Verse 3**"
+    },
+    {
+      "text": "[Verse 3 – Pull back sharply; intimate storytelling over acoustic guitar and bowed bass]"
+    },
+    {
+      "text": "Someday strangers may come searching",
+      "time": 230.2
+    },
+    {
+      "text": "through the things we left behind—",
+      "time": 233.89
+    },
+    {
+      "text": "all the blunt and broken instruments,",
+      "time": 237.41
+    },
+    {
+      "text": "all the blueprints of the mind.",
+      "time": 240.79
+    },
+    {
+      "text": "They may never know the laughter",
+      "time": 244.9
+    },
+    {
+      "text": "or the nights we nearly quit,",
+      "time": 248.06
+    },
+    {
+      "text": "but they’ll feel warmth between the pages",
+      "time": 251.99
+    },
+    {
+      "text": "when they lay their hands on it.",
+      "time": 255.5
+    },
+    {
+      "text": "**Final Chorus**"
+    },
+    {
+      "text": "[Final Chorus – Massive live drums, roaring organ, resonator, electric guitar, and low brass; fierce, expansive release]"
+    },
+    {
+      "text": "The forge became a library,",
+      "time": 259.16
+    },
+    {
+      "text": "but the fire never died.",
+      "time": 262.31
+    },
+    {
+      "text": "It passed from hand to open hand,",
+      "time": 265.9
+    },
+    {
+      "text": "with no one trapped inside.",
+      "time": 269.81
+    },
+    {
+      "text": "Every scar became a sentence,",
+      "time": 273.26
+    },
+    {
+      "text": "every question struck a seam.",
+      "time": 276.89
+    },
+    {
+      "text": "The forge became a library—",
+      "time": 280.65
+    },
+    {
+      "text": "still burning underneath.",
+      "time": 287.02
+    },
+    {
+      "text": "**Outro**"
+    },
+    {
+      "text": "[Outro – Instruments fall away to acoustic guitar and distant resonator; final lines warm, quiet, and unresolved]"
+    },
+    {
+      "text": "So leave the door unlocked tonight.",
+      "time": 291.65
+    },
+    {
+      "text": "Leave one lamp against the dark.",
+      "time": 295.7
+    },
+    {
+      "text": "Somebody will need a hammer.",
+      "time": 301.73
+    },
+    {
+      "text": "Somebody will need a spark.",
+      "time": 308.8
+    }
   ]
 }

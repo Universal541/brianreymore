@@ -1,139 +1,521 @@
 {
   "title": "You Radiate Love",
   "lines": [
-    "[Verse 1 – Brian alone]",
-    "You learned to listen for the trouble",
-    "Hiding underneath a voice,",
-    "Find the fact inside the panic,",
-    "Help somebody make a choice.",
-    "Then you leave the midnight console,",
-    "Put the working world away,",
-    "Raise a harp against your breathing",
-    "And make sorrow find a name.",
-    "The fat, nerdy non-Mormon kid",
-    "In a Salt Lake certainty",
-    "Learned to stand outside the answers",
-    "And ask what truth requires to be.",
-    "Now you trust what can be witnessed,",
-    "What survives the measured test.",
-    "You keep one hand on the evidence",
-    "And somehow see the best.",
-    "[Pre-Chorus – Brian lead; Sean sustained harmony only]",
-    "You never dressed the moment up",
-    "Or reached for something clever.",
-    "You looked at me as though reporting",
-    "What you’d plainly observed.",
-    "[Chorus – Brian sings every line; Sean only echoes the title and sustains harmony]",
-    "You said, “You radiate love.”",
-    "[Sean: You radiate love]",
-    "Three words, quiet and clear—",
-    "Not something I had earned from you,",
-    "Not something I could lose through fear.",
-    "You didn’t only say you loved me.",
-    "You named what traveled out of me.",
-    "You held a mirror to a light",
-    "I’d been much too close to see.",
-    "Of all the words a friend could give,",
-    "The truest were enough:",
-    "You radiate love.",
-    "[Verse 2 – Brian solo vocal; harmonica answers after completed phrases]",
-    "You ask what can be duplicated.",
-    "I ask who lit the first event.",
-    "You say the claim requires a method.",
-    "I ask what all this wonder meant.",
-    "You want the cosmos under controls.",
-    "I want the cosmos running free.",
-    "You say, “Produce another supernova.”",
-    "I say, “Poor repeatability.”",
-    "You keep me honest with the numbers.",
-    "I keep kicking at the frame.",
-    "You make me show where I found knowledge.",
-    "I ask who gave the facts their names.",
-    "Somewhere between proof and wonder,",
-    "Between the solid and unseen,",
-    "Two stubborn men keep moving closer",
-    "To what either one might mean.",
-    "[Pre-Chorus – Sean harmony grows]",
-    "Maybe truth is more than either",
-    "Of our favorite ways to look.",
-    "Maybe every honest friendship",
-    "Leaves some margin in the book.",
-    "[Chorus – fuller duet harmony]",
-    "You said, “You radiate love.”",
-    "[Sean: You radiate love]",
-    "Three words, quiet and clear—",
-    "Not something I had earned from you,",
-    "Not something I could lose through fear.",
-    "You didn’t only say you loved me.",
-    "You named what traveled out of me.",
-    "You held a mirror to a light",
-    "I’d been much too close to see.",
-    "Of all the words a friend could give,",
-    "The truest were enough:",
-    "You radiate love.",
-    "[Verse 3 – Brian lead; Sean sustained harmony only]",
-    "We were handed old instructions",
-    "For the ways that men should bond:",
-    "Stand together under gunfire,",
-    "Never ask what hurts beyond.",
-    "Trade affection for allegiance.",
-    "Call the silence being strong.",
-    "Turn our tenderness to weapons",
-    "And prove the whole thing wrong.",
-    "But we never needed battle",
-    "To discover we were brothers,",
-    "Never had to spill our blood",
-    "To earn the trust we gave each other.",
-    "We built this out of listening,",
-    "Out of laughter, doubt and grace;",
-    "Out of staying for the hard truth",
-    "Without making love lose face.",
-    "[Bridge – Sean steps forward as co-lead]",
-    "[Sean]",
-    "Bring me what is observable.",
-    "Show me what survives the test.",
-    "[Brian]",
-    "Bring me what first made you wonder.",
-    "Show me what the test has missed.",
-    "[Sean]",
-    "Truth is more than what we wish for.",
-    "[Brian]",
-    "Truth is more than what we know.",
-    "[Both]",
-    "If two men can stand between them,",
-    "There are places both can go.",
-    "No rulebook made us brothers.",
-    "No battlefield was won.",
-    "We simply kept on showing up",
-    "When showing up was love.",
-    "You said, “You radiate love.”",
-    "And something in me changed.",
-    "A lifetime of uncertain mirrors",
-    "Could not make those words untrue again.",
-    "You didn’t only say you loved me.",
-    "You said love had made me home—",
-    "That people standing near my fire",
-    "Felt a warmth I hadn’t known.",
-    "If I have ever been that light,",
-    "Some part reflects because",
-    "My greatest friend stood close enough",
-    "To tell me what I was:",
-    "You radiate love.",
-    "[Outro – shared lead, close harmony; harmonica answers]",
-    "Perhaps we never touch a thing.",
-    "Perhaps the space remains.",
-    "Perhaps we’re fields of opposition",
-    "Giving matter shape and name.",
-    "[Brian]",
-    "But I have felt your friendship, Sean.",
-    "No instrument is needed.",
-    "[Sean]",
-    "If love requires observation—",
-    "[Both]",
-    "Consider it repeated.",
-    "[Sean]",
-    "You radiate love.",
-    "[Brian]",
-    "So do you."
+    {
+      "text": "[Verse 1 – Brian alone]"
+    },
+    {
+      "text": "You learned to listen for the trouble",
+      "time": 12.67
+    },
+    {
+      "text": "Hiding underneath a voice,",
+      "time": 16.05
+    },
+    {
+      "text": "Find the fact inside the panic,",
+      "time": 19.41
+    },
+    {
+      "text": "Help somebody make a choice.",
+      "time": 22.76
+    },
+    {
+      "text": "Then you leave the midnight console,",
+      "time": 26.42
+    },
+    {
+      "text": "Put the working world away,",
+      "time": 29.59
+    },
+    {
+      "text": "Raise a harp against your breathing",
+      "time": 32.91
+    },
+    {
+      "text": "And make sorrow find a name.",
+      "time": 36.42
+    },
+    {
+      "text": "The fat, nerdy non-Mormon kid",
+      "time": 40.4
+    },
+    {
+      "text": "In a Salt Lake certainty",
+      "time": 43.84
+    },
+    {
+      "text": "Learned to stand outside the answers",
+      "time": 47.32
+    },
+    {
+      "text": "And ask what truth requires to be.",
+      "time": 50.86
+    },
+    {
+      "text": "Now you trust what can be witnessed,",
+      "time": 53.77
+    },
+    {
+      "text": "What survives the measured test.",
+      "time": 57.88
+    },
+    {
+      "text": "You keep one hand on the evidence",
+      "time": 61.17
+    },
+    {
+      "text": "And somehow see the best.",
+      "time": 64.98
+    },
+    {
+      "text": "[Pre-Chorus – Brian lead; Sean sustained harmony only]"
+    },
+    {
+      "text": "You never dressed the moment up",
+      "time": 68.34
+    },
+    {
+      "text": "Or reached for something clever.",
+      "time": 70.47
+    },
+    {
+      "text": "You looked at me as though reporting",
+      "time": 75.25
+    },
+    {
+      "text": "What you’d plainly observed.",
+      "time": 77.06
+    },
+    {
+      "text": "[Chorus – Brian sings every line; Sean only echoes the title and sustains harmony]"
+    },
+    {
+      "text": "You said, “You radiate love.”",
+      "time": 81.17
+    },
+    {
+      "text": "[Sean: You radiate love]",
+      "time": 83.87
+    },
+    {
+      "text": "Three words, quiet and clear—",
+      "time": 85.05
+    },
+    {
+      "text": "Not something I had earned from you,",
+      "time": 88.47
+    },
+    {
+      "text": "Not something I could lose through fear.",
+      "time": 91.67
+    },
+    {
+      "text": "You didn’t only say you loved me.",
+      "time": 95.31
+    },
+    {
+      "text": "You named what traveled out of me.",
+      "time": 98.52
+    },
+    {
+      "text": "You held a mirror to a light",
+      "time": 102.06
+    },
+    {
+      "text": "I’d been much too close to see.",
+      "time": 104.11
+    },
+    {
+      "text": "Of all the words a friend could give,",
+      "time": 109.17
+    },
+    {
+      "text": "The truest were enough:",
+      "time": 112.75
+    },
+    {
+      "text": "You radiate love.",
+      "time": 115.89
+    },
+    {
+      "text": "[Verse 2 – Brian solo vocal; harmonica answers after completed phrases]"
+    },
+    {
+      "text": "You ask what can be duplicated.",
+      "time": 123.3
+    },
+    {
+      "text": "I ask who lit the first event.",
+      "time": 127.12
+    },
+    {
+      "text": "You say the claim requires a method.",
+      "time": 130.52
+    },
+    {
+      "text": "I ask what all this wonder meant.",
+      "time": 134.01
+    },
+    {
+      "text": "You want the cosmos under controls.",
+      "time": 137.47
+    },
+    {
+      "text": "I want the cosmos running free.",
+      "time": 140.92
+    },
+    {
+      "text": "You say, “Produce another supernova.”",
+      "time": 144.51
+    },
+    {
+      "text": "I say, “Poor repeatability.”",
+      "time": 147.57
+    },
+    {
+      "text": "You keep me honest with the numbers.",
+      "time": 150.82
+    },
+    {
+      "text": "I keep kicking at the frame.",
+      "time": 154.86
+    },
+    {
+      "text": "You make me show where I found knowledge.",
+      "time": 158.27
+    },
+    {
+      "text": "I ask who gave the facts their names.",
+      "time": 161.65
+    },
+    {
+      "text": "Somewhere between proof and wonder,",
+      "time": 165.38
+    },
+    {
+      "text": "Between the solid and unseen,",
+      "time": 168.62
+    },
+    {
+      "text": "Two stubborn men keep moving closer",
+      "time": 172
+    },
+    {
+      "text": "To what either one might mean.",
+      "time": 175.64
+    },
+    {
+      "text": "[Pre-Chorus – Sean harmony grows]"
+    },
+    {
+      "text": "Maybe truth is more than either",
+      "time": 179.32
+    },
+    {
+      "text": "Of our favorite ways to look.",
+      "time": 181.33
+    },
+    {
+      "text": "Maybe every honest friendship",
+      "time": 185.88
+    },
+    {
+      "text": "Leaves some margin in the book.",
+      "time": 187.82
+    },
+    {
+      "text": "[Chorus – fuller duet harmony]"
+    },
+    {
+      "text": "You said, “You radiate love.”",
+      "time": 192.3
+    },
+    {
+      "text": "[Sean: You radiate love]"
+    },
+    {
+      "text": "Three words, quiet and clear—",
+      "time": 195.69
+    },
+    {
+      "text": "Not something I had earned from you,",
+      "time": 198.88
+    },
+    {
+      "text": "Not something I could lose through fear.",
+      "time": 202.5
+    },
+    {
+      "text": "You didn’t only say you loved me.",
+      "time": 205.7
+    },
+    {
+      "text": "You named what traveled out of me.",
+      "time": 209.1
+    },
+    {
+      "text": "You held a mirror to a light",
+      "time": 212.58
+    },
+    {
+      "text": "I’d been much too close to see.",
+      "time": 215.19
+    },
+    {
+      "text": "Of all the words a friend could give,",
+      "time": 219.65
+    },
+    {
+      "text": "The truest were enough:",
+      "time": 223.11
+    },
+    {
+      "text": "You radiate love.",
+      "time": 226.71
+    },
+    {
+      "text": "[Verse 3 – Brian lead; Sean sustained harmony only]"
+    },
+    {
+      "text": "We were handed old instructions",
+      "time": 231.09
+    },
+    {
+      "text": "For the ways that men should bond:",
+      "time": 234.41
+    },
+    {
+      "text": "Stand together under gunfire,",
+      "time": 237.77
+    },
+    {
+      "text": "Never ask what hurts beyond.",
+      "time": 241.25
+    },
+    {
+      "text": "Trade affection for allegiance.",
+      "time": 245.02
+    },
+    {
+      "text": "Call the silence being strong.",
+      "time": 248.01
+    },
+    {
+      "text": "Turn our tenderness to weapons",
+      "time": 251.94
+    },
+    {
+      "text": "And prove the whole thing wrong.",
+      "time": 255.36
+    },
+    {
+      "text": "But we never needed battle",
+      "time": 258.2
+    },
+    {
+      "text": "To discover we were brothers,",
+      "time": 260.55
+    },
+    {
+      "text": "Never had to spill our blood",
+      "time": 262.37
+    },
+    {
+      "text": "To earn the trust we gave each other.",
+      "time": 264.03
+    },
+    {
+      "text": "We built this out of listening,",
+      "time": 265.74
+    },
+    {
+      "text": "Out of laughter, doubt and grace;",
+      "time": 267.58
+    },
+    {
+      "text": "Out of staying for the hard truth",
+      "time": 269.24
+    },
+    {
+      "text": "Without making love lose face.",
+      "time": 270.87
+    },
+    {
+      "text": "[Bridge – Sean steps forward as co-lead]"
+    },
+    {
+      "text": "[Sean]"
+    },
+    {
+      "text": "Bring me what is observable.",
+      "time": 276
+    },
+    {
+      "text": "Show me what survives the test.",
+      "time": 279.42
+    },
+    {
+      "text": "[Brian]"
+    },
+    {
+      "text": "Bring me what first made you wonder.",
+      "time": 282.81
+    },
+    {
+      "text": "Show me what the test has missed.",
+      "time": 286.13
+    },
+    {
+      "text": "[Sean]"
+    },
+    {
+      "text": "Truth is more than what we wish for.",
+      "time": 289.22
+    },
+    {
+      "text": "[Brian]"
+    },
+    {
+      "text": "Truth is more than what we know.",
+      "time": 291.19
+    },
+    {
+      "text": "[Both]"
+    },
+    {
+      "text": "If two men can stand between them,",
+      "time": 294.46
+    },
+    {
+      "text": "There are places both can go.",
+      "time": 297.29
+    },
+    {
+      "text": "No rulebook made us brothers.",
+      "time": 299.56
+    },
+    {
+      "text": "No battlefield was won.",
+      "time": 303.9
+    },
+    {
+      "text": "We simply kept on showing up",
+      "time": 306.89
+    },
+    {
+      "text": "When showing up was love.",
+      "time": 310.37
+    },
+    {
+      "text": "You said, “You radiate love.”",
+      "time": 316.87
+    },
+    {
+      "text": "And something in me changed.",
+      "time": 320.33
+    },
+    {
+      "text": "A lifetime of uncertain mirrors",
+      "time": 323.82
+    },
+    {
+      "text": "Could not make those words untrue again.",
+      "time": 326.24
+    },
+    {
+      "text": "You didn’t only say you loved me.",
+      "time": 330.1
+    },
+    {
+      "text": "You said love had made me home—",
+      "time": 333.41
+    },
+    {
+      "text": "That people standing near my fire",
+      "time": 336.62
+    },
+    {
+      "text": "Felt a warmth I hadn’t known.",
+      "time": 340.09
+    },
+    {
+      "text": "If I have ever been that light,",
+      "time": 344.83
+    },
+    {
+      "text": "Some part reflects because",
+      "time": 348.06
+    },
+    {
+      "text": "My greatest friend stood close enough",
+      "time": 351.99
+    },
+    {
+      "text": "To tell me what I was:",
+      "time": 355.15
+    },
+    {
+      "text": "You radiate love.",
+      "time": 358.91
+    },
+    {
+      "text": "[Outro – shared lead, close harmony; harmonica answers]"
+    },
+    {
+      "text": "Perhaps we never touch a thing.",
+      "time": 362.91
+    },
+    {
+      "text": "Perhaps the space remains.",
+      "time": 366.04
+    },
+    {
+      "text": "Perhaps we’re fields of opposition",
+      "time": 369.53
+    },
+    {
+      "text": "Giving matter shape and name.",
+      "time": 372.1
+    },
+    {
+      "text": "[Brian]"
+    },
+    {
+      "text": "But I have felt your friendship, Sean.",
+      "time": 376.36
+    },
+    {
+      "text": "No instrument is needed.",
+      "time": 380.42
+    },
+    {
+      "text": "[Sean]"
+    },
+    {
+      "text": "If love requires observation—",
+      "time": 383.38
+    },
+    {
+      "text": "[Both]"
+    },
+    {
+      "text": "Consider it repeated.",
+      "time": 386.41
+    },
+    {
+      "text": "[Sean]"
+    },
+    {
+      "text": "You radiate love.",
+      "time": 394.48
+    },
+    {
+      "text": "[Brian]"
+    },
+    {
+      "text": "So do you.",
+      "time": 401.95
+    }
   ]
 }

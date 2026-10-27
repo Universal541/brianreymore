@@ -1,57 +1,201 @@
 {
+  "title": "The Last Ride",
   "lines": [
-    "[Verse 1]",
-    "He ain’t counting miles no more",
-    "Ain’t chasing ghosts or settling scores",
-    "Got a tank half full and a sky that’s wide",
-    "And a machine that knows him better than pride",
-    "[Verse 2]",
-    "There’s lines on his hands and a few on his face",
-    "Some he earned, some he can’t replace",
-    "Left a trail of smoke and a couple regrets",
-    "But he don’t waste time on what ain’t paid yet",
-    "[Pre-Chorus]",
-    "He ain’t looking back this time",
-    "No rearview ghosts, no borrowed lines",
-    "[Chorus]",
-    "This is my last ride, don’t wait up for me",
-    "No map, no mercy, just the road and me",
-    "Let the sun go down in a fire I made",
-    "I ain’t asking forgiveness for the life I gave",
-    "If there’s something out there, it can take its time",
-    "I’ve been living fast on a borrowed line",
-    "This is my last ride...",
-    "And it’s mine",
-    "[Harmonica Turnaround]",
-    "[Verse 3]",
-    "They said slow down, said play it safe",
-    "But I never learned how to live that way",
-    "If the wheels fall off before I’m done",
-    "At least I’ll know I burned like the setting sun",
-    "[Instrumental Break — Acoustic Guitar and Blues Harmonica]",
-    "[Bridge — Pull Back]",
-    "All the miles ain’t what makes a man",
-    "It’s the roads he chose, not the ones he ran",
-    "And I’d do it again if I had the chance",
-    "Every wrong turn, every reckless dance",
-    "[Harmonica Answer]",
-    "[Final Chorus — Quiet Build]",
-    "This is my last ride, don’t wait up for me",
-    "No map, no mercy, just the road and me",
-    "Let the sun go down in a fire I made",
-    "I ain’t asking forgiveness for the life I gave",
-    "If there’s something out there, it can take its time",
-    "I’ve been living fast on a borrowed line",
-    "This is my last ride...",
-    "And it’s mine",
-    "[Outro — Sparse]",
-    "This is my last ride...",
-    "[Long Blues Harmonica Solo]",
-    "And it’s mine",
-    "[Outro — Sparse]",
-    "This is my last ride...",
-    "[Long Blues Harmonica Solo]",
-    "And it’s mine",
-    "[Acoustic Guitar fades]"
+    {
+      "text": "[Verse 1]"
+    },
+    {
+      "text": "He ain’t counting miles no more",
+      "time": 32.83
+    },
+    {
+      "text": "Ain’t chasing ghosts or settling scores",
+      "time": 38.47
+    },
+    {
+      "text": "Got a tank half full and a sky that’s wide",
+      "time": 45.49
+    },
+    {
+      "text": "And a machine that knows him better than pride",
+      "time": 52.79
+    },
+    {
+      "text": "[Verse 2]"
+    },
+    {
+      "text": "There’s lines on his hands and a few on his face",
+      "time": 59.36
+    },
+    {
+      "text": "Some he earned, some he can’t replace",
+      "time": 63.76
+    },
+    {
+      "text": "Left a trail of smoke and a couple regrets",
+      "time": 67.48
+    },
+    {
+      "text": "But he don’t waste time on what ain’t paid yet",
+      "time": 74.18
+    },
+    {
+      "text": "[Pre-Chorus]"
+    },
+    {
+      "text": "He ain’t looking back this time",
+      "time": 83.49
+    },
+    {
+      "text": "No rearview ghosts, no borrowed lines",
+      "time": 86.55
+    },
+    {
+      "text": "[Chorus]"
+    },
+    {
+      "text": "This is my last ride, don’t wait up for me",
+      "time": 92.3
+    },
+    {
+      "text": "No map, no mercy, just the road and me",
+      "time": 99.39
+    },
+    {
+      "text": "Let the sun go down in a fire I made",
+      "time": 106.61
+    },
+    {
+      "text": "I ain’t asking forgiveness for the life I gave",
+      "time": 113.89
+    },
+    {
+      "text": "If there’s something out there, it can take its time",
+      "time": 121.09
+    },
+    {
+      "text": "I’ve been living fast on a borrowed line",
+      "time": 125.19
+    },
+    {
+      "text": "This is my last ride...",
+      "time": 128.55
+    },
+    {
+      "text": "And it’s mine",
+      "time": 132.9
+    },
+    {
+      "text": "[Harmonica Turnaround]"
+    },
+    {
+      "text": "[Verse 3]"
+    },
+    {
+      "text": "They said slow down, said play it safe",
+      "time": 150.56
+    },
+    {
+      "text": "But I never learned how to live that way",
+      "time": 154
+    },
+    {
+      "text": "If the wheels fall off before I’m done",
+      "time": 158.31
+    },
+    {
+      "text": "At least I’ll know I burned like the setting sun",
+      "time": 161.87
+    },
+    {
+      "text": "[Instrumental Break — Acoustic Guitar and Blues Harmonica]"
+    },
+    {
+      "text": "[Bridge — Pull Back]"
+    },
+    {
+      "text": "All the miles ain’t what makes a man",
+      "time": 194.08
+    },
+    {
+      "text": "It’s the roads he chose, not the ones he ran",
+      "time": 197.59
+    },
+    {
+      "text": "And I’d do it again if I had the chance",
+      "time": 200.89
+    },
+    {
+      "text": "Every wrong turn, every reckless dance",
+      "time": 205.01
+    },
+    {
+      "text": "[Harmonica Answer]"
+    },
+    {
+      "text": "[Final Chorus — Quiet Build]"
+    },
+    {
+      "text": "This is my last ride, don’t wait up for me",
+      "time": 211.9
+    },
+    {
+      "text": "No map, no mercy, just the road and me",
+      "time": 219.3
+    },
+    {
+      "text": "Let the sun go down in a fire I made",
+      "time": 226.46
+    },
+    {
+      "text": "I ain’t asking forgiveness for the life I gave",
+      "time": 233.76
+    },
+    {
+      "text": "If there’s something out there, it can take its time",
+      "time": 241.07
+    },
+    {
+      "text": "I’ve been living fast on a borrowed line",
+      "time": 245.02
+    },
+    {
+      "text": "This is my last ride...",
+      "time": 248.57
+    },
+    {
+      "text": "And it’s mine",
+      "time": 252.83
+    },
+    {
+      "text": "[Outro — Sparse]"
+    },
+    {
+      "text": "This is my last ride...",
+      "time": 255.75
+    },
+    {
+      "text": "[Long Blues Harmonica Solo]"
+    },
+    {
+      "text": "And it’s mine",
+      "time": 263.6
+    },
+    {
+      "text": "[Outro — Sparse]"
+    },
+    {
+      "text": "This is my last ride...",
+      "time": 273.33
+    },
+    {
+      "text": "[Long Blues Harmonica Solo]"
+    },
+    {
+      "text": "And it’s mine"
+    },
+    {
+      "text": "[Acoustic Guitar fades]"
+    }
   ]
 }

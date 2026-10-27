@@ -95,7 +95,7 @@ const formatDuration = (seconds) => `${Math.floor(seconds / 60)}:${String(second
 <section class="lyrics" aria-label="Song lyrics">
 <div class="lyrics-head"><div><div class="kicker">Words behind the music</div><h4>Lyrics</h4></div><button type="button" id="lyrics-toggle" aria-controls="lyrics-panel" aria-expanded="false">Show lyrics</button></div>
 <div id="lyrics-panel" hidden><div class="lyrics-tools"><span id="lyrics-title"></span><div><button id="lyrics-auto" type="button" disabled aria-pressed="false">Auto-scroll</button><button id="lyrics-minus" type="button" aria-label="Decrease lyrics size">A−</button><button id="lyrics-plus" type="button" aria-label="Increase lyrics size">A+</button></div></div>
-<div id="lyrics-scroll" tabindex="0" role="region" aria-label="Scrollable lyrics"><div id="lyrics-content">Lyrics are being prepared for this track.</div></div><p class="lyrics-note" id="lyrics-note">Full lyrics and synchronization will be added track by track.</p></div></section>
+<div id="lyrics-scroll" tabindex="0" role="region" aria-label="Scrollable lyrics"><div id="lyrics-content">Lyrics are being prepared for this track.</div></div><p class="lyrics-note" id="lyrics-note">Choose Auto-scroll to follow the song, or scroll manually.</p></div></section>
 </div>
 <ol class="music-tracklist" aria-label="Track list">{tracks.map((track,index) => <li><button type="button" class:list={['music-track',{'is-active':index===0}]} data-track-index={index} aria-label={`Play ${track.title}`}><span class="music-track-number">{String(track.number).padStart(2,'0')}</span><span class="music-track-title">{track.title}</span><span class="music-track-duration">{formatDuration(track.duration)}</span><span class="music-track-action" aria-hidden="true">▶</span></button></li>)}</ol>
 <p class="music-credit">All tracks presented in the artist's chosen sequence, independent of embedded MP3 track metadata. Artist: Brian “Bugsy” McRae.</p>
@@ -132,13 +132,13 @@ async function loadLyrics(i){
   const cues=data.lines.map(x=>typeof x==='string'?{text:x}:x).filter(x=>x&&typeof x.text==='string');if(!cues.length)return;
   lyricCues=cues;lyricContent.replaceChildren();
   cues.forEach(cue=>{const p=document.createElement('p');p.className='lyrics-line';p.textContent=cue.text;lyricContent.appendChild(p);});
-  const timed=cues.every(x=>typeof x.time==='number'&&Number.isFinite(x.time));lyricAuto.disabled=!timed;
-  lyricNote.textContent=timed?'Enable Auto-scroll for timed highlighting, or read at your own pace.':'Scroll manually; timed highlighting will follow when available.';
+  const timed=cues.some(x=>typeof x.time==='number'&&Number.isFinite(x.time));lyricAuto.disabled=!timed;
+  lyricNote.textContent=timed?'Enable Auto-scroll for timed highlighting, or read at your own pace. Section headings remain untimed.':'Scroll manually; timed highlighting will follow when available.';
  }catch(e){/* A missing lyrics file is an expected state. */}
 }
 function syncLyrics(){
  if(!lyricSync||lyricPanel.hidden||lyricAuto.disabled)return;
- let current=-1;lyricCues.forEach((cue,i)=>{if(audio.currentTime>=cue.time)current=i;});
+ let current=-1;lyricCues.forEach((cue,i)=>{if(typeof cue.time==='number'&&Number.isFinite(cue.time)&&audio.currentTime>=cue.time)current=i;});
  [...lyricContent.children].forEach((line,i)=>line.classList.toggle('is-current',i===current));
  if(current>=0){const line=lyricContent.children[current];lyricScroll.scrollTop=line.offsetTop-lyricScroll.offsetTop-lyricScroll.clientHeight/2+line.clientHeight/2;}
 }

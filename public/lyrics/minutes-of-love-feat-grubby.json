@@ -1,113 +1,428 @@
 {
+  "title": "Minutes of Love (feat. Grubby)",
   "lines": [
-    "# Minutes of Love",
-    "[Intro]",
-    "Friday night at Rack ’Em",
-    "Maybe table number five",
-    "[Verse 1]",
-    "Me and Don were shooting nine-ball",
-    "Just to feel a little alive",
-    "Four pretty girls came through the door",
-    "Trouble dressed up right",
-    "Terry had her eye on me",
-    "But Tazia got the night",
-    "Five days and four nights disappeared",
-    "Without a goddamn trace",
-    "Cheap coffee, busted automobiles",
-    "And somebody else’s place",
-    "We were twenty going forty",
-    "Nineteen acting wise",
-    "Trying hard to look dangerous",
-    "With childhood in our eyes",
-    "[Pre-Chorus]",
-    "Somewhere between the cue chalk",
-    "And sunrise through the blinds",
-    "A girl with dark brown eyes became",
-    "A minute of my life",
-    "[Chorus]",
-    "The minutes of love in my life",
-    "Come back like headlights late at night",
-    "A name, a face, a dashboard glow",
-    "A hand I held a lifetime ago",
-    "I don’t need ’em back",
-    "I don’t need to make ’em right",
-    "I just thank God for the minutes",
-    "The minutes of love in my life",
-    "[Verse 2]",
-    "She called me Bugsy for my teeth",
-    "They called her Tazia",
-    "Long dark hair and secondhand style",
-    "Like some broke Fantasia",
-    "Dreamcatchers hanging in the smoke",
-    "Biker saints and everybody broke",
-    "I wanted me a family",
-    "That closed the circle tight",
-    "And for a while they let me in",
-    "Hell, I belonged there too",
-    "Sometimes home ain’t where you’re from",
-    "It’s who makes room for you",
-    "[Verse 3]",
-    "We got a little house on Cherry Street",
-    "One bedroom and a door",
-    "We didn’t have a goddamn thing",
-    "And, baby, we wanted more",
-    "Her little sister needed somewhere",
-    "So we opened up the place",
-    "Then Mom moved into the garage",
-    "And chaos joined the race",
-    "Too many people, too many cats",
-    "Too scared to draw the line",
-    "So I packed my shit and walked away",
-    "When I finally ran out of time",
-    "[Break]",
-    "There wasn’t any villain",
-    "There wasn’t some great crime",
-    "Just two kids who loved each other",
-    "Till we grew in different lines",
-    "[Chorus]",
-    "The minutes of love in my life",
-    "Come back like headlights late at night",
-    "A name, a face, a dashboard glow",
-    "A hand I held a lifetime ago",
-    "I don’t need ’em back",
-    "I don’t need to make ’em right",
-    "I just thank God for the minutes",
-    "The minutes of love in my life",
-    "[Bridge]",
-    "I used to think that meaning",
-    "Was somewhere up ahead",
-    "In faster cars and hotter nights",
-    "And all the lives I hadn’t lived yet",
-    "But every road eventually",
-    "Turns the traveler inside",
-    "And all the love worth giving",
-    "Has to have a home inside",
-    "You cannot hold another heart",
-    "More gently than your own",
-    "And every woman that I loved",
-    "Helped teach me how to come back home",
-    "[Build]",
-    "Tazia built a life herself",
-    "Still down in Medford town",
-    "And I smile when her name comes up",
-    "At all the miles gone down",
-    "No aching and no wishing",
-    "No ending to regret",
-    "Just gratitude for who we were",
-    "And what we hadn’t learned yet",
-    "[Final Chorus]",
-    "These minutes of love in my life",
-    "They don’t belong to yesterday",
-    "They made me more of who I am",
-    "Then quietly gave me away",
-    "No graves to dig",
-    "No ghosts to fight",
-    "No old wrongs left to make right",
-    "Just names that glow",
-    "When memory lights",
-    "The minutes of love in my life",
-    "[Outro]",
-    "Here’s to all the minutes",
-    "Of love in my life"
+    {
+      "text": "# Minutes of Love"
+    },
+    {
+      "text": "[Intro]"
+    },
+    {
+      "text": "Friday night at Rack ’Em",
+      "time": 6.67
+    },
+    {
+      "text": "Maybe table number five",
+      "time": 9.71
+    },
+    {
+      "text": "[Verse 1]"
+    },
+    {
+      "text": "Me and Don were shooting nine-ball",
+      "time": 27.8
+    },
+    {
+      "text": "Just to feel a little alive",
+      "time": 31.1
+    },
+    {
+      "text": "Four pretty girls came through the door",
+      "time": 37.05
+    },
+    {
+      "text": "Trouble dressed up right",
+      "time": 41.85
+    },
+    {
+      "text": "Terry had her eye on me",
+      "time": 47.61
+    },
+    {
+      "text": "But Tazia got the night",
+      "time": 52.64
+    },
+    {
+      "text": "Five days and four nights disappeared",
+      "time": 57.14
+    },
+    {
+      "text": "Without a goddamn trace",
+      "time": 60.45
+    },
+    {
+      "text": "Cheap coffee, busted automobiles",
+      "time": 62.55
+    },
+    {
+      "text": "And somebody else’s place",
+      "time": 65.36
+    },
+    {
+      "text": "We were twenty going forty",
+      "time": 68.05
+    },
+    {
+      "text": "Nineteen acting wise",
+      "time": 70.5
+    },
+    {
+      "text": "Trying hard to look dangerous",
+      "time": 73.38
+    },
+    {
+      "text": "With childhood in our eyes",
+      "time": 76.1
+    },
+    {
+      "text": "[Pre-Chorus]"
+    },
+    {
+      "text": "Somewhere between the cue chalk",
+      "time": 79.07
+    },
+    {
+      "text": "And sunrise through the blinds",
+      "time": 81.77
+    },
+    {
+      "text": "A girl with dark brown eyes became",
+      "time": 84.12
+    },
+    {
+      "text": "A minute of my life",
+      "time": 87.31
+    },
+    {
+      "text": "[Chorus]"
+    },
+    {
+      "text": "The minutes of love in my life",
+      "time": 91.46
+    },
+    {
+      "text": "Come back like headlights late at night",
+      "time": 96.62
+    },
+    {
+      "text": "A name, a face, a dashboard glow",
+      "time": 103.37
+    },
+    {
+      "text": "A hand I held a lifetime ago",
+      "time": 108.44
+    },
+    {
+      "text": "I don’t need ’em back",
+      "time": 113.65
+    },
+    {
+      "text": "I don’t need to make ’em right",
+      "time": 115.74
+    },
+    {
+      "text": "I just thank God for the minutes",
+      "time": 118.49
+    },
+    {
+      "text": "The minutes of love in my life",
+      "time": 123.33
+    },
+    {
+      "text": "[Verse 2]"
+    },
+    {
+      "text": "She called me Bugsy for my teeth",
+      "time": 128.32
+    },
+    {
+      "text": "They called her Tazia",
+      "time": 131.04
+    },
+    {
+      "text": "Long dark hair and secondhand style",
+      "time": 133.46
+    },
+    {
+      "text": "Like some broke Fantasia",
+      "time": 136.35
+    },
+    {
+      "text": "Dreamcatchers hanging in the smoke",
+      "time": 138.94
+    },
+    {
+      "text": "Biker saints and everybody broke",
+      "time": 141.41
+    },
+    {
+      "text": "I wanted me a family",
+      "time": 144.45
+    },
+    {
+      "text": "That closed the circle tight",
+      "time": 147
+    },
+    {
+      "text": "And for a while they let me in",
+      "time": 149.71
+    },
+    {
+      "text": "Hell, I belonged there too",
+      "time": 151.95
+    },
+    {
+      "text": "Sometimes home ain’t where you’re from",
+      "time": 154.77
+    },
+    {
+      "text": "It’s who makes room for you",
+      "time": 157.8
+    },
+    {
+      "text": "[Verse 3]"
+    },
+    {
+      "text": "We got a little house on Cherry Street",
+      "time": 163.01
+    },
+    {
+      "text": "One bedroom and a door",
+      "time": 166.01
+    },
+    {
+      "text": "We didn’t have a goddamn thing",
+      "time": 168.7
+    },
+    {
+      "text": "And, baby, we wanted more",
+      "time": 171.06
+    },
+    {
+      "text": "Her little sister needed somewhere",
+      "time": 174.09
+    },
+    {
+      "text": "So we opened up the place",
+      "time": 177.19
+    },
+    {
+      "text": "Then Mom moved into the garage",
+      "time": 179.92
+    },
+    {
+      "text": "And chaos joined the race",
+      "time": 182.36
+    },
+    {
+      "text": "Too many people, too many cats",
+      "time": 184.93
+    },
+    {
+      "text": "Too scared to draw the line",
+      "time": 188.05
+    },
+    {
+      "text": "So I packed my shit and walked away",
+      "time": 190.25
+    },
+    {
+      "text": "When I finally ran out of time",
+      "time": 193.41
+    },
+    {
+      "text": "[Break]"
+    },
+    {
+      "text": "There wasn’t any villain",
+      "time": 199.71
+    },
+    {
+      "text": "There wasn’t some great crime",
+      "time": 202.05
+    },
+    {
+      "text": "Just two kids who loved each other",
+      "time": 204.04
+    },
+    {
+      "text": "Till we grew in different lines",
+      "time": 207.13
+    },
+    {
+      "text": "[Chorus]"
+    },
+    {
+      "text": "The minutes of love in my life",
+      "time": 211.54
+    },
+    {
+      "text": "Come back like headlights late at night",
+      "time": 216.84
+    },
+    {
+      "text": "A name, a face, a dashboard glow",
+      "time": 223.75
+    },
+    {
+      "text": "A hand I held a lifetime ago",
+      "time": 228.36
+    },
+    {
+      "text": "I don’t need ’em back",
+      "time": 234.02
+    },
+    {
+      "text": "I don’t need to make ’em right",
+      "time": 236.11
+    },
+    {
+      "text": "I just thank God for the minutes",
+      "time": 238.85
+    },
+    {
+      "text": "The minutes of love in my life",
+      "time": 243.82
+    },
+    {
+      "text": "[Bridge]"
+    },
+    {
+      "text": "I used to think that meaning",
+      "time": 251.42
+    },
+    {
+      "text": "Was somewhere up ahead",
+      "time": 254.15
+    },
+    {
+      "text": "In faster cars and hotter nights",
+      "time": 256.23
+    },
+    {
+      "text": "And all the lives I hadn’t lived yet",
+      "time": 258.88
+    },
+    {
+      "text": "But every road eventually",
+      "time": 262.34
+    },
+    {
+      "text": "Turns the traveler inside",
+      "time": 265.02
+    },
+    {
+      "text": "And all the love worth giving",
+      "time": 267.76
+    },
+    {
+      "text": "Has to have a home inside",
+      "time": 270.31
+    },
+    {
+      "text": "You cannot hold another heart",
+      "time": 275.83
+    },
+    {
+      "text": "More gently than your own",
+      "time": 278.91
+    },
+    {
+      "text": "And every woman that I loved",
+      "time": 281.66
+    },
+    {
+      "text": "Helped teach me how to come back home",
+      "time": 283.98
+    },
+    {
+      "text": "[Build]"
+    },
+    {
+      "text": "Tazia built a life herself",
+      "time": 291.52
+    },
+    {
+      "text": "Still down in Medford town",
+      "time": 295.87
+    },
+    {
+      "text": "And I smile when her name comes up",
+      "time": 298.61
+    },
+    {
+      "text": "At all the miles gone down",
+      "time": 301.55
+    },
+    {
+      "text": "No aching and no wishing",
+      "time": 304.18
+    },
+    {
+      "text": "No ending to regret",
+      "time": 306.69
+    },
+    {
+      "text": "Just gratitude for who we were",
+      "time": 309.61
+    },
+    {
+      "text": "And what we hadn’t learned yet",
+      "time": 314.05
+    },
+    {
+      "text": "[Final Chorus]"
+    },
+    {
+      "text": "These minutes of love in my life",
+      "time": 317.05
+    },
+    {
+      "text": "They don’t belong to yesterday",
+      "time": 322.43
+    },
+    {
+      "text": "They made me more of who I am",
+      "time": 327.76
+    },
+    {
+      "text": "Then quietly gave me away",
+      "time": 334.55
+    },
+    {
+      "text": "No graves to dig",
+      "time": 339.08
+    },
+    {
+      "text": "No ghosts to fight",
+      "time": 342.01
+    },
+    {
+      "text": "No old wrongs left to make right",
+      "time": 344.68
+    },
+    {
+      "text": "Just names that glow",
+      "time": 350.39
+    },
+    {
+      "text": "When memory lights",
+      "time": 353.09
+    },
+    {
+      "text": "The minutes of love in my life",
+      "time": 357.98
+    },
+    {
+      "text": "[Outro]"
+    },
+    {
+      "text": "Here’s to all the minutes",
+      "time": 364.36
+    },
+    {
+      "text": "Of love in my life",
+      "time": 370.21
+    }
   ]
 }
