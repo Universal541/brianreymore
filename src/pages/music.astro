@@ -132,8 +132,8 @@ async function loadLyrics(i){
   const cues=data.lines.map(x=>typeof x==='string'?{text:x}:x).filter(x=>{
   if(!x||typeof x.text!=='string')return false;
   const t=x.text.trim();
-  if(!t||/^\\*\\*[^*]+\\*\\*$/.test(t))return false;
-  if(/^\\[[^\\]]*\\]$/.test(t))return false;
+  if(!t||/^\*\*[^*]+\*\*$/.test(t))return false;
+  if(/^\[[^\]]*\]$/.test(t))return false;
   return true;
  });if(!cues.length)return;
   lyricCues=cues;lyricContent.replaceChildren();
