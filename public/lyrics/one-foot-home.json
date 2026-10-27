@@ -1,129 +1,491 @@
 {
+  "title": "One Foot Home",
   "lines": [
-    "# One Foot Home",
-    "[Intro — Acoustic Guitar, Mandolin]",
-    "Four years old in Republic snow",
-    "Point that trike downhill and go",
-    "[Verse 1]",
-    "There was a little valley out behind the house",
-    "Sparse green timber and a world spread out",
-    "Scott built a jump in the downhill track",
-    "I’d hit that bump and land on my back",
-    "Snow down my collar, tears in my eyes",
-    "Not from the hurting, but wounded pride",
-    "Drag that trike uphill again",
-    "Certain this time I was gonna win",
-    "One dark evening I looked up north",
-    "A rectangle of white light flashed right forth",
-    "Nobody saw it, nobody knew",
-    "I just stood there wondering what passed through",
-    "[Pre-Chorus]",
-    "Maybe I was always that kid",
-    "Standing still while my questions ran",
-    "One foot planted where I belonged",
-    "One already looking beyond where I am",
-    "[Chorus]",
-    "I’ve always had one foot home",
-    "And one foot over the line",
-    "Loved every place that ever held me",
-    "Still wondered what I might find",
-    "Too tied to the people to leave ’em",
-    "Too curious ever to stay",
-    "I’ve spent my whole life loving where I’m standing",
-    "While looking a little farther away",
-    "[Verse 2]",
-    "Dad disappeared ten yards from home",
-    "Into solder smoke and an engineer’s zone",
-    "Circuit boards and prototype schemes",
-    "Oscilloscopes glowing over half-built dreams",
-    "I’d come find him just to sit nearby",
-    "He’d smile without looking up from the light",
-    "“Grab you something, keep yourself still”",
-    "So I learned how quiet a lonely room feels",
-    "I watched those hands make thought into things",
-    "Wire into answers, relays into wings",
-    "I wanted his time, but I learned his way",
-    "Sometimes love sits near you with nothing to say",
-    "[Instrumental Turn — Dobro]",
-    "[Verse 3]",
-    "Then summers came near Mineral way",
-    "Gravel roads getting smaller all day",
-    "Through the Christian camp, over the creek",
-    "Up through the timber where Grandma would be",
-    "Grandpa built mountains underneath that place",
-    "Block after block at a minister’s pace",
-    "Basement, family room, porch out front",
-    "Then a garage because apparently he wasn’t done",
-    "Grandma had needles and organ keys",
-    "Grandpa had scripture and engineering disease",
-    "And I had a creek full of fossilized stone",
-    "And hills big enough to climb on my own",
-    "Nine years old, that forest was wide",
-    "Every little ridge was the mountainside",
-    "Petrified wood in a muddy hand",
-    "Was treasure enough for a wealthy man",
-    "[Chorus]",
-    "I’ve always had one foot home",
-    "And one foot over the line",
-    "Loved every place that ever held me",
-    "Still wondered what I might find",
-    "Too tied to the people to leave ’em",
-    "Too curious ever to stay",
-    "I’ve spent my whole life loving where I’m standing",
-    "While looking a little farther away",
-    "[Verse 4]",
-    "Years later high in the Three Sisters air",
-    "On the back of a horse that could carry me anywhere",
-    "Alpine timber and meadow grass",
-    "Whole damn counties rolling past",
-    "There’s something about a powerful horse",
-    "That makes a man quit arguing with force",
-    "You point toward country too steep to fake",
-    "And trust four legs with every step they take",
-    "Up there the questions got wonderfully small",
-    "No need to answer the meaning of it all",
-    "Just leather creaking, wind through pine",
-    "And enough open country to borrow some time",
-    "[Bridge — Pull Back]",
-    "Mom saw something before I did",
-    "A world getting narrow around that kid",
-    "Maybe she feared what she couldn’t name",
-    "Maybe fear and love sometimes look the same",
-    "Dad and I found each other late",
-    "Not father and boy, but friend to mate",
-    "Enough good years to settle the score",
-    "Before life came kicking through one more door",
-    "And I don’t need to rewrite a thing",
-    "Not the empty rooms or the broken wings",
-    "Every road I thought might ruin the plan",
-    "Put another tool in the hands of the man",
-    "[Build]",
-    "The other day I thought about",
-    "That eight-year-old looking out",
-    "Trying to guess what a grown man was",
-    "And whether he’d ever measure up",
-    "And damn if it didn’t hit me strange",
-    "After all the miles and all the change",
-    "I became somebody he’d look up to",
-    "Hell...",
-    "I think he’d think I was cool",
-    "[Final Chorus]",
-    "I still keep one foot home",
-    "And one foot over the line",
-    "Still love the places that made me",
-    "Still wonder what I might find",
-    "I never got too big to need them",
-    "Never got small enough to stay",
-    "I’m still that kid with snow in his collar",
-    "Getting back up anyway",
-    "[Outro — Sparse]",
-    "Creek stones, solder smoke",
-    "Mountain trails and things unspoke",
-    "A flash of light in a northern sky",
-    "A boy asking how and a man asking why",
-    "One foot home",
-    "One foot gone",
-    "And somehow both",
-    "Keep pulling me on"
+    {
+      "text": "# One Foot Home"
+    },
+    {
+      "text": "[Intro — Acoustic Guitar, Mandolin]"
+    },
+    {
+      "text": "Four years old in Republic snow",
+      "time": 12.59
+    },
+    {
+      "text": "Point that trike downhill and go",
+      "time": 16.21
+    },
+    {
+      "text": "[Verse 1]"
+    },
+    {
+      "text": "There was a little valley out behind the house",
+      "time": 26.15
+    },
+    {
+      "text": "Sparse green timber and a world spread out",
+      "time": 29.86
+    },
+    {
+      "text": "Scott built a jump in the downhill track",
+      "time": 33.32
+    },
+    {
+      "text": "I’d hit that bump and land on my back",
+      "time": 36.51
+    },
+    {
+      "text": "Snow down my collar, tears in my eyes",
+      "time": 39.84
+    },
+    {
+      "text": "Not from the hurting, but wounded pride",
+      "time": 43.23
+    },
+    {
+      "text": "Drag that trike uphill again",
+      "time": 47.36
+    },
+    {
+      "text": "Certain this time I was gonna win",
+      "time": 50.17
+    },
+    {
+      "text": "One dark evening I looked up north",
+      "time": 53.97
+    },
+    {
+      "text": "A rectangle of white light flashed right forth",
+      "time": 56.85
+    },
+    {
+      "text": "Nobody saw it, nobody knew",
+      "time": 60.59
+    },
+    {
+      "text": "I just stood there wondering what passed through",
+      "time": 64
+    },
+    {
+      "text": "[Pre-Chorus]"
+    },
+    {
+      "text": "Maybe I was always that kid",
+      "time": 69.01
+    },
+    {
+      "text": "Standing still while my questions ran",
+      "time": 71.59
+    },
+    {
+      "text": "One foot planted where I belonged",
+      "time": 74.89
+    },
+    {
+      "text": "One already looking beyond where I am",
+      "time": 77.78
+    },
+    {
+      "text": "[Chorus]"
+    },
+    {
+      "text": "I’ve always had one foot home",
+      "time": 81.11
+    },
+    {
+      "text": "And one foot over the line",
+      "time": 84.7
+    },
+    {
+      "text": "Loved every place that ever held me",
+      "time": 87.85
+    },
+    {
+      "text": "Still wondered what I might find",
+      "time": 92.13
+    },
+    {
+      "text": "Too tied to the people to leave ’em",
+      "time": 94.71
+    },
+    {
+      "text": "Too curious ever to stay",
+      "time": 98.25
+    },
+    {
+      "text": "I’ve spent my whole life loving where I’m standing",
+      "time": 101.66
+    },
+    {
+      "text": "While looking a little farther away",
+      "time": 107.11
+    },
+    {
+      "text": "[Verse 2]"
+    },
+    {
+      "text": "Dad disappeared ten yards from home",
+      "time": 113.92
+    },
+    {
+      "text": "Into solder smoke and an engineer’s zone",
+      "time": 116.45
+    },
+    {
+      "text": "Circuit boards and prototype schemes",
+      "time": 120.63
+    },
+    {
+      "text": "Oscilloscopes glowing over half-built dreams",
+      "time": 123.18
+    },
+    {
+      "text": "I’d come find him just to sit nearby",
+      "time": 127.62
+    },
+    {
+      "text": "He’d smile without looking up from the light",
+      "time": 130.07
+    },
+    {
+      "text": "“Grab you something, keep yourself still”",
+      "time": 134.45
+    },
+    {
+      "text": "So I learned how quiet a lonely room feels",
+      "time": 136.94
+    },
+    {
+      "text": "I watched those hands make thought into things",
+      "time": 140.42
+    },
+    {
+      "text": "Wire into answers, relays into wings",
+      "time": 143.8
+    },
+    {
+      "text": "I wanted his time, but I learned his way",
+      "time": 147.37
+    },
+    {
+      "text": "Sometimes love sits near you with nothing to say",
+      "time": 150.81
+    },
+    {
+      "text": "[Instrumental Turn — Dobro]"
+    },
+    {
+      "text": "[Verse 3]"
+    },
+    {
+      "text": "Then summers came near Mineral way",
+      "time": 168.37
+    },
+    {
+      "text": "Gravel roads getting smaller all day",
+      "time": 171.69
+    },
+    {
+      "text": "Through the Christian camp, over the creek",
+      "time": 175.08
+    },
+    {
+      "text": "Up through the timber where Grandma would be",
+      "time": 178.1
+    },
+    {
+      "text": "Grandpa built mountains underneath that place",
+      "time": 181.46
+    },
+    {
+      "text": "Block after block at a minister’s pace",
+      "time": 184.71
+    },
+    {
+      "text": "Basement, family room, porch out front",
+      "time": 188.47
+    },
+    {
+      "text": "Then a garage because apparently he wasn’t done",
+      "time": 191.55
+    },
+    {
+      "text": "Grandma had needles and organ keys",
+      "time": 195.68
+    },
+    {
+      "text": "Grandpa had scripture and engineering disease",
+      "time": 198.51
+    },
+    {
+      "text": "And I had a creek full of fossilized stone",
+      "time": 202.24
+    },
+    {
+      "text": "And hills big enough to climb on my own",
+      "time": 205.41
+    },
+    {
+      "text": "Nine years old, that forest was wide",
+      "time": 209.71
+    },
+    {
+      "text": "Every little ridge was the mountainside",
+      "time": 212.86
+    },
+    {
+      "text": "Petrified wood in a muddy hand",
+      "time": 216.25
+    },
+    {
+      "text": "Was treasure enough for a wealthy man",
+      "time": 219.32
+    },
+    {
+      "text": "[Chorus]"
+    },
+    {
+      "text": "I’ve always had one foot home",
+      "time": 222.82
+    },
+    {
+      "text": "And one foot over the line",
+      "time": 226.49
+    },
+    {
+      "text": "Loved every place that ever held me",
+      "time": 229.64
+    },
+    {
+      "text": "Still wondered what I might find",
+      "time": 233.89
+    },
+    {
+      "text": "Too tied to the people to leave ’em",
+      "time": 236.55
+    },
+    {
+      "text": "Too curious ever to stay",
+      "time": 240.02
+    },
+    {
+      "text": "I’ve spent my whole life loving where I’m standing",
+      "time": 243.27
+    },
+    {
+      "text": "While looking a little farther away",
+      "time": 248.93
+    },
+    {
+      "text": "[Verse 4]"
+    },
+    {
+      "text": "Years later high in the Three Sisters air",
+      "time": 254.21
+    },
+    {
+      "text": "On the back of a horse that could carry me anywhere",
+      "time": 257.58
+    },
+    {
+      "text": "Alpine timber and meadow grass",
+      "time": 261.44
+    },
+    {
+      "text": "Whole damn counties rolling past",
+      "time": 264.4
+    },
+    {
+      "text": "There’s something about a powerful horse",
+      "time": 268.46
+    },
+    {
+      "text": "That makes a man quit arguing with force",
+      "time": 271.18
+    },
+    {
+      "text": "You point toward country too steep to fake",
+      "time": 274.89
+    },
+    {
+      "text": "And trust four legs with every step they take",
+      "time": 278.16
+    },
+    {
+      "text": "Up there the questions got wonderfully small",
+      "time": 281.52
+    },
+    {
+      "text": "No need to answer the meaning of it all",
+      "time": 285.06
+    },
+    {
+      "text": "Just leather creaking, wind through pine",
+      "time": 288.74
+    },
+    {
+      "text": "And enough open country to borrow some time",
+      "time": 292.16
+    },
+    {
+      "text": "[Bridge — Pull Back]"
+    },
+    {
+      "text": "Mom saw something before I did",
+      "time": 299.25
+    },
+    {
+      "text": "A world getting narrow around that kid",
+      "time": 302.45
+    },
+    {
+      "text": "Maybe she feared what she couldn’t name",
+      "time": 306.15
+    },
+    {
+      "text": "Maybe fear and love sometimes look the same",
+      "time": 309.16
+    },
+    {
+      "text": "Dad and I found each other late",
+      "time": 312.97
+    },
+    {
+      "text": "Not father and boy, but friend to mate",
+      "time": 316.16
+    },
+    {
+      "text": "Enough good years to settle the score",
+      "time": 319.7
+    },
+    {
+      "text": "Before life came kicking through one more door",
+      "time": 323.03
+    },
+    {
+      "text": "And I don’t need to rewrite a thing",
+      "time": 326.79
+    },
+    {
+      "text": "Not the empty rooms or the broken wings",
+      "time": 329.91
+    },
+    {
+      "text": "Every road I thought might ruin the plan",
+      "time": 333.39
+    },
+    {
+      "text": "Put another tool in the hands of the man",
+      "time": 337.12
+    },
+    {
+      "text": "[Build]"
+    },
+    {
+      "text": "The other day I thought about",
+      "time": 340.65
+    },
+    {
+      "text": "That eight-year-old looking out",
+      "time": 344.11
+    },
+    {
+      "text": "Trying to guess what a grown man was",
+      "time": 347.7
+    },
+    {
+      "text": "And whether he’d ever measure up",
+      "time": 351.19
+    },
+    {
+      "text": "And damn if it didn’t hit me strange",
+      "time": 354.41
+    },
+    {
+      "text": "After all the miles and all the change",
+      "time": 357.68
+    },
+    {
+      "text": "I became somebody he’d look up to",
+      "time": 361.59
+    },
+    {
+      "text": "Hell...",
+      "time": 365.18
+    },
+    {
+      "text": "I think he’d think I was cool",
+      "time": 366.89
+    },
+    {
+      "text": "[Final Chorus]"
+    },
+    {
+      "text": "I still keep one foot home",
+      "time": 371.58
+    },
+    {
+      "text": "And one foot over the line",
+      "time": 374.95
+    },
+    {
+      "text": "Still love the places that made me",
+      "time": 378.26
+    },
+    {
+      "text": "Still wonder what I might find",
+      "time": 382.58
+    },
+    {
+      "text": "I never got too big to need them",
+      "time": 385.3
+    },
+    {
+      "text": "Never got small enough to stay",
+      "time": 389.15
+    },
+    {
+      "text": "I’m still that kid with snow in his collar",
+      "time": 392.34
+    },
+    {
+      "text": "Getting back up anyway",
+      "time": 397.64
+    },
+    {
+      "text": "[Outro — Sparse]"
+    },
+    {
+      "text": "Creek stones, solder smoke",
+      "time": 400.89
+    },
+    {
+      "text": "Mountain trails and things unspoke",
+      "time": 404.33
+    },
+    {
+      "text": "A flash of light in a northern sky",
+      "time": 407.81
+    },
+    {
+      "text": "A boy asking how and a man asking why",
+      "time": 410.3
+    },
+    {
+      "text": "One foot home",
+      "time": 417.04
+    },
+    {
+      "text": "One foot gone",
+      "time": 420.58
+    },
+    {
+      "text": "And somehow both",
+      "time": 424.35
+    },
+    {
+      "text": "Keep pulling me on",
+      "time": 427.72
+    }
   ]
 }
