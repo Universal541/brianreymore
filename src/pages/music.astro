@@ -122,8 +122,8 @@ let lyricCues=[],lyricRequest=0,lastLyricIndex=-999;
 lyricToggle.addEventListener('click',()=>{lyricPanel.hidden=!lyricPanel.hidden;lyricToggle.textContent=lyricPanel.hidden?'Show lyrics':'Hide lyrics';lyricToggle.setAttribute('aria-expanded',String(!lyricPanel.hidden));if(!lyricPanel.hidden)syncLyrics(true);});
 function lyricText(value){
  const t=String(value||'').trim();
- if(!t||/^#{1,6}\\s/.test(t)||/^\\*\\*[^*]+\\*\\*$/.test(t)||/^\\[[^\\]]*\\]$/.test(t))return '';
- return t.replace(/^\\*\\*(.*?)\\*\\*$/,'$1');
+ if(!t||/^#{1,6}\s/.test(t)||/^\*\*[^*]+\*\*$/.test(t)||/^\[[^\]]*\]$/.test(t))return '';
+ return t.replace(/^\*\*(.*?)\*\*$/,'$1');
 }
 async function loadLyrics(i){
  const req=++lyricRequest;lyricCues=[];lastLyricIndex=-999;lyricContent.textContent='Loading lyrics…';lyricNote.textContent='';
