@@ -1,129 +1,482 @@
 {
+  "title": "Swiped Right",
   "lines": [
-    "[Verse 1 – Intimate baritone, conversational and dryly amused]",
-    "Life kept showing up beside me",
-    "With sawdust in her hair,",
-    "A busted map, a half-built dream,",
-    "And two good boots to spare.",
-    "She liked long roads and honest work,",
-    "Bad jokes and open skies—",
-    "Everything I said I wanted,",
-    "So I passed her fifty times.",
-    "I said she looked too complicated.",
-    "Probably way out of my league.",
-    "Besides, I’d learned that wanting more",
-    "Was just ambition dressed as greed.",
-    "**Pre-Chorus**",
-    "[Pre-Chorus – Drums enter, tension and anticipation rising]",
-    "I kept waiting to feel worthy.",
-    "She got tired of being polite.",
-    "Said, “You gonna keep on judging me,",
-    "Or finally swipe me right?”",
-    "**Chorus**",
-    "[Chorus – Full country-rock band, broad melody, joyful forward momentum]",
-    "So I swiped right on my life.",
-    "It said, “Where the hell you been?”",
-    "I said, “Waiting to feel worthy.”",
-    "It said, “Don’t start that shit again.”",
-    "Then it threw me in the shotgun seat,",
-    "Put the future into drive—",
-    "I spent years hoping someone chose me.",
-    "Then I swiped right on my life.",
-    "**Verse 2**",
-    "[Verse 2 – Rolling groove, playful swagger, crisp vocal phrasing]",
-    "Her profile said, “Some assembly.”",
-    "“Must provide your own damn tools.”",
-    "“No guarantees, no easy payments,",
-    "No protection against fools.”",
-    "“May include financial setbacks,",
-    "Heavy lifting, rain and doubt.”",
-    "“Applicant must quit pretending",
-    "Someone else will work it out.”",
-    "I read the terms and hesitated.",
-    "She said, “Son, you’ve seen the film.”",
-    "\"You can keep researching the water,",
-    "Or jump in and learn to swim.”",
-    "**Pre-Chorus**",
-    "[Pre-Chorus – Stronger lift, Hammond organ building underneath]",
-    "I said, “What if I’m not ready?”",
-    "She said, “That line is getting old.",
-    "You’ve survived a hundred bad ideas.",
-    "Try one you actually chose.”",
-    "**Chorus**",
-    "[Chorus – Full band, wider and more confident]",
-    "So I swiped right on my life.",
-    "It said, “Where the hell you been?”",
-    "I said, “Waiting to feel worthy.”",
-    "It said, “Don’t start that shit again.”",
-    "Then it threw me in the shotgun seat,",
-    "Put the future into drive—",
-    "I spent years hoping someone chose me.",
-    "Then I swiped right on my life.",
-    "**Verse 3**",
-    "[Verse 3 – Open-road cinematic feel, emotionally warmer]",
-    "We had coffee in Arizona",
-    "With the whole horizon spread.",
-    "She asked what I was frightened of.",
-    "I named the living and the dead.",
-    "She listened like she’d heard it all,",
-    "Then grinned across the cup:",
-    "“That’s a fascinating history.",
-    "You still planning to get up?”",
-    "So I showed her what my hands could do.",
-    "She showed me what they’d missed.",
-    "Every door I called impossible",
-    "Had my fingerprints on it.",
-    "She wasn’t young or clean or easy.",
-    "Neither was I, truth be known.",
-    "But she looked better every mile",
-    "The farther we got from home.",
-    "**Bridge**",
-    "[Bridge – Half-time drop, dark electric guitar, vocal exposed and deliberate]",
-    "I’d been ghosted by tomorrow.",
-    "I’d been catfished by the past.",
-    "Courted every worst-case ending",
-    "Like the bastard had a chance.",
-    "Then I met myself outside that cage—",
-    "No filter, alibi or type.",
-    "Turns out I was what I’d been looking for.",
-    "Turns out I was my type.",
-    "**Final Chorus**",
-    "[Final Chorus – Huge live drums, soaring pedal steel and electric guitars, triumphant without sentimentality]",
-    "Yeah, I swiped right on my life.",
-    "It said, “Took your sweet-ass time.”",
-    "I said, “I brought some scars and baggage.”",
-    "It said, “Throw ’em in with mine.”",
-    "Now we’re making no damn promises",
-    "Except to show up and decide—",
-    "I spent years hoping someone chose me.",
-    "Then I swiped right on my life.",
-    "**Breakdown**",
-    "[Breakdown – Band drops back; baritone nearly alone]",
-    "No perfect match.",
-    "No master plan.",
-    "No guarantee it lasts.",
-    "Just this stubborn heart,",
-    "These working hands,",
-    "And no more dating my past.",
-    "**Final Refrain**",
-    "[Final Refrain – Full-band release, joyful, muscular and expansive]",
-    "I swiped right on my life—",
-    "And my life swiped right back.",
-    "Said, “Get your dreams unpacked, old man.",
-    "We’ve got some living to catch.”",
-    "Now every morning asks me",
-    "Who I’m willing to become.",
-    "I swiped right on my life—",
-    "And, goddamn...",
-    "We’re having fun.",
-    "**Spoken Outro**",
-    "[Spoken Outro – Instruments gradually recede; warm, amused, deeply grounded delivery]",
-    "She still leaves her clothes on the floor.",
-    "Spends money we don’t have.",
-    "Changes the destination halfway there.",
-    "But she’s mine.",
-    "And for the first time in my life—",
-    "So am I.",
-    "So am I."
+    {
+      "text": "[Verse 1 – Intimate baritone, conversational and dryly amused]"
+    },
+    {
+      "text": "Life kept showing up beside me",
+      "time": 17.61
+    },
+    {
+      "text": "With sawdust in her hair,",
+      "time": 20.18
+    },
+    {
+      "text": "A busted map, a half-built dream,",
+      "time": 22.6
+    },
+    {
+      "text": "And two good boots to spare.",
+      "time": 24.65
+    },
+    {
+      "text": "She liked long roads and honest work,",
+      "time": 26.78
+    },
+    {
+      "text": "Bad jokes and open skies—",
+      "time": 29
+    },
+    {
+      "text": "Everything I said I wanted,",
+      "time": 31.34
+    },
+    {
+      "text": "So I passed her fifty times.",
+      "time": 33.56
+    },
+    {
+      "text": "I said she looked too complicated.",
+      "time": 35.4
+    },
+    {
+      "text": "Probably way out of my league.",
+      "time": 37.79
+    },
+    {
+      "text": "Besides, I’d learned that wanting more",
+      "time": 39.93
+    },
+    {
+      "text": "Was just ambition dressed as greed.",
+      "time": 42.08
+    },
+    {
+      "text": "**Pre-Chorus**"
+    },
+    {
+      "text": "[Pre-Chorus – Drums enter, tension and anticipation rising]"
+    },
+    {
+      "text": "I kept waiting to feel worthy.",
+      "time": 44.58
+    },
+    {
+      "text": "She got tired of being polite.",
+      "time": 46.89
+    },
+    {
+      "text": "Said, “You gonna keep on judging me,",
+      "time": 49.13
+    },
+    {
+      "text": "Or finally swipe me right?”",
+      "time": 51.58
+    },
+    {
+      "text": "**Chorus**"
+    },
+    {
+      "text": "[Chorus – Full country-rock band, broad melody, joyful forward momentum]"
+    },
+    {
+      "text": "So I swiped right on my life.",
+      "time": 55.1
+    },
+    {
+      "text": "It said, “Where the hell you been?”",
+      "time": 57.31
+    },
+    {
+      "text": "I said, “Waiting to feel worthy.”",
+      "time": 59.35
+    },
+    {
+      "text": "It said, “Don’t start that shit again.”",
+      "time": 61.48
+    },
+    {
+      "text": "Then it threw me in the shotgun seat,",
+      "time": 64.16
+    },
+    {
+      "text": "Put the future into drive—",
+      "time": 66.52
+    },
+    {
+      "text": "I spent years hoping someone chose me.",
+      "time": 68.02
+    },
+    {
+      "text": "Then I swiped right on my life.",
+      "time": 72.99
+    },
+    {
+      "text": "**Verse 2**"
+    },
+    {
+      "text": "[Verse 2 – Rolling groove, playful swagger, crisp vocal phrasing]"
+    },
+    {
+      "text": "Her profile said, “Some assembly.”",
+      "time": 78.31
+    },
+    {
+      "text": "“Must provide your own damn tools.”",
+      "time": 80.92
+    },
+    {
+      "text": "“No guarantees, no easy payments,",
+      "time": 83.34
+    },
+    {
+      "text": "No protection against fools.”",
+      "time": 85.35
+    },
+    {
+      "text": "“May include financial setbacks,",
+      "time": 87.6
+    },
+    {
+      "text": "Heavy lifting, rain and doubt.”",
+      "time": 90.04
+    },
+    {
+      "text": "“Applicant must quit pretending",
+      "time": 92.22
+    },
+    {
+      "text": "Someone else will work it out.”",
+      "time": 94.52
+    },
+    {
+      "text": "I read the terms and hesitated.",
+      "time": 96.44
+    },
+    {
+      "text": "She said, “Son, you’ve seen the film.”",
+      "time": 98.8
+    },
+    {
+      "text": "\"You can keep researching the water,",
+      "time": 101.12
+    },
+    {
+      "text": "Or jump in and learn to swim.”",
+      "time": 103.53
+    },
+    {
+      "text": "**Pre-Chorus**"
+    },
+    {
+      "text": "[Pre-Chorus – Stronger lift, Hammond organ building underneath]"
+    },
+    {
+      "text": "I said, “What if I’m not ready?”",
+      "time": 105.81
+    },
+    {
+      "text": "She said, “That line is getting old.",
+      "time": 108.18
+    },
+    {
+      "text": "You’ve survived a hundred bad ideas.",
+      "time": 110.29
+    },
+    {
+      "text": "Try one you actually chose.”",
+      "time": 112.96
+    },
+    {
+      "text": "**Chorus**"
+    },
+    {
+      "text": "[Chorus – Full band, wider and more confident]"
+    },
+    {
+      "text": "So I swiped right on my life.",
+      "time": 116.09
+    },
+    {
+      "text": "It said, “Where the hell you been?”",
+      "time": 118.53
+    },
+    {
+      "text": "I said, “Waiting to feel worthy.”",
+      "time": 120.6
+    },
+    {
+      "text": "It said, “Don’t start that shit again.”",
+      "time": 122.6
+    },
+    {
+      "text": "Then it threw me in the shotgun seat,",
+      "time": 125.35
+    },
+    {
+      "text": "Put the future into drive—",
+      "time": 127.73
+    },
+    {
+      "text": "I spent years hoping someone chose me.",
+      "time": 129.3
+    },
+    {
+      "text": "Then I swiped right on my life.",
+      "time": 134.27
+    },
+    {
+      "text": "**Verse 3**"
+    },
+    {
+      "text": "[Verse 3 – Open-road cinematic feel, emotionally warmer]"
+    },
+    {
+      "text": "We had coffee in Arizona",
+      "time": 144.17
+    },
+    {
+      "text": "With the whole horizon spread.",
+      "time": 146.74
+    },
+    {
+      "text": "She asked what I was frightened of.",
+      "time": 148.74
+    },
+    {
+      "text": "I named the living and the dead.",
+      "time": 150.82
+    },
+    {
+      "text": "She listened like she’d heard it all,",
+      "time": 153.1
+    },
+    {
+      "text": "Then grinned across the cup:",
+      "time": 155.99
+    },
+    {
+      "text": "“That’s a fascinating history.",
+      "time": 158.39
+    },
+    {
+      "text": "You still planning to get up?”",
+      "time": 160.3
+    },
+    {
+      "text": "So I showed her what my hands could do.",
+      "time": 162.89
+    },
+    {
+      "text": "She showed me what they’d missed.",
+      "time": 165.23
+    },
+    {
+      "text": "Every door I called impossible",
+      "time": 167.31
+    },
+    {
+      "text": "Had my fingerprints on it.",
+      "time": 169.67
+    },
+    {
+      "text": "She wasn’t young or clean or easy.",
+      "time": 171.82
+    },
+    {
+      "text": "Neither was I, truth be known.",
+      "time": 173.99
+    },
+    {
+      "text": "But she looked better every mile",
+      "time": 176.23
+    },
+    {
+      "text": "The farther we got from home.",
+      "time": 179
+    },
+    {
+      "text": "**Bridge**"
+    },
+    {
+      "text": "[Bridge – Half-time drop, dark electric guitar, vocal exposed and deliberate]"
+    },
+    {
+      "text": "I’d been ghosted by tomorrow.",
+      "time": 183.25
+    },
+    {
+      "text": "I’d been catfished by the past.",
+      "time": 185.61
+    },
+    {
+      "text": "Courted every worst-case ending",
+      "time": 188.05
+    },
+    {
+      "text": "Like the bastard had a chance.",
+      "time": 190.25
+    },
+    {
+      "text": "Then I met myself outside that cage—",
+      "time": 192.57
+    },
+    {
+      "text": "No filter, alibi or type.",
+      "time": 194.53
+    },
+    {
+      "text": "Turns out I was what I’d been looking for.",
+      "time": 196.82
+    },
+    {
+      "text": "Turns out I was my type.",
+      "time": 200.91
+    },
+    {
+      "text": "**Final Chorus**"
+    },
+    {
+      "text": "[Final Chorus – Huge live drums, soaring pedal steel and electric guitars, triumphant without sentimentality]"
+    },
+    {
+      "text": "Yeah, I swiped right on my life.",
+      "time": 204.9
+    },
+    {
+      "text": "It said, “Took your sweet-ass time.”",
+      "time": 207.71
+    },
+    {
+      "text": "I said, “I brought some scars and baggage.”",
+      "time": 210.05
+    },
+    {
+      "text": "It said, “Throw ’em in with mine.”",
+      "time": 211.97
+    },
+    {
+      "text": "Now we’re making no damn promises",
+      "time": 214.67
+    },
+    {
+      "text": "Except to show up and decide—",
+      "time": 216.89
+    },
+    {
+      "text": "I spent years hoping someone chose me.",
+      "time": 218.7
+    },
+    {
+      "text": "Then I swiped right on my life.",
+      "time": 225.52
+    },
+    {
+      "text": "**Breakdown**"
+    },
+    {
+      "text": "[Breakdown – Band drops back; baritone nearly alone]"
+    },
+    {
+      "text": "No perfect match.",
+      "time": 231.19
+    },
+    {
+      "text": "No master plan.",
+      "time": 233.37
+    },
+    {
+      "text": "No guarantee it lasts.",
+      "time": 235
+    },
+    {
+      "text": "Just this stubborn heart,",
+      "time": 238.29
+    },
+    {
+      "text": "These working hands,",
+      "time": 241.24
+    },
+    {
+      "text": "And no more dating my past.",
+      "time": 243.75
+    },
+    {
+      "text": "**Final Refrain**"
+    },
+    {
+      "text": "[Final Refrain – Full-band release, joyful, muscular and expansive]"
+    },
+    {
+      "text": "I swiped right on my life—",
+      "time": 246.1
+    },
+    {
+      "text": "And my life swiped right back.",
+      "time": 249.63
+    },
+    {
+      "text": "Said, “Get your dreams unpacked, old man.",
+      "time": 251.8
+    },
+    {
+      "text": "We’ve got some living to catch.”",
+      "time": 254.19
+    },
+    {
+      "text": "Now every morning asks me",
+      "time": 257.13
+    },
+    {
+      "text": "Who I’m willing to become.",
+      "time": 259.26
+    },
+    {
+      "text": "I swiped right on my life—",
+      "time": 261.05
+    },
+    {
+      "text": "And, goddamn...",
+      "time": 265.51
+    },
+    {
+      "text": "We’re having fun.",
+      "time": 269.63
+    },
+    {
+      "text": "**Spoken Outro**"
+    },
+    {
+      "text": "[Spoken Outro – Instruments gradually recede; warm, amused, deeply grounded delivery]"
+    },
+    {
+      "text": "She still leaves her clothes on the floor.",
+      "time": 273.8
+    },
+    {
+      "text": "Spends money we don’t have.",
+      "time": 277.5
+    },
+    {
+      "text": "Changes the destination halfway there.",
+      "time": 280.47
+    },
+    {
+      "text": "But she’s mine.",
+      "time": 284.05
+    },
+    {
+      "text": "And for the first time in my life—",
+      "time": 287.23
+    },
+    {
+      "text": "So am I.",
+      "time": 293.67
+    },
+    {
+      "text": "So am I.",
+      "time": 301.46
+    }
   ]
 }
