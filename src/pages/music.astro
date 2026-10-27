@@ -129,11 +129,17 @@ async function loadLyrics(i){
  try{
   const response=await fetch('/lyrics/'+lyricNames[i]+'.json');if(!response.ok)return;
   const data=await response.json();if(req!==lyricRequest||!Array.isArray(data.lines))return;
-  const cues=data.lines.map(x=>typeof x==='string'?{text:x}:x).filter(x=>x&&typeof x.text==='string');if(!cues.length)return;
+  const cues=data.lines.map(x=>typeof x==='string'?{text:x}:x).filter(x=>{
+  if(!x||typeof x.text!=='string')return false;
+  const t=x.text.trim();
+  if(!t||/^\\*\\*[^*]+\\*\\*$/.test(t))return false;
+  if(/^\\[[^\\]]*\\]$/.test(t))return false;
+  return true;
+ });if(!cues.length)return;
   lyricCues=cues;lyricContent.replaceChildren();
   cues.forEach(cue=>{const p=document.createElement('p');p.className='lyrics-line';p.textContent=cue.text;lyricContent.appendChild(p);});
   const timed=cues.some(x=>typeof x.time==='number'&&Number.isFinite(x.time));lyricAuto.disabled=!timed;
-  lyricNote.textContent=timed?'Enable Auto-scroll for timed highlighting, or read at your own pace. Section headings remain untimed.':'Scroll manually; timed highlighting will follow when available.';
+  lyricNote.textContent=timed?'Enable Auto-scroll to follow the lyrics, or read at your own pace.':'Scroll manually; timed highlighting will follow when available.';
  }catch(e){/* A missing lyrics file is an expected state. */}
 }
 function syncLyrics(){
