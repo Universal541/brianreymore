@@ -1,9 +1,34 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import type { MarkdownInstance } from 'astro';
+
+const notes = Object.entries(
+  import.meta.glob<MarkdownInstance<{ date: string }>>('../content/notes/*.md', { eager: true })
+).sort(([a], [b]) => b.localeCompare(a));
 ---
 <BaseLayout title="Notes" description="Short observations, questions, and work in progress from Brian Reymore.">
   <main>
     <header class="editorial-hero editorial-hero--notes"><div class="kicker">Observations along the way</div><h1>Notes</h1><p>Not every thought needs a thousand words. Some need room to breathe.</p></header>
-    <section class="container reading"><div class="kicker">In preparation</div><h2 class="section-title">Fragments worth keeping.</h2><p class="lede">A place for shorter reflections, questions, and ideas still finding their shape. Notes will appear here as the collection grows.</p><div class="actions"><a class="button primary" href="/essays">Read the Essays</a></div></section>
+    <section class="container reading" aria-label="Notes">
+      {notes.map(([path, note]) => {
+        const Content = note.Content;
+        const id = path.split('/').pop()!.replace(/\.md$/, '');
+        return (
+          <article class="note" id={id}>
+            <a class="meta" href={`#${id}`} aria-label="Link to this note">
+              <time datetime={note.frontmatter.date}>{new Date(note.frontmatter.date + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</time>
+            </a>
+            <div class="prose"><Content /></div>
+          </article>
+        );
+      })}
+    </section>
   </main>
 </BaseLayout>
+
+<style>
+  .note { padding-block: 2rem; }
+  .note + .note { border-top: 1px solid currentColor; }
+  .note .meta { text-decoration: none; }
+  .note .prose { margin-top: 1rem; }
+</style>
