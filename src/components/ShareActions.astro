@@ -1,0 +1,61 @@
+---
+const { url, title = 'Brian Reymore' } = Astro.props;
+const absoluteUrl = new URL(url, 'https://brianreymore.com').href;
+---
+<div class="share-actions" data-share-actions data-share-url={absoluteUrl} data-share-title={title}>
+  <button type="button" data-share-trigger aria-label={`Share ${title}`}>Share ↗</button>
+  <div data-share-options hidden>
+    <label>Share link <input aria-label="Share link" readonly value={absoluteUrl} /></label>
+    <button type="button" data-share-copy>Copy link</button>
+    <a href={`mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(absoluteUrl)}`}>Email</a>
+    <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(absoluteUrl)}`} target="_blank" rel="noopener noreferrer">Facebook</a>
+  </div>
+  <span role="status" aria-live="polite" data-share-status></span>
+</div>
+<script is:inline>
+document.querySelectorAll('[data-share-actions]').forEach(root => {
+  if (root.dataset.shareReady) return;
+  root.dataset.shareReady = 'true';
+  const trigger = root.querySelector('[data-share-trigger]');
+  const options = root.querySelector('[data-share-options]');
+  const input = root.querySelector('input');
+  const status = root.querySelector('[data-share-status]');
+  trigger.setAttribute('aria-expanded', 'false');
+  function showOptions() {
+    options.hidden = !options.hidden;
+    trigger.setAttribute('aria-expanded', String(!options.hidden));
+  }
+  trigger.addEventListener('click', async () => {
+    status.textContent = '';
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: root.dataset.shareTitle, url: root.dataset.shareUrl });
+        return;
+      } catch (error) {
+        if (error.name === 'AbortError') return;
+      }
+    }
+    showOptions();
+  });
+  root.querySelector('[data-share-copy]').addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(root.dataset.shareUrl);
+      status.textContent = 'Link copied.';
+    } catch {
+      input.focus();
+      input.select();
+      status.textContent = 'Select and copy the link above.';
+    }
+  });
+});
+</script>
+<style>
+  .share-actions { margin-block: 1rem; font: 0.875rem/1.5 system-ui, sans-serif; }
+  .share-actions button { cursor: pointer; color: var(--text, #f3efe6); background: transparent; border: 1px solid var(--muted, #b08d57); border-radius: .4rem; padding: .45rem .8rem; font: inherit; }
+  .share-actions button:hover { border-color: currentColor; }
+  .share-actions :focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+  [data-share-options]:not([hidden]) { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; margin-top: .75rem; }
+  label { flex: 1 1 100%; }
+  input { display: block; box-sizing: border-box; width: 100%; max-width: 34rem; padding: .5rem; font: inherit; }
+  [data-share-status] { display: block; margin-top: .4rem; }
+</style>
