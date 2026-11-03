@@ -1,4 +1,5 @@
 ---
+import ShareActions from '../../components/ShareActions.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 const essays = (await getCollection('essays')).filter((e) => !e.data.draft).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
@@ -9,13 +10,13 @@ const essays = (await getCollection('essays')).filter((e) => !e.data.draft).sort
   <main class="prose reading">
     <div class="article-list">
       {essays.map((essay) => (
-        <a class="article-row" href={`/essays/${essay.id.replace(/\.md$/, '')}`}>
+        <div class="essay-list-item"><a class="article-row" href={`/essays/${essay.id.replace(/\.md$/, '')}`}>
           <div class="meta">{essay.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</div>
           <div>
             <h2>{essay.data.title}</h2>
             <p>{essay.data.description}</p>
           </div>
-        </a>
+        </a><ShareActions url={`/essays/${essay.id.replace(/\.md$/, '')}`} title={essay.data.title} /></div>
       ))}
     </div>
   </main>
