@@ -1,4 +1,5 @@
 ---
+import ShareActions from '../components/ShareActions.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 const tracks = [
   {
@@ -80,6 +81,7 @@ const tracks = [
     "number": 13
   }
 ];
+const trackId = (track) => track.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const formatDuration = (seconds) => `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`;
 ---
 <BaseLayout title="Music" description="Listen to thirteen original songs by Brian “Bugsy” McRae.">
@@ -97,7 +99,7 @@ const formatDuration = (seconds) => `${Math.floor(seconds / 60)}:${String(second
 <div id="lyrics-panel"><div id="lyrics-scroll" class="karaoke-stage" role="region" aria-label="Live synchronized lyrics" aria-live="off"><div id="lyrics-content" class="karaoke-lines">Loading lyrics…</div></div><p id="lyrics-note" class="karaoke-note" aria-live="polite"></p></div>
 </section>
 </div>
-<ol class="music-tracklist" aria-label="Track list">{tracks.map((track,index) => <li><button type="button" class:list={['music-track',{'is-active':index===0}]} data-track-index={index} aria-label={`Play ${track.title}`}><span class="music-track-number">{String(track.number).padStart(2,'0')}</span><span class="music-track-title">{track.title}</span><span class="music-track-duration">{formatDuration(track.duration)}</span><span class="music-track-action" aria-hidden="true">▶</span></button></li>)}</ol>
+<ol class="music-tracklist" aria-label="Track list">{tracks.map((track,index) => <li id={trackId(track)}><button type="button" class:list={['music-track',{'is-active':index===0}]} data-track-index={index} aria-label={`Play ${track.title}`}><span class="music-track-number">{String(track.number).padStart(2,'0')}</span><span class="music-track-title">{track.title}</span><span class="music-track-duration">{formatDuration(track.duration)}</span><span class="music-track-action" aria-hidden="true">▶</span></button><ShareActions url={`/music#${trackId(track)}`} title={`${track.title} — Bugsy McRae`} /></li>)}</ol>
 <p class="music-credit">All tracks presented in the artist's chosen sequence, independent of embedded MP3 track metadata. Artist: Brian “Bugsy” McRae.</p>
 </section>
 </main>
@@ -215,7 +217,14 @@ prev.addEventListener('click',()=>select(index-1));
 next.addEventListener('click',()=>select(index+1));
 buttons.forEach((button,i)=>button.addEventListener('click',()=>select(i)));
 audio.volume=.85;
+const trackIds = tracks.map(track => track.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''));
+function selectSharedTrack() {
+ const sharedIndex = trackIds.indexOf(location.hash.slice(1));
+ if (sharedIndex !== -1) select(sharedIndex, false);
+}
+window.addEventListener('hashchange', selectSharedTrack);
 select(0,false);
+selectSharedTrack();
 })();
 </script>
 <style is:global>
