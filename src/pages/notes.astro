@@ -32,8 +32,13 @@ const notes = Object.entries(
   .note { padding-block: 2rem; }
   .note + .note { border-top: 1px solid currentColor; }
   .note .meta { text-decoration: none; }
-  .note .prose { margin-top: 1rem; display: flow-root; }
-  .note .prose :global(.note-context-image) { float: left; width: 42%; max-width: 18rem; height: auto; margin: 0 1.5rem 1rem 0; border-radius: .5rem; }
+  .note .prose { margin-top: 1rem; padding: 0; display: flow-root; }
+  .note { scroll-margin-top: 6rem; }
+  .note .prose :global(h1) { font-size: clamp(1.5rem, 2.5vw, 1.9rem); line-height: 1.2; letter-spacing: -.02em; margin: 0 0 1rem; overflow-wrap: anywhere; }
+  .note .prose :global(h2) { font-size: clamp(1.2rem, 2vw, 1.45rem); line-height: 1.3; letter-spacing: -.01em; margin: 2rem 0 .8rem; overflow-wrap: anywhere; }
+  .note .prose :global(h3) { font-size: 1.1rem; line-height: 1.45; letter-spacing: normal; margin: 1rem 0; overflow-wrap: anywhere; }
+  .note .prose :global(p) { margin: 0 0 1.1rem; }
+  .note .prose :global(.note-context-image) { float: left; width: 34%; max-width: 14rem; height: auto; margin: 0 1.5rem 1rem 0; border-radius: .5rem; }
   @media (max-width: 600px) {
     .note .prose :global(.note-context-image) { float: none; display: block; width: 100%; max-width: 22rem; margin: 0 auto 1.5rem; }
   }
