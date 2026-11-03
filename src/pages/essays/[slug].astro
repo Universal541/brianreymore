@@ -1,4 +1,5 @@
 ---
+import ShareActions from '../../components/ShareActions.astro';
 import { getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import GiscusComments from "../../components/GiscusComments.astro";
@@ -27,6 +28,7 @@ const { Content } = await render(essay);
         <p class="eyebrow">Essay</p>
         <h1>{essay.data.title}</h1>
         <p class="essay-description">{essay.data.description}</p>
+        <ShareActions url={Astro.url.pathname} title={essay.data.title} />
       </header>
 
       <div class="essay-content">
