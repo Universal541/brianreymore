@@ -2,6 +2,8 @@
 date: "2026-11-02"
 ---
 
+<img class="note-context-image" src="/images/notes/still-trusting-god.jpg" alt="Religious social-media meme urging readers to type Amen to disappoint Satan, with highlighted Bible references." width="720" height="1280" />
+
 # GOD, SATAN, AND THE DEPARTMENT OF DIVINE FACEBOOK ENGAGEMENT
 ### Or: How the Creator of the Universe Apparently Became a Social Media Influencer
 
