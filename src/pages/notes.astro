@@ -32,5 +32,9 @@ const notes = Object.entries(
   .note { padding-block: 2rem; }
   .note + .note { border-top: 1px solid currentColor; }
   .note .meta { text-decoration: none; }
-  .note .prose { margin-top: 1rem; }
+  .note .prose { margin-top: 1rem; display: flow-root; }
+  .note .prose :global(.note-context-image) { float: left; width: 42%; max-width: 18rem; height: auto; margin: 0 1.5rem 1rem 0; border-radius: .5rem; }
+  @media (max-width: 600px) {
+    .note .prose :global(.note-context-image) { float: none; display: block; width: 100%; max-width: 22rem; margin: 0 auto 1.5rem; }
+  }
 </style>
