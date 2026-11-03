@@ -1,4 +1,5 @@
 ---
+import ShareActions from '../components/ShareActions.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import type { MarkdownInstance } from 'astro';
 
@@ -19,6 +20,7 @@ const notes = Object.entries(
               <time datetime={note.frontmatter.date}>{new Date(note.frontmatter.date + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</time>
             </a>
             <div class="prose"><Content /></div>
+            <ShareActions url={`/notes#${id}`} title="A note from Brian Reymore" />
           </article>
         );
       })}
