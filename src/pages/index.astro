@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 const essays = (await getCollection('essays')).filter((e) => !e.data.draft).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-const featured = essays.find((e) => e.data.featured) ?? essays[0];
+const featured = essays.find((e) => e.data.featured);
 const themes = [
   ['Power & Institutions', 'Who governs, who benefits, and what grows unchecked.'],
   ['Moral Courage', 'What conscience demands when silence becomes comfortable.'],

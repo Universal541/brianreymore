@@ -2,7 +2,7 @@
 title: "The Birthday Party"
 description: "Trump Turns 80. Er, I mean America Turns 250. Hooray?"
 pubDate: "2026-06-14"
-featured: true
+featured: false
 draft: false
 ---
 
