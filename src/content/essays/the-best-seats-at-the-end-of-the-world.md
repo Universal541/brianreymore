@@ -1,7 +1,7 @@
 ---
 title: "The Best Seats at the End of the World"
 description: "On the spectacle of collapse, the work of witnessing, and the quieter obligations of gratitude."
-pubDate: "2026-08-25"
+pubDate: "2026-11-26"
 featured: true
 draft: false
 ---
